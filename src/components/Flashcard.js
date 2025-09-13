@@ -14,7 +14,6 @@ const styles = {
     alignItems: 'center',
     textAlign: 'center',
     position: 'relative',
-    transform: 'rotateY(0deg)',
     transformStyle: 'preserve-3d',
     transition: 'transform 0.6s',
     cursor: 'pointer',
@@ -26,9 +25,19 @@ const styles = {
     fontSize: '24px',
     fontWeight: 'bold',
     marginBottom: '20px',
+    backfaceVisibility: 'hidden',
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
   },
   back: {
     fontSize: '18px',
+    backfaceVisibility: 'hidden',
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%) rotateY(180deg)',
   },
 };
 
@@ -42,7 +51,10 @@ const Flashcard = ({ term, definition, flip, onClick }) => {
       onClick={onClick}
     >
       <div style={styles.front}>{term}</div>
-      <div style={styles.back}>{definition}</div>
+      <div style={styles.back}>
+        <div>{term}</div>
+        <div>{definition}</div>
+      </div>
     </div>
   );
 };
