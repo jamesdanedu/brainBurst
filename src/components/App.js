@@ -5,13 +5,29 @@ import Flashcard from './Flashcard';
 const styles = {
   app: {
     fontFamily: 'Arial, sans-serif',
-    backgroundColor: '#f0f8ff',
     minHeight: '100vh',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'flex-start',
     padding: '20px',
+    // Background image styling
+    backgroundImage: 'url(/brainB.png)',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundAttachment: 'fixed',
+    position: 'relative',
+  },
+  // Overlay to improve readability over background image
+  backgroundOverlay: {
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: 'rgba(240, 248, 255, 0.85)', // Light blue overlay with transparency
+    zIndex: -1,
   },
   header: {
     display: 'flex',
@@ -21,22 +37,29 @@ const styles = {
     maxWidth: '800px',
     marginBottom: '20px',
     flexWrap: 'wrap',
+    backgroundColor: 'rgba(255, 255, 255, 0.95)',
+    borderRadius: '15px',
+    padding: '15px',
+    boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
+    backdropFilter: 'blur(10px)',
   },
   title: {
-    fontSize: '24px',
+    fontSize: '28px',
     fontWeight: 'bold',
-    color: '#333',
+    color: '#1a365d',
     marginBottom: '10px',
+    textShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
   },
   sessionStats: {
     display: 'flex',
     gap: '15px',
     fontSize: '14px',
-    backgroundColor: '#fff',
-    borderRadius: '10px',
-    padding: '10px 15px',
-    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+    backgroundColor: 'rgba(255, 255, 255, 0.9)',
+    borderRadius: '12px',
+    padding: '12px 15px',
+    boxShadow: '0 2px 10px rgba(0, 0, 0, 0.1)',
     marginBottom: '10px',
+    backdropFilter: 'blur(5px)',
   },
   statItem: {
     textAlign: 'center',
@@ -51,13 +74,14 @@ const styles = {
     fontSize: '12px',
   },
   studyOptions: {
-    backgroundColor: '#fff',
-    borderRadius: '10px',
-    padding: '15px',
-    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+    backgroundColor: 'rgba(255, 255, 255, 0.95)',
+    borderRadius: '15px',
+    padding: '20px',
+    boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
     width: '100%',
     maxWidth: '800px',
     marginBottom: '20px',
+    backdropFilter: 'blur(10px)',
   },
   optionsGrid: {
     display: 'grid',
@@ -78,13 +102,16 @@ const styles = {
     fontSize: '14px',
     color: '#333',
     cursor: 'pointer',
+    fontWeight: '500',
   },
   select: {
-    padding: '8px 12px',
+    padding: '10px 12px',
     fontSize: '14px',
-    borderRadius: '5px',
-    border: '1px solid #ccc',
-    backgroundColor: '#fff',
+    borderRadius: '8px',
+    border: '2px solid #e2e8f0',
+    backgroundColor: 'rgba(255, 255, 255, 0.9)',
+    backdropFilter: 'blur(5px)',
+    fontWeight: '500',
   },
   resetButton: {
     padding: '8px 12px',
@@ -94,26 +121,29 @@ const styles = {
     border: 'none',
     textDecoration: 'underline',
     cursor: 'pointer',
+    fontWeight: '500',
   },
   flashcard: {
-    backgroundColor: '#fff',
-    borderRadius: '10px',
-    boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+    backgroundColor: 'rgba(255, 255, 255, 0.95)',
+    borderRadius: '15px',
+    boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
     padding: '20px',
     width: '90%',
     maxWidth: '800px',
     margin: '20px auto',
     position: 'relative',
     minHeight: '300px',
+    backdropFilter: 'blur(15px)',
   },
   completedScreen: {
-    backgroundColor: '#fff',
-    borderRadius: '15px',
-    boxShadow: '0 8px 20px rgba(0, 0, 0, 0.15)',
+    backgroundColor: 'rgba(255, 255, 255, 0.95)',
+    borderRadius: '20px',
+    boxShadow: '0 10px 40px rgba(0, 0, 0, 0.2)',
     padding: '40px',
     textAlign: 'center',
     maxWidth: '500px',
     margin: '50px auto',
+    backdropFilter: 'blur(15px)',
   },
   completedEmoji: {
     fontSize: '60px',
@@ -122,16 +152,18 @@ const styles = {
   completedTitle: {
     fontSize: '28px',
     fontWeight: 'bold',
-    color: '#333',
+    color: '#1a365d',
     marginBottom: '20px',
+    textShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
   },
   completedStats: {
     marginBottom: '30px',
-    color: '#666',
+    color: '#4a5568',
   },
   completedStat: {
     margin: '8px 0',
     fontSize: '16px',
+    fontWeight: '500',
   },
   completedButtons: {
     display: 'flex',
@@ -140,18 +172,21 @@ const styles = {
   },
   progressBar: {
     width: '90%',
-    height: '10px',
-    backgroundColor: '#e0e0e0',
-    borderRadius: '5px',
+    height: '12px',
+    backgroundColor: 'rgba(224, 224, 224, 0.8)',
+    borderRadius: '6px',
     margin: '20px 0',
     position: 'relative',
     maxWidth: '800px',
+    backdropFilter: 'blur(5px)',
+    boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)',
   },
   progress: {
     height: '100%',
-    backgroundColor: '#007bff',
-    borderRadius: '5px',
+    background: 'linear-gradient(90deg, #007bff, #0056b3)',
+    borderRadius: '6px',
     transition: 'width 0.3s ease',
+    boxShadow: '0 2px 8px rgba(0, 123, 255, 0.3)',
   },
   navigation: {
     display: 'flex',
@@ -160,70 +195,105 @@ const styles = {
     width: '90%',
     maxWidth: '800px',
     margin: '20px auto',
+    backgroundColor: 'rgba(255, 255, 255, 0.9)',
+    borderRadius: '12px',
+    padding: '15px 20px',
+    boxShadow: '0 4px 15px rgba(0, 0, 0, 0.1)',
+    backdropFilter: 'blur(10px)',
   },
   navInfo: {
     textAlign: 'center',
-    color: '#666',
+    color: '#4a5568',
   },
   navInfoMain: {
     fontSize: '16px',
-    fontWeight: '500',
+    fontWeight: '600',
     marginBottom: '4px',
+    color: '#2d3748',
   },
   navInfoSub: {
     fontSize: '12px',
+    color: '#718096',
   },
   button: {
     padding: '12px 24px',
     fontSize: '16px',
     fontWeight: 'bold',
     color: '#fff',
-    backgroundColor: '#007bff',
+    background: 'linear-gradient(135deg, #007bff, #0056b3)',
     border: 'none',
-    borderRadius: '8px',
+    borderRadius: '10px',
     cursor: 'pointer',
     transition: 'all 0.3s',
     minWidth: '100px',
+    boxShadow: '0 4px 15px rgba(0, 123, 255, 0.3)',
   },
   buttonDisabled: {
-    backgroundColor: '#ccc',
+    background: '#ccc',
     cursor: 'not-allowed',
+    boxShadow: 'none',
   },
   difficultButtons: {
     display: 'flex',
     justifyContent: 'center',
     gap: '10px',
     marginBottom: '20px',
+    backgroundColor: 'rgba(255, 255, 255, 0.9)',
+    borderRadius: '12px',
+    padding: '15px',
+    backdropFilter: 'blur(10px)',
+    boxShadow: '0 2px 10px rgba(0, 0, 0, 0.1)',
   },
   markDifficultBtn: {
-    padding: '8px 16px',
+    padding: '10px 20px',
     fontSize: '14px',
-    backgroundColor: '#ff6b35',
+    background: 'linear-gradient(135deg, #ff6b35, #e55a2b)',
     color: 'white',
     border: 'none',
-    borderRadius: '6px',
+    borderRadius: '8px',
     cursor: 'pointer',
-    transition: 'background-color 0.3s',
+    transition: 'all 0.3s',
+    fontWeight: '600',
+    boxShadow: '0 3px 10px rgba(255, 107, 53, 0.3)',
   },
   markEasyBtn: {
-    padding: '8px 16px',
+    padding: '10px 20px',
     fontSize: '14px',
-    backgroundColor: '#28a745',
+    background: 'linear-gradient(135deg, #28a745, #1e7e34)',
     color: 'white',
     border: 'none',
-    borderRadius: '6px',
+    borderRadius: '8px',
     cursor: 'pointer',
-    transition: 'background-color 0.3s',
+    transition: 'all 0.3s',
+    fontWeight: '600',
+    boxShadow: '0 3px 10px rgba(40, 167, 69, 0.3)',
   },
   keyboardHint: {
     textAlign: 'center',
     fontSize: '12px',
-    color: '#999',
+    color: '#718096',
     marginTop: '15px',
+    backgroundColor: 'rgba(255, 255, 255, 0.8)',
+    borderRadius: '8px',
+    padding: '8px 15px',
+    backdropFilter: 'blur(5px)',
+    maxWidth: '600px',
+    margin: '15px auto 0',
   },
   fileInput: {
     marginTop: '20px',
     textAlign: 'center',
+    backgroundColor: 'rgba(255, 255, 255, 0.95)',
+    borderRadius: '15px',
+    padding: '30px',
+    boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
+    backdropFilter: 'blur(15px)',
+  },
+  fileInputDescription: {
+    fontSize: '14px',
+    color: '#4a5568',
+    marginTop: '15px',
+    fontWeight: '500',
   },
   loadingOverlay: {
     position: 'fixed',
@@ -231,17 +301,20 @@ const styles = {
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+    backgroundColor: 'rgba(0, 0, 0, 0.8)',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     zIndex: 1000,
+    backdropFilter: 'blur(5px)',
   },
   loadingContent: {
-    backgroundColor: '#fff',
+    backgroundColor: 'rgba(255, 255, 255, 0.95)',
     padding: '30px',
-    borderRadius: '10px',
+    borderRadius: '15px',
     textAlign: 'center',
+    backdropFilter: 'blur(15px)',
+    boxShadow: '0 10px 40px rgba(0, 0, 0, 0.2)',
   },
   spinner: {
     border: '3px solid #f3f3f3',
@@ -566,6 +639,7 @@ const App = () => {
   if (sessionStats.studyMode === 'completed') {
     return (
       <div style={styles.app}>
+        <div style={styles.backgroundOverlay}></div>
         <div style={styles.completedScreen}>
           <div style={styles.completedEmoji}>🎉</div>
           <h2 style={styles.completedTitle}>Deck Complete!</h2>
@@ -604,6 +678,8 @@ const App = () => {
 
   return (
     <div style={styles.app}>
+      <div style={styles.backgroundOverlay}></div>
+      
       {loading && (
         <div style={styles.loadingOverlay}>
           <div style={styles.loadingContent}>
@@ -618,7 +694,7 @@ const App = () => {
           <h1 style={styles.title}>{selectedSubject || 'BrainBursh'}</h1>
           {selectedSubject && (
             <a
-              style={{ color: '#007bff', textDecoration: 'none', cursor: 'pointer', fontSize: '14px' }}
+              style={{ color: '#007bff', textDecoration: 'none', cursor: 'pointer', fontSize: '14px', fontWeight: '500' }}
               onClick={() => {
                 setSelectedSubject(null);
                 setSelectedCategory('All');
@@ -653,7 +729,7 @@ const App = () => {
       {!flashcardData || Object.keys(flashcardData).length === 0 ? (
         <div style={styles.fileInput}>
           <input type="file" accept=".csv" onChange={handleFileUpload} />
-          <p style={{ fontSize: '14px', color: '#666', marginTop: '10px' }}>
+          <p style={styles.fileInputDescription}>
             Upload a CSV file with columns: subject, category, term, definition
           </p>
         </div>
@@ -809,7 +885,9 @@ const App = () => {
                   </div>
                 </>
               ) : (
-                <p>No flashcards found for the selected category.</p>
+                <p style={{ color: '#4a5568', fontSize: '18px', textAlign: 'center' }}>
+                  No flashcards found for the selected category.
+                </p>
               )}
             </>
           )}
