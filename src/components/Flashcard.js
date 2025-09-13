@@ -1,30 +1,34 @@
-import { useState } from 'react';
+import React from 'react';
 
 const styles = {
   flashcard: {
-    backgroundColor: '#fff',
+    backgroundColor: 'transparent', // Make container transparent
     borderRadius: '15px',
-    boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
-    padding: '0', // Remove padding from main container
+    padding: '0',
     width: '100%',
     height: '100%',
     perspective: '1000px',
-    transformStyle: 'preserve-3d',
-    transition: 'transform 0.6s ease',
     cursor: 'pointer',
     position: 'relative',
     minHeight: '300px',
   },
+  flashcardInner: {
+    position: 'relative',
+    width: '100%',
+    height: '100%',
+    transformStyle: 'preserve-3d',
+    transition: 'transform 0.6s ease',
+  },
   flashcardFlip: {
     transform: 'rotateY(180deg)',
   },
-  side: {
-    backfaceVisibility: 'hidden',
+  cardSide: {
     position: 'absolute',
     top: 0,
     left: 0,
     width: '100%',
     height: '100%',
+    backfaceVisibility: 'hidden',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
@@ -32,14 +36,15 @@ const styles = {
     padding: '30px',
     borderRadius: '15px',
     backgroundColor: '#fff',
-    overflow: 'auto',
+    boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
     textAlign: 'center',
+    overflow: 'auto',
   },
   front: {
-    // No additional transform needed for front
+    // Front side - no additional transform
   },
   back: {
-    transform: 'rotateY(180deg)',
+    transform: 'rotateY(180deg)', // Back side rotated 180 degrees
   },
   term: {
     fontSize: '28px',
@@ -60,7 +65,7 @@ const styles = {
     fontWeight: '600',
     textTransform: 'uppercase',
     letterSpacing: '0.5px',
-    marginBottom: '10px',
+    marginBottom: '15px',
     padding: '4px 12px',
     backgroundColor: 'rgba(0, 123, 255, 0.1)',
     borderRadius: '20px',
@@ -94,7 +99,7 @@ const styles = {
     fontWeight: 'bold',
     textTransform: 'uppercase',
   },
-  flipInstruction: {
+  flipHint: {
     position: 'absolute',
     bottom: '15px',
     left: '50%',
@@ -116,64 +121,59 @@ const Flashcard = ({
   showDefinitionFirst = false, 
   isDifficult = false 
 }) => {
-  // Determine what to show on front and back based on showDefinitionFirst
-  const frontContent = showDefinitionFirst ? definition : term;
-  const backContent = showDefinitionFirst ? term : definition;
-  const frontIsDefinition = showDefinitionFirst;
-
   return (
-    <div
-      style={{
-        ...styles.flashcard,
-        ...(flip ? styles.flashcardFlip : {}),
-      }}
-      onClick={onClick}
-    >
-      {/* Difficulty badge */}
-      {isDifficult && <div style={styles.difficultBadge}>Difficult</div>}
-      
-      {/* Front side */}
-      <div style={{...styles.side, ...styles.front}}>
-        {category && <div style={styles.category}>{category}</div>}
-        
-        <div style={frontIsDefinition ? styles.definition : styles.term}>
-          {frontContent}
-        </div>
-        
-        {/* Only show hint on front if showing definition first */}
-        {showDefinitionFirst && hint && (
-          <div style={styles.hint}>💡 {hint}</div>
-        )}
-        
-        <div style={styles.flipInstruction}>
-          Click to see {frontIsDefinition ? 'term' : 'definition'}
-        </div>
-      </div>
-
-      {/* Back side */}
-      <div style={{...styles.side, ...styles.back}}>
-        {category && <div style={styles.category}>{category}</div>}
-        
-        <div style={frontIsDefinition ? styles.term : styles.definition}>
-          {backContent}
-        </div>
-        
-        <div style={!frontIsDefinition ? styles.term : styles.definition}>
-          {frontIsDefinition ? definition : term}
-        </div>
-        
-        {example && (
-          <div style={styles.example}>
-            <strong>Example:</strong> {example}
+    <div style={styles.flashcard} onClick={onClick}>
+      <div style={{
+        ...styles.flashcardInner,
+        ...(flip ? styles.flashcardFlip : {})
+      }}>
+        {/* Front Side */}
+        <div style={{...styles.cardSide, ...styles.front}}>
+          {isDifficult && <div style={styles.difficultBadge}>Difficult</div>}
+          
+          {category && <div style={styles.category}>{category}</div>}
+          
+          <div style={styles.term}>
+            {showDefinitionFirst ? definition : term}
           </div>
-        )}
-        
-        {!showDefinitionFirst && hint && (
-          <div style={styles.hint}>💡 {hint}</div>
-        )}
+          
+          {showDefinitionFirst && hint && (
+            <div style={styles.hint}>💡 {hint}</div>
+          )}
+          
+          <div style={styles.flipHint}>
+            Click to flip
+          </div>
+        </div>
+
+        {/* Back Side */}
+        <div style={{...styles.cardSide, ...styles.back}}>
+          {isDifficult && <div style={styles.difficultBadge}>Difficult</div>}
+          
+          {category && <div style={styles.category}>{category}</div>}
+          
+          <div style={styles.term}>
+            {showDefinitionFirst ? term : term}
+          </div>
+          
+          <div style={styles.definition}>
+            {showDefinitionFirst ? term : definition}
+          </div>
+          
+          {example && (
+            <div style={styles.example}>
+              <strong>Example:</strong> {example}
+            </div>
+          )}
+          
+          {!showDefinitionFirst && hint && (
+            <div style={styles.hint}>💡 {hint}</div>
+          )}
+        </div>
       </div>
     </div>
   );
 };
 
 export default Flashcard;
+
