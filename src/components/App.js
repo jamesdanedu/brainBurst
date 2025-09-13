@@ -2,7 +2,6 @@ import { useState } from 'react';
 import Papa from 'papaparse';
 import Flashcard from './Flashcard';
 
-
 const styles = {
   app: {
     fontFamily: 'Arial, sans-serif',
