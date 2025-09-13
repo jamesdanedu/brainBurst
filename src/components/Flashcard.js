@@ -107,15 +107,20 @@ const Flashcard = ({
   showDefinitionFirst = false, 
   isDifficult = false 
 }) => {
+  const handleClick = (e) => {
+    e.stopPropagation(); // Prevent event bubbling
+    onClick();
+  };
+
   return (
     <div 
       style={{
         ...styles.flipContainer,
         ...(flip ? styles.flipped : {})
       }}
-      onClick={onClick}
+      onClick={handleClick}
     >
-      {/* Front Side */}
+      {/* Front Side - Show ONLY term or definition */}
       <div style={{...styles.cardSide, ...styles.front}}>
         {isDifficult && <div style={styles.difficultBadge}>Difficult</div>}
         
@@ -130,7 +135,7 @@ const Flashcard = ({
         </div>
       </div>
 
-      {/* Back Side */}
+      {/* Back Side - Show BOTH term and definition */}
       <div style={{...styles.cardSide, ...styles.back}}>
         {isDifficult && <div style={styles.difficultBadge}>Difficult</div>}
         
@@ -146,7 +151,7 @@ const Flashcard = ({
         )}
         
         {hint && (
-          <div style={styles.hint}>💡 {hint}</div>
+          <div style={styles.hint}>{hint}</div>
         )}
       </div>
     </div>
