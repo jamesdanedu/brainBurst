@@ -137,6 +137,15 @@ const styles = {
   },
 };
 
+
+import { useState } from 'react';
+import Papa from 'papaparse';
+import Flashcard from './Flashcard';
+
+const styles = {
+  // ... (styles object remains the same) ...
+};
+
 const App = () => {
   const [flashcardData, setFlashcardData] = useState({});
   const [selectedSubject, setSelectedSubject] = useState(null);
