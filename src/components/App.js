@@ -1,3 +1,4 @@
+
 import { useState, useEffect, useCallback } from 'react';
 import Papa from 'papaparse';
 import Flashcard from './Flashcard';
@@ -516,12 +517,12 @@ const App = () => {
         setFlashcardData(groupedData);
         setLoading(false);
         
-        // Auto-select first subject
-        const firstSubject = Object.keys(groupedData)[0];
-        if (firstSubject) {
-          setSelectedSubject(firstSubject);
-          resetStudySession();
-        }
+        // Don't auto-select subject - let user choose
+        // Reset to subject selection screen
+        setSelectedSubject(null);
+        setSelectedCategory('All');
+        setCurrentIndex(0);
+        setFlip(false);
       } catch (error) {
         console.error('Error parsing CSV:', error);
         setLoading(false);
@@ -899,4 +900,3 @@ const App = () => {
 };
 
 export default App;
-
