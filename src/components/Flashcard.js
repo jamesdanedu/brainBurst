@@ -270,7 +270,7 @@ const Flashcard = ({
           )}
         </div>
         
-        <div style={styles.flipIndicator}>
+        <div style={{...styles.flipIndicator, transform: 'rotateY(180deg)'}}>
           <span style={styles.flipIcon}>🔄</span>
           <span>Click to flip back</span>
         </div>
