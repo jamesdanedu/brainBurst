@@ -19,7 +19,7 @@ const styles = {
     alignItems: 'center',
     width: '100%',
     maxWidth: '800px',
-    marginBottom: '20px',
+    marginBottom: '30px',
   },
   title: {
     fontSize: '24px',
@@ -215,7 +215,7 @@ const App = () => {
               maxWidth: '400px', 
               width: '100%', 
               height: 'auto', 
-              marginBottom: '35px',
+              marginBottom: '55px',
               borderRadius: '10px'
             }} 
           />
