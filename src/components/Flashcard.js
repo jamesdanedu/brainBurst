@@ -1,170 +1,109 @@
 import { useState } from 'react';
 
 const styles = {
-  flashcardContainer: {
-    width: '100%',
-    height: '100%',
-    minHeight: '300px',
-    perspective: '1000px',
-    cursor: 'pointer',
-  },
   flashcard: {
+    backgroundColor: '#fff',
+    borderRadius: '15px',
+    boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
+    padding: '0', // Remove padding from main container
     width: '100%',
     height: '100%',
-    minHeight: '300px',
-    position: 'relative',
+    perspective: '1000px',
     transformStyle: 'preserve-3d',
-    transition: 'transform 0.6s ease-in-out',
-    backgroundColor: 'transparent',
+    transition: 'transform 0.6s ease',
+    cursor: 'pointer',
+    position: 'relative',
+    minHeight: '300px',
   },
   flashcardFlip: {
     transform: 'rotateY(180deg)',
   },
-  cardFace: {
+  side: {
+    backfaceVisibility: 'hidden',
     position: 'absolute',
+    top: 0,
+    left: 0,
     width: '100%',
     height: '100%',
-    backfaceVisibility: 'hidden',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    padding: '25px',
+    padding: '30px',
     borderRadius: '15px',
-    backgroundColor: 'rgba(255, 255, 255, 0.95)',
-    backdropFilter: 'blur(15px)',
-    boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
-    border: '3px solid transparent',
+    backgroundColor: '#fff',
+    overflow: 'auto',
+    textAlign: 'center',
   },
-  cardFaceDifficult: {
-    borderColor: '#ff6b35',
-    boxShadow: '0 8px 30px rgba(255, 107, 53, 0.3)',
+  front: {
+    // No additional transform needed for front
   },
-  cardFaceHover: {
-    boxShadow: '0 12px 40px rgba(0, 0, 0, 0.2)',
-  },
-  cardBack: {
+  back: {
     transform: 'rotateY(180deg)',
   },
-  categoryTag: {
-    position: 'absolute',
-    top: '15px',
-    left: '15px',
-    background: 'linear-gradient(135deg, #007bff, #0056b3)',
-    color: 'white',
-    padding: '6px 12px',
-    borderRadius: '12px',
-    fontSize: '12px',
-    fontWeight: '600',
-    textTransform: 'uppercase',
-    letterSpacing: '0.5px',
-    boxShadow: '0 2px 8px rgba(0, 123, 255, 0.3)',
-  },
-  difficultTag: {
-    position: 'absolute',
-    top: '15px',
-    right: '15px',
-    background: 'linear-gradient(135deg, #ff6b35, #e55a2b)',
-    color: 'white',
-    padding: '6px 12px',
-    borderRadius: '12px',
-    fontSize: '12px',
-    fontWeight: '600',
-    textTransform: 'uppercase',
-    letterSpacing: '0.5px',
-    boxShadow: '0 2px 8px rgba(255, 107, 53, 0.3)',
-    animation: 'pulse 2s infinite',
-  },
-  content: {
-    textAlign: 'center',
-    maxWidth: '100%',
-    wordWrap: 'break-word',
-    overflowWrap: 'break-word',
-    zIndex: 1,
-  },
   term: {
-    fontSize: '32px',
+    fontSize: '28px',
     fontWeight: 'bold',
     color: '#1a365d',
     marginBottom: '15px',
     lineHeight: '1.2',
-    textShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
   },
   definition: {
-    fontSize: '20px',
-    color: '#2d3748',
-    lineHeight: '1.6',
+    fontSize: '18px',
+    color: '#4a5568',
+    lineHeight: '1.5',
     marginBottom: '20px',
-    fontWeight: '500',
+  },
+  category: {
+    fontSize: '12px',
+    color: '#007bff',
+    fontWeight: '600',
+    textTransform: 'uppercase',
+    letterSpacing: '0.5px',
+    marginBottom: '10px',
+    padding: '4px 12px',
+    backgroundColor: 'rgba(0, 123, 255, 0.1)',
+    borderRadius: '20px',
+    display: 'inline-block',
   },
   example: {
-    fontSize: '16px',
-    color: '#4a5568',
+    fontSize: '14px',
+    color: '#2d3748',
     fontStyle: 'italic',
     marginTop: '15px',
-    padding: '15px',
-    backgroundColor: 'rgba(59, 130, 246, 0.1)',
-    borderRadius: '10px',
-    borderLeft: '4px solid #007bff',
-    backdropFilter: 'blur(5px)',
-    boxShadow: '0 2px 10px rgba(59, 130, 246, 0.1)',
+    padding: '10px 15px',
+    backgroundColor: 'rgba(0, 123, 255, 0.05)',
+    borderRadius: '8px',
+    borderLeft: '3px solid #007bff',
   },
   hint: {
-    fontSize: '14px',
-    color: '#d69e2e',
-    marginTop: '12px',
-    padding: '10px 15px',
-    backgroundColor: 'rgba(237, 137, 54, 0.1)',
-    borderRadius: '8px',
-    border: '2px solid rgba(237, 137, 54, 0.2)',
-    fontWeight: '500',
-    backdropFilter: 'blur(5px)',
-  },
-  flipIndicator: {
-    position: 'absolute',
-    bottom: '15px',
-    right: '15px',
     fontSize: '12px',
     color: '#718096',
-    display: 'flex',
-    alignItems: 'center',
-    gap: '6px',
-    backgroundColor: 'rgba(255, 255, 255, 0.8)',
-    padding: '6px 10px',
-    borderRadius: '20px',
-    backdropFilter: 'blur(5px)',
-    fontWeight: '500',
+    marginTop: '10px',
+    opacity: 0.8,
   },
-  flipIcon: {
-    fontSize: '16px',
-    transition: 'transform 0.3s ease',
+  difficultBadge: {
+    position: 'absolute',
+    top: '15px',
+    right: '15px',
+    backgroundColor: '#ff6b35',
+    color: 'white',
+    padding: '4px 8px',
+    borderRadius: '12px',
+    fontSize: '10px',
+    fontWeight: 'bold',
+    textTransform: 'uppercase',
   },
+  flipInstruction: {
+    position: 'absolute',
+    bottom: '15px',
+    left: '50%',
+    transform: 'translateX(-50%)',
+    fontSize: '11px',
+    color: '#a0aec0',
+    opacity: 0.7,
+  }
 };
-
-// Add pulse animation for difficult tag
-const pulseKeyframes = `
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.05);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
-`;
-
-if (typeof document !== 'undefined') {
-  const existingStyle = document.getElementById('flashcard-pulse-animation');
-  if (!existingStyle) {
-    const style = document.createElement('style');
-    style.id = 'flashcard-pulse-animation';
-    style.textContent = pulseKeyframes;
-    document.head.appendChild(style);
-  }
-}
 
 const Flashcard = ({ 
   term, 
@@ -174,135 +113,64 @@ const Flashcard = ({
   hint, 
   flip, 
   onClick, 
-  showDefinitionFirst = false,
+  showDefinitionFirst = false, 
   isDifficult = false 
 }) => {
-  const [isHovered, setIsHovered] = useState(false);
-
   // Determine what to show on front and back based on showDefinitionFirst
   const frontContent = showDefinitionFirst ? definition : term;
   const backContent = showDefinitionFirst ? term : definition;
   const frontIsDefinition = showDefinitionFirst;
 
-  const handleMouseEnter = () => setIsHovered(true);
-  const handleMouseLeave = () => setIsHovered(false);
-
   return (
     <div
-      style={styles.flashcardContainer}
-      onClick={onClick}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      role="button"
-      tabIndex={0}
-      onKeyDown={(e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          onClick();
-        }
+      style={{
+        ...styles.flashcard,
+        ...(flip ? styles.flashcardFlip : {}),
       }}
-      aria-label={`Flashcard: ${frontContent}. Click to reveal ${showDefinitionFirst ? 'term' : 'definition'}.`}
+      onClick={onClick}
     >
-      <div
-        style={{
-          ...styles.flashcard,
-          ...(flip ? styles.flashcardFlip : {}),
-        }}
-      >
-        {/* Front Face */}
-        <div
-          style={{
-            ...styles.cardFace,
-            ...(isDifficult ? styles.cardFaceDifficult : {}),
-            ...(isHovered ? styles.cardFaceHover : {}),
-          }}
-        >
-          {/* Category Tag */}
-          {category && (
-            <div style={styles.categoryTag}>
-              {category}
-            </div>
-          )}
-
-          {/* Difficult Tag */}
-          {isDifficult && (
-            <div style={styles.difficultTag}>
-              Review
-            </div>
-          )}
-
-          <div style={styles.content}>
-            {frontIsDefinition ? (
-              <>
-                <div style={styles.definition}>{frontContent}</div>
-                {hint && (
-                  <div style={styles.hint}>
-                    💡 {hint}
-                  </div>
-                )}
-              </>
-            ) : (
-              <div style={styles.term}>{frontContent}</div>
-            )}
-          </div>
-          
-          <div style={styles.flipIndicator}>
-            <span style={{
-              ...styles.flipIcon,
-              ...(isHovered ? { transform: 'scale(1.1)' } : {})
-            }}>🔄</span>
-            <span>Click to flip</span>
-          </div>
+      {/* Difficulty badge */}
+      {isDifficult && <div style={styles.difficultBadge}>Difficult</div>}
+      
+      {/* Front side */}
+      <div style={{...styles.side, ...styles.front}}>
+        {category && <div style={styles.category}>{category}</div>}
+        
+        <div style={frontIsDefinition ? styles.definition : styles.term}>
+          {frontContent}
         </div>
-
-        {/* Back Face */}
-        <div
-          style={{
-            ...styles.cardFace,
-            ...styles.cardBack,
-            ...(isDifficult ? styles.cardFaceDifficult : {}),
-            ...(isHovered ? styles.cardFaceHover : {}),
-          }}
-        >
-          {/* Category Tag */}
-          {category && (
-            <div style={styles.categoryTag}>
-              {category}
-            </div>
-          )}
-
-          {/* Difficult Tag */}
-          {isDifficult && (
-            <div style={styles.difficultTag}>
-              Review
-            </div>
-          )}
-
-          <div style={styles.content}>
-            {frontIsDefinition ? (
-              <div style={styles.term}>{backContent}</div>
-            ) : (
-              <>
-                <div style={styles.definition}>{backContent}</div>
-                {example && (
-                  <div style={styles.example}>
-                    <strong>📝 Example:</strong> {example}
-                  </div>
-                )}
-                {hint && (
-                  <div style={styles.hint}>
-                    💡 <strong>Hint:</strong> {hint}
-                  </div>
-                )}
-              </>
-            )}
-          </div>
-          
-          <div style={styles.flipIndicator}>
-            <span style={styles.flipIcon}>🔄</span>
-            <span>Click to flip back</span>
-          </div>
+        
+        {/* Only show hint on front if showing definition first */}
+        {showDefinitionFirst && hint && (
+          <div style={styles.hint}>💡 {hint}</div>
+        )}
+        
+        <div style={styles.flipInstruction}>
+          Click to see {frontIsDefinition ? 'term' : 'definition'}
         </div>
+      </div>
+
+      {/* Back side */}
+      <div style={{...styles.side, ...styles.back}}>
+        {category && <div style={styles.category}>{category}</div>}
+        
+        <div style={frontIsDefinition ? styles.term : styles.definition}>
+          {backContent}
+        </div>
+        
+        <div style={!frontIsDefinition ? styles.term : styles.definition}>
+          {frontIsDefinition ? definition : term}
+        </div>
+        
+        {example && (
+          <div style={styles.example}>
+            <strong>Example:</strong> {example}
+          </div>
+        )}
+        
+        {!showDefinitionFirst && hint && (
+          <div style={styles.hint}>💡 {hint}</div>
+        )}
       </div>
     </div>
   );
