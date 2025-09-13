@@ -368,7 +368,7 @@ const App = () => {
 
   // Load session data on component mount
   useEffect(() => {
-    const savedSession = localStorage.getItem('brainburst-session');
+    const savedSession = localStorage.getItem('brainbursh-session');
     if (savedSession) {
       try {
         const parsed = JSON.parse(savedSession);
