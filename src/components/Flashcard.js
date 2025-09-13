@@ -122,10 +122,12 @@ const Flashcard = ({
       <div style={styles.cardSide}>
         {isDifficult && <div style={styles.difficultBadge}>Difficult</div>}
         
-        {category && <div style={styles.category}>{category}</div>}
-        
-        <div style={styles.term}>
-          {showDefinitionFirst ? definition : term}
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', flex: 1}}>
+          {category && <div style={styles.category}>{category}</div>}
+          
+          <div style={styles.term}>
+            {showDefinitionFirst ? definition : term}
+          </div>
         </div>
         
         <div style={styles.clickHint}>
@@ -137,20 +139,22 @@ const Flashcard = ({
       <div style={{...styles.cardSide, ...styles.back}}>
         {isDifficult && <div style={styles.difficultBadge}>Difficult</div>}
         
-        {category && <div style={styles.category}>{category}</div>}
-        
-        <div style={styles.term}>{term}</div>
-        <div style={styles.definition}>{definition}</div>
-        
-        {example && (
-          <div style={styles.example}>
-            <strong>Example:</strong> {example}
-          </div>
-        )}
-        
-        {hint && (
-          <div style={styles.hint}>{hint}</div>
-        )}
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', flex: 1}}>
+          {category && <div style={styles.category}>{category}</div>}
+          
+          <div style={styles.term}>{term}</div>
+          <div style={styles.definition}>{definition}</div>
+          
+          {example && (
+            <div style={styles.example}>
+              <strong>Example:</strong> {example}
+            </div>
+          )}
+          
+          {hint && (
+            <div style={styles.hint}>{hint}</div>
+          )}
+        </div>
       </div>
     </div>
   );
