@@ -12,9 +12,12 @@ const Flashcard = ({
   isDifficult = false 
 }) => {
   const handleClick = (e) => {
+    console.log('Flashcard clicked!', e);
     e.stopPropagation();
     e.preventDefault();
+    console.log('About to call onClick');
     onClick();
+    console.log('onClick called');
   };
 
   // Simple conditional rendering instead of 3D transforms
