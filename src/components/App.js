@@ -215,7 +215,7 @@ const App = () => {
               maxWidth: '400px', 
               width: '100%', 
               height: 'auto', 
-              marginBottom: '20px',
+              marginBottom: '35px',
               borderRadius: '10px'
             }} 
           />
