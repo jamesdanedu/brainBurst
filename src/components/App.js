@@ -808,13 +808,8 @@ const App = () => {
 
               {filteredFlashcards.length > 0 ? (
                 <>
-                  {/* FIXED: Removed conflicting click handler, kept touch handlers, renamed style */}
-                  <div 
-                    style={styles.flashcardContainer}
-                    onTouchStart={onTouchStart}
-                    onTouchMove={onTouchMove}
-                    onTouchEnd={onTouchEnd}
-                  >
+                  {/* FIXED: Removed conflicting touch handlers from container */}
+                  <div style={styles.flashcardContainer}>
                     <Flashcard
                       term={currentCard.term}
                       definition={currentCard.definition}
