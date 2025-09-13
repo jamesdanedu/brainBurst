@@ -1,42 +1,30 @@
 import { useState } from 'react';
 
 const styles = {
-  flashcard: {
-    backgroundColor: 'rgba(255, 255, 255, 0.95)',
-    borderRadius: '15px',
-    boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
-    padding: '20px',
+  flashcardContainer: {
     width: '100%',
     height: '100%',
     minHeight: '300px',
     perspective: '1000px',
-    transformStyle: 'preserve-3d',
-    transition: 'transform 0.6s ease-in-out, box-shadow 0.3s ease',
     cursor: 'pointer',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
+  },
+  flashcard: {
+    width: '100%',
+    height: '100%',
+    minHeight: '300px',
     position: 'relative',
-    border: '3px solid transparent',
-    backdropFilter: 'blur(15px)',
-  },
-  flashcardDifficult: {
-    borderColor: '#ff6b35',
-    boxShadow: '0 8px 30px rgba(255, 107, 53, 0.3)',
-  },
-  flashcardHover: {
-    boxShadow: '0 12px 40px rgba(0, 0, 0, 0.2)',
+    transformStyle: 'preserve-3d',
+    transition: 'transform 0.6s ease-in-out',
+    backgroundColor: 'transparent',
   },
   flashcardFlip: {
     transform: 'rotateY(180deg)',
   },
   cardFace: {
-    backfaceVisibility: 'hidden',
     position: 'absolute',
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
+    width: '100%',
+    height: '100%',
+    backfaceVisibility: 'hidden',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
@@ -45,8 +33,17 @@ const styles = {
     borderRadius: '15px',
     backgroundColor: 'rgba(255, 255, 255, 0.95)',
     backdropFilter: 'blur(15px)',
+    boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
+    border: '3px solid transparent',
   },
-  back: {
+  cardFaceDifficult: {
+    borderColor: '#ff6b35',
+    boxShadow: '0 8px 30px rgba(255, 107, 53, 0.3)',
+  },
+  cardFaceHover: {
+    boxShadow: '0 12px 40px rgba(0, 0, 0, 0.2)',
+  },
+  cardBack: {
     transform: 'rotateY(180deg)',
   },
   categoryTag: {
@@ -140,7 +137,6 @@ const styles = {
   },
   flipIcon: {
     fontSize: '16px',
-    transform: 'rotate(180deg)',
     transition: 'transform 0.3s ease',
   },
 };
@@ -161,9 +157,13 @@ const pulseKeyframes = `
 `;
 
 if (typeof document !== 'undefined') {
-  const style = document.createElement('style');
-  style.textContent = pulseKeyframes;
-  document.head.appendChild(style);
+  const existingStyle = document.getElementById('flashcard-pulse-animation');
+  if (!existingStyle) {
+    const style = document.createElement('style');
+    style.id = 'flashcard-pulse-animation';
+    style.textContent = pulseKeyframes;
+    document.head.appendChild(style);
+  }
 }
 
 const Flashcard = ({ 
@@ -189,12 +189,7 @@ const Flashcard = ({
 
   return (
     <div
-      style={{
-        ...styles.flashcard,
-        ...(flip ? styles.flashcardFlip : {}),
-        ...(isDifficult ? styles.flashcardDifficult : {}),
-        ...(isHovered ? styles.flashcardHover : {}),
-      }}
+      style={styles.flashcardContainer}
       onClick={onClick}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
@@ -208,71 +203,105 @@ const Flashcard = ({
       }}
       aria-label={`Flashcard: ${frontContent}. Click to reveal ${showDefinitionFirst ? 'term' : 'definition'}.`}
     >
-      {/* Category Tag */}
-      {category && (
-        <div style={styles.categoryTag}>
-          {category}
-        </div>
-      )}
-
-      {/* Difficult Tag */}
-      {isDifficult && (
-        <div style={styles.difficultTag}>
-          Review
-        </div>
-      )}
-
-      {/* Front Face */}
-      <div style={styles.cardFace}>
-        <div style={styles.content}>
-          {frontIsDefinition ? (
-            <>
-              <div style={styles.definition}>{frontContent}</div>
-              {hint && (
-                <div style={styles.hint}>
-                  💡 {hint}
-                </div>
-              )}
-            </>
-          ) : (
-            <div style={styles.term}>{frontContent}</div>
+      <div
+        style={{
+          ...styles.flashcard,
+          ...(flip ? styles.flashcardFlip : {}),
+        }}
+      >
+        {/* Front Face */}
+        <div
+          style={{
+            ...styles.cardFace,
+            ...(isDifficult ? styles.cardFaceDifficult : {}),
+            ...(isHovered ? styles.cardFaceHover : {}),
+          }}
+        >
+          {/* Category Tag */}
+          {category && (
+            <div style={styles.categoryTag}>
+              {category}
+            </div>
           )}
-        </div>
-        
-        <div style={styles.flipIndicator}>
-          <span style={{
-            ...styles.flipIcon,
-            ...(isHovered ? { transform: 'rotate(180deg) scale(1.1)' } : {})
-          }}>🔄</span>
-          <span>Click to flip</span>
-        </div>
-      </div>
 
-      {/* Back Face */}
-      <div style={{...styles.cardFace, ...styles.back}}>
-        <div style={styles.content}>
-          {frontIsDefinition ? (
-            <div style={styles.term}>{backContent}</div>
-          ) : (
-            <>
-              <div style={styles.definition}>{backContent}</div>
-              {example && (
-                <div style={styles.example}>
-                  <strong>📝 Example:</strong> {example}
-                </div>
-              )}
-              {hint && (
-                <div style={styles.hint}>
-                  💡 <strong>Hint:</strong> {hint}
-                </div>
-              )}
-            </>
+          {/* Difficult Tag */}
+          {isDifficult && (
+            <div style={styles.difficultTag}>
+              Review
+            </div>
           )}
+
+          <div style={styles.content}>
+            {frontIsDefinition ? (
+              <>
+                <div style={styles.definition}>{frontContent}</div>
+                {hint && (
+                  <div style={styles.hint}>
+                    💡 {hint}
+                  </div>
+                )}
+              </>
+            ) : (
+              <div style={styles.term}>{frontContent}</div>
+            )}
+          </div>
+          
+          <div style={styles.flipIndicator}>
+            <span style={{
+              ...styles.flipIcon,
+              ...(isHovered ? { transform: 'scale(1.1)' } : {})
+            }}>🔄</span>
+            <span>Click to flip</span>
+          </div>
         </div>
-        
-        <div style={{...styles.flipIndicator, transform: 'rotateY(180deg)'}}>
-          <span style={styles.flipIcon}>🔄</span>
-          <span>Click to flip back</span>
+
+        {/* Back Face */}
+        <div
+          style={{
+            ...styles.cardFace,
+            ...styles.cardBack,
+            ...(isDifficult ? styles.cardFaceDifficult : {}),
+            ...(isHovered ? styles.cardFaceHover : {}),
+          }}
+        >
+          {/* Category Tag */}
+          {category && (
+            <div style={styles.categoryTag}>
+              {category}
+            </div>
+          )}
+
+          {/* Difficult Tag */}
+          {isDifficult && (
+            <div style={styles.difficultTag}>
+              Review
+            </div>
+          )}
+
+          <div style={styles.content}>
+            {frontIsDefinition ? (
+              <div style={styles.term}>{backContent}</div>
+            ) : (
+              <>
+                <div style={styles.definition}>{backContent}</div>
+                {example && (
+                  <div style={styles.example}>
+                    <strong>📝 Example:</strong> {example}
+                  </div>
+                )}
+                {hint && (
+                  <div style={styles.hint}>
+                    💡 <strong>Hint:</strong> {hint}
+                  </div>
+                )}
+              </>
+            )}
+          </div>
+          
+          <div style={styles.flipIndicator}>
+            <span style={styles.flipIcon}>🔄</span>
+            <span>Click to flip back</span>
+          </div>
         </div>
       </div>
     </div>
