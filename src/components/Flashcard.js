@@ -1,4 +1,3 @@
-// Flashcard.js
 import { useState } from 'react';
 
 const styles = {
