@@ -691,7 +691,7 @@ const App = () => {
 
       <div style={styles.header}>
         <div>
-          <h1 style={styles.title}>{selectedSubject || 'BrainBursh'}</h1>
+          <h1 style={styles.title}>{selectedSubject || 'BrainBurst'}</h1>
           {selectedSubject && (
             <a
               style={{ color: '#007bff', textDecoration: 'none', cursor: 'pointer', fontSize: '14px', fontWeight: '500' }}
