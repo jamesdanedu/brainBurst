@@ -191,21 +191,21 @@ const App = () => {
   return (
     <div style={styles.app}>
       <div style={styles.header}>
-        <h1 style={styles.title}>{selectedSubject || 'Flashcard App'}</h1>
-        {selectedSubject && (
-          
-            style={styles.changeSubjectLink}
-            onClick={() => {
-              setSelectedSubject(null);
-              setSelectedCategory('All');
-              setCurrentIndex(0);
-              setFlip(false);
-            }}
-          >
-            Change Subject
-          </a>
-        )}
-      </div>
+      <h1 style={styles.title}>{selectedSubject || 'Flashcard App'}</h1>
+      {selectedSubject && (
+          <a
+          style={styles.changeSubjectLink}
+          onClick={() => {
+            setSelectedSubject(null);
+            setSelectedCategory('All');
+            setCurrentIndex(0);
+            setFlip(false);
+          }}
+        >
+          Change Subject
+        </a>
+      )}
+    </div>
       {!flashcardData || Object.keys(flashcardData).length === 0 ? (
         <div>
           <input type="file" accept=".csv" onChange={handleFileUpload} style={styles.fileInput} />
