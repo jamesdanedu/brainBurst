@@ -191,7 +191,7 @@ const App = () => {
   return (
     <div style={styles.app}>
       <div style={styles.header}>
-      <h1 style={styles.title}>{selectedSubject || 'Flashcard App'}</h1>
+      <h1 style={styles.title}>{selectedSubject || 'brainBurst Flashcard App'}</h1>
       {selectedSubject && (
           <a
           style={styles.changeSubjectLink}
