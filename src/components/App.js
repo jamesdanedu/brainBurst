@@ -1,12 +1,11 @@
-// App.js
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Papa from 'papaparse';
 import Flashcard from './Flashcard';
 
 const styles = {
   app: {
     fontFamily: 'Arial, sans-serif',
-    backgroundColor: '#f7f7f7',
+    backgroundColor: '#f0f8ff',
     minHeight: '100vh',
     display: 'flex',
     flexDirection: 'column',
@@ -16,18 +15,22 @@ const styles = {
   },
   header: {
     display: 'flex',
-    flexDirection: 'column',
+    justifyContent: 'space-between',
     alignItems: 'center',
     width: '100%',
     maxWidth: '800px',
     marginBottom: '20px',
-    textAlign: 'center',
   },
   title: {
     fontSize: '24px',
     fontWeight: 'bold',
     color: '#333',
-    marginBottom: '10px',
+  },
+  changeSubjectLink: {
+    color: '#007bff',
+    textDecoration: 'none',
+    cursor: 'pointer',
+    fontSize: '16px',
   },
   flashcard: {
     backgroundColor: '#fff',
@@ -141,23 +144,6 @@ const App = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [flip, setFlip] = useState(false);
 
-  useEffect(() => {
-    const handleResize = () => {
-      const flashcard = document.querySelector('.flashcard');
-      if (flashcard) {
-        const { width, height } = flashcard.getBoundingClientRect();
-        flashcard.style.fontSize = `${Math.min(width, height) * 0.1}px`;
-      }
-    };
-
-    window.addEventListener('resize', handleResize);
-    handleResize();
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
   const handleFileUpload = (event) => {
     const file = event.target.files[0];
     const reader = new FileReader();
@@ -203,15 +189,29 @@ const App = () => {
 
   return (
     <div style={styles.app}>
+      <div style={styles.header}>
+        <h1 style={styles.title}>{selectedSubject || 'Flashcard App'}</h1>
+        {selectedSubject && (
+          
+            style={styles.changeSubjectLink}
+            onClick={() => {
+              setSelectedSubject(null);
+              setSelectedCategory('All');
+              setCurrentIndex(0);
+              setFlip(false);
+            }}
+          >
+            Change Subject
+          </a>
+        )}
+      </div>
       {!flashcardData || Object.keys(flashcardData).length === 0 ? (
         <div>
-          <h1 style={styles.title}>Flashcard App</h1>
           <input type="file" accept=".csv" onChange={handleFileUpload} style={styles.fileInput} />
         </div>
       ) : (
         <>
-          <div style={styles.header}>
-            <h1 style={styles.title}>{selectedSubject || 'Select a Subject'}</h1>
+          {!selectedSubject ? (
             <select
               style={styles.select}
               value={selectedSubject || ''}
@@ -222,15 +222,14 @@ const App = () => {
                 setFlip(false);
               }}
             >
-              <option value="">Change Subject</option>
+              <option value="">Select Subject</option>
               {Object.keys(flashcardData).map(subject => (
                 <option key={subject} value={subject}>
                   {subject}
                 </option>
               ))}
             </select>
-          </div>
-          {selectedSubject && (
+          ) : (
             <>
               <select
                 style={styles.select}
