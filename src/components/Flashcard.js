@@ -1,25 +1,14 @@
 import React from 'react';
 
 const styles = {
-  flashcard: {
-    backgroundColor: 'transparent', // Make container transparent
-    borderRadius: '15px',
-    padding: '0',
+  flipContainer: {
     width: '100%',
     height: '100%',
-    perspective: '1000px',
-    cursor: 'pointer',
     position: 'relative',
-    minHeight: '300px',
-  },
-  flashcardInner: {
-    position: 'relative',
-    width: '100%',
-    height: '100%',
     transformStyle: 'preserve-3d',
     transition: 'transform 0.6s ease',
   },
-  flashcardFlip: {
+  flipped: {
     transform: 'rotateY(180deg)',
   },
   cardSide: {
@@ -33,31 +22,28 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    padding: '30px',
-    borderRadius: '15px',
-    backgroundColor: '#fff',
-    boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
     textAlign: 'center',
-    overflow: 'auto',
+    padding: '20px',
+    boxSizing: 'border-box',
   },
   front: {
-    // Front side - no additional transform
+    // Front side - no rotation
   },
   back: {
-    transform: 'rotateY(180deg)', // Back side rotated 180 degrees
+    transform: 'rotateY(180deg)',
   },
   term: {
-    fontSize: '28px',
+    fontSize: '32px',
     fontWeight: 'bold',
     color: '#1a365d',
-    marginBottom: '15px',
+    marginBottom: '20px',
     lineHeight: '1.2',
   },
   definition: {
-    fontSize: '18px',
+    fontSize: '20px',
     color: '#4a5568',
     lineHeight: '1.5',
-    marginBottom: '20px',
+    marginBottom: '15px',
   },
   category: {
     fontSize: '12px',
@@ -65,26 +51,26 @@ const styles = {
     fontWeight: '600',
     textTransform: 'uppercase',
     letterSpacing: '0.5px',
-    marginBottom: '15px',
-    padding: '4px 12px',
+    marginBottom: '20px',
+    padding: '6px 12px',
     backgroundColor: 'rgba(0, 123, 255, 0.1)',
     borderRadius: '20px',
     display: 'inline-block',
   },
   example: {
-    fontSize: '14px',
+    fontSize: '16px',
     color: '#2d3748',
     fontStyle: 'italic',
-    marginTop: '15px',
-    padding: '10px 15px',
+    marginTop: '20px',
+    padding: '15px',
     backgroundColor: 'rgba(0, 123, 255, 0.05)',
     borderRadius: '8px',
-    borderLeft: '3px solid #007bff',
+    borderLeft: '4px solid #007bff',
   },
   hint: {
-    fontSize: '12px',
+    fontSize: '14px',
     color: '#718096',
-    marginTop: '10px',
+    marginTop: '15px',
     opacity: 0.8,
   },
   difficultBadge: {
@@ -93,18 +79,18 @@ const styles = {
     right: '15px',
     backgroundColor: '#ff6b35',
     color: 'white',
-    padding: '4px 8px',
-    borderRadius: '12px',
-    fontSize: '10px',
+    padding: '6px 12px',
+    borderRadius: '15px',
+    fontSize: '11px',
     fontWeight: 'bold',
     textTransform: 'uppercase',
   },
-  flipHint: {
+  clickHint: {
     position: 'absolute',
-    bottom: '15px',
+    bottom: '20px',
     left: '50%',
     transform: 'translateX(-50%)',
-    fontSize: '11px',
+    fontSize: '12px',
     color: '#a0aec0',
     opacity: 0.7,
   }
@@ -122,54 +108,46 @@ const Flashcard = ({
   isDifficult = false 
 }) => {
   return (
-    <div style={styles.flashcard} onClick={onClick}>
-      <div style={{
-        ...styles.flashcardInner,
-        ...(flip ? styles.flashcardFlip : {})
-      }}>
-        {/* Front Side */}
-        <div style={{...styles.cardSide, ...styles.front}}>
-          {isDifficult && <div style={styles.difficultBadge}>Difficult</div>}
-          
-          {category && <div style={styles.category}>{category}</div>}
-          
-          <div style={styles.term}>
-            {showDefinitionFirst ? definition : term}
-          </div>
-          
-          {showDefinitionFirst && hint && (
-            <div style={styles.hint}>💡 {hint}</div>
-          )}
-          
-          <div style={styles.flipHint}>
-            Click to flip
-          </div>
+    <div 
+      style={{
+        ...styles.flipContainer,
+        ...(flip ? styles.flipped : {})
+      }}
+      onClick={onClick}
+    >
+      {/* Front Side */}
+      <div style={{...styles.cardSide, ...styles.front}}>
+        {isDifficult && <div style={styles.difficultBadge}>Difficult</div>}
+        
+        {category && <div style={styles.category}>{category}</div>}
+        
+        <div style={styles.term}>
+          {showDefinitionFirst ? definition : term}
         </div>
+        
+        <div style={styles.clickHint}>
+          Click to reveal {showDefinitionFirst ? 'term' : 'definition'}
+        </div>
+      </div>
 
-        {/* Back Side */}
-        <div style={{...styles.cardSide, ...styles.back}}>
-          {isDifficult && <div style={styles.difficultBadge}>Difficult</div>}
-          
-          {category && <div style={styles.category}>{category}</div>}
-          
-          <div style={styles.term}>
-            {showDefinitionFirst ? term : term}
+      {/* Back Side */}
+      <div style={{...styles.cardSide, ...styles.back}}>
+        {isDifficult && <div style={styles.difficultBadge}>Difficult</div>}
+        
+        {category && <div style={styles.category}>{category}</div>}
+        
+        <div style={styles.term}>{term}</div>
+        <div style={styles.definition}>{definition}</div>
+        
+        {example && (
+          <div style={styles.example}>
+            <strong>Example:</strong> {example}
           </div>
-          
-          <div style={styles.definition}>
-            {showDefinitionFirst ? term : definition}
-          </div>
-          
-          {example && (
-            <div style={styles.example}>
-              <strong>Example:</strong> {example}
-            </div>
-          )}
-          
-          {!showDefinitionFirst && hint && (
-            <div style={styles.hint}>💡 {hint}</div>
-          )}
-        </div>
+        )}
+        
+        {hint && (
+          <div style={styles.hint}>💡 {hint}</div>
+        )}
       </div>
     </div>
   );
