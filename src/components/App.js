@@ -414,7 +414,7 @@ const App = () => {
       }
     };
     localStorage.setItem('brainbursh-session', JSON.stringify(sessionData));
-  }, [sessionStats, sessionDifficultCards, shuffleCards, showDefinitionFirst, autoAdvance]);
+  }, [sessionStats, sessionDifficultCards, showDefinitionFirst, autoAdvance]);
 
   // Keyboard event handling
   const handleKeyPress = useCallback((event) => {
