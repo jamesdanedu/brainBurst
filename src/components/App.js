@@ -209,7 +209,7 @@ const App = () => {
       {!flashcardData || Object.keys(flashcardData).length === 0 ? (
         <div style={{ textAlign: 'center' }}>
           <img 
-            src="/brainBurst.PNG" 
+            src="/brainBurst.png" 
             alt="BrainBurst Logo" 
             style={{ 
               maxWidth: '400px', 
