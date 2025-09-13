@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Papa from 'papaparse';
 import Flashcard from './Flashcard';
 
+
 const styles = {
   app: {
     fontFamily: 'Arial, sans-serif',
@@ -137,14 +138,6 @@ const styles = {
   },
 };
 
-
-import { useState } from 'react';
-import Papa from 'papaparse';
-import Flashcard from './Flashcard';
-
-const styles = {
-  // ... (styles object remains the same) ...
-};
 
 const App = () => {
   const [flashcardData, setFlashcardData] = useState({});
