@@ -759,16 +759,6 @@ const App = () => {
               {/* Study Options */}
               <div style={styles.studyOptions}>
                 <div style={styles.optionsGrid}>
-                  <div style={styles.checkboxGroup}>
-                    <input
-                      type="checkbox"
-                      id="shuffle"
-                      checked={shuffleCards}
-                      onChange={(e) => setShuffleCards(e.target.checked)}
-                      style={styles.checkbox}
-                    />
-                    <label htmlFor="shuffle" style={styles.label}>Shuffle cards</label>
-                  </div>
                   
                   <div style={styles.checkboxGroup}>
                     <input
