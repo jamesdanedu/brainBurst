@@ -1,4 +1,3 @@
-
 import { useState, useEffect, useCallback } from 'react';
 import Papa from 'papaparse';
 import Flashcard from './Flashcard';
@@ -135,6 +134,8 @@ const styles = {
     position: 'relative',
     minHeight: '300px',
     backdropFilter: 'blur(15px)',
+    perspective: '1000px', // Added for 3D flip
+    cursor: 'pointer', // Added cursor
   },
   completedScreen: {
     backgroundColor: 'rgba(255, 255, 255, 0.95)',
