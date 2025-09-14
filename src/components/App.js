@@ -128,7 +128,8 @@ const styles = {
     borderRadius: '15px',
     boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
     padding: '20px',
-    width: '95%',
+    width: '90%',
+    maxWidth: '800px',
     margin: '20px auto',
     position: 'relative',
     minHeight: '300px',
@@ -301,7 +302,7 @@ const styles = {
     textShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
   },
   optionButton: {
-    width: '85%',
+    width: '100%',
     padding: '20px',
     margin: '15px 0',
     fontSize: '18px',
