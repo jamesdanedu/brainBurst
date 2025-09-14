@@ -880,23 +880,16 @@ const App = () => {
 
           <div style={styles.orDivider}>— OR —</div>
 
-          <label 
-            htmlFor="file-upload" 
-            style={{...styles.fileInputLabel, ...(loading ? {opacity: 0.6, cursor: 'not-allowed'} : {})}}
+          <button
+            style={styles.optionButton}
+            onClick={handleFileUpload}
+            disabled={loading}
           >
-            <div style={styles.optionButtonIcon}>📁</div>
+            <div style={styles.optionButtonIcon}>🎓</div>
             <div style={styles.optionButtonText}>Upload Your CSV File</div>
             <div style={styles.optionButtonSubtext}>Format: subject,category,term,definition</div>
-          </label>
-          <input
-            id="file-upload"
-            type="file"
-            accept=".csv"
-            onChange={handleFileUpload}
-            style={styles.fileInput}
-            disabled={loading}
-          />
-
+          </button>
+            
           {error && <p style={styles.errorText}>{error}</p>}
         </div>
       ) : (
