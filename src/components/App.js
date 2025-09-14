@@ -893,7 +893,7 @@ const App = () => {
     disabled={loading}
   >
     <div style={styles.optionButtonIcon}>📁</div>
-    <div style={styles.optionButtonText}>Upload Your CSV File</div>
+    <div style={styles.optionButtonText}>Do it your way - upload a CSV file</div>
     <div style={styles.optionButtonSubtext}>Format: subject,category,term,definition</div>
   </button>
 
