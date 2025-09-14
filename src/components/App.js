@@ -882,7 +882,7 @@ const App = () => {
 
           <label 
             htmlFor="file-upload" 
-            style={{...styles.fileInputLabel, ...styles.optionButtonSecondary, ...(loading ? {opacity: 0.6, cursor: 'not-allowed'} : {})}}
+            style={{...styles.fileInputLabel, ...(loading ? {opacity: 0.6, cursor: 'not-allowed'} : {})}}
           >
             <div style={styles.optionButtonIcon}>📁</div>
             <div style={styles.optionButtonText}>Upload Your CSV File</div>
