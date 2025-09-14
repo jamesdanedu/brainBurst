@@ -3637,380 +3637,744 @@ LC ClimateActSustain,Agriculture & Land Use,Land Degradation,The process in whic
 LC ClimateActSustain,Waste Management,Textile Recycling,"The process of recovering fiber, yarn or fabric and reprocessing the textile material into useful products.",,,
 LC ClimateActSustain,Water,Salinity,The saltiness or amount of salt dissolved in a body of water.,,,
 LC ClimateActSustain,Transport & Communities,Tactical Urbanism,"A low-cost, temporary approach to urban planning and design that aims to improve local neighbourhoods and city gathering places.",,,
-LC Business,Business Environment,Balance of Payments,A record of all economic transactions between a country and the rest of the world over a period of time.
-LC Business,Business Environment,Balance of Trade,The difference between the value of a country's visible exports and visible imports.
-LC Business,Business Environment,Business Environment,The external and internal factors that influence a business.
-LC Business,Business Environment,Business Ethics,A set of moral principles that guide how a business behaves.
-LC Business,Business Environment,Common Agricultural Policy (CAP),An EU policy to support farmers and ensure food security in Europe.
-LC Business,Business Environment,Common Market,A group of countries imposing few or no duties on trade with one another and a common tariff on trade with other countries.
-LC Business,Business Environment,Competition and Consumer Protection Commission (CCPC),A state agency responsible for enforcing competition and consumer protection law in Ireland.
-LC Business,Business Environment,Consumer Protection Act 2007,"Law that protects consumers from unfair, misleading, or aggressive commercial practices."
-LC Business,Business Environment,Corporate Social Responsibility (CSR),"The commitment by a business to behave ethically and contribute to economic development while improving the quality of life of the workforce, their families, and the local community."
-LC Business,Business Environment,Corporation Tax,A tax on the profits of a company.
-LC Business,Business Environment,Council of the European Union,"Represents the governments of the member states and, with Parliament, is the main decision-making body."
-LC Business,Business Environment,Demography,"The study of population characteristics, such as size, growth, density, and age structure."
-LC Business,Business Environment,Deregulation,The removal of government rules and controls from an industry.
-LC Business,Business Environment,Economic Boom,A period of significant economic growth and high employment.
-LC Business,Business Environment,Economic Growth,An increase in the amount of goods and services produced per head of the population over a period of time.
-LC Business,Business Environment,Economic Indicators,"Statistics about economic activity, e.g., inflation rate, unemployment rate, GDP."
-LC Business,Business Environment,Economic Recession,A period of temporary economic decline during which trade and industrial activity are reduced.
-LC Business,Business Environment,Embargo,A complete ban on trade with a particular country or on a particular product.
-LC Business,Business Environment,Enterprise Ireland,A government agency responsible for the development and growth of Irish enterprises in world markets.
-LC Business,Business Environment,Environmentalism,Concern for protecting the natural environment.
-LC Business,Business Environment,European Union (EU),A political and economic union of member states primarily in Europe.
-LC Business,Business Environment,EU Single Market,"A market with the free movement of goods, services, capital, and people between EU member states."
-LC Business,Business Environment,Euro,The EU's currency.
-LC Business,Business Environment,European Commission,"The executive body of the EU, responsible for proposing legislation and implementing decisions."
-LC Business,Business Environment,European Parliament,The directly elected legislative body of the EU.
-LC Business,Business Environment,Fiscal Policy,The use of government spending and taxation to influence the economy.
-LC Business,Business Environment,Foreign Direct Investment (FDI),An investment made by a company or individual in one country into business interests located in another country.
-LC Business,Business Environment,Free Trade,"International trade left to its natural course without tariffs, quotas, or other restrictions."
-LC Business,Business Environment,GDP (Gross Domestic Product),The total monetary or market value of all the finished goods and services produced within a country's borders in a specific time period.
-LC Business,Business Environment,Global Trade,The exchange of goods and services between countries.
-LC Business,Business Environment,Globalisation,The process by which the world is becoming increasingly interconnected as a result of massively increased trade and cultural exchange.
-LC Business,Business Environment,Government's Role in Business,"The government acts as an employer, service provider, tax collector, and regulator."
-LC Business,Business Environment,Green Economy,An economy that aims for sustainable development without degrading the environment.
-LC Business,Business Environment,Import Quota,A limit on the quantity of a product that can be imported.
-LC Business,Business Environment,Indigenous Firms,Businesses owned and managed by people from the home country.
-LC Business,Business Environment,Infant Industries,New industries that are in their early stages and need protection from international competition.
-LC Business,Business Environment,Inflation,A general increase in prices and a fall in the purchasing value of money.
-LC Business,Business Environment,International Trade,The exchange of goods and services between countries.
-LC Business,Business Environment,Invisible Exports,"Services sold to other countries, e.g., tourism."
-LC Business,Business Environment,LEO (Local Enterprise Office),"Agencies that provide advice, training, and financial support to start-ups and small businesses."
-LC Business,Business Environment,Monetary Policy,The actions of a central bank to manage the money supply and credit conditions to stimulate or restrain economic activity.
-LC Business,Business Environment,Multinational Corporation (MNC),"A company that operates in its home country, as well as in other countries around the world."
-LC Business,Business Environment,Nationalisation,The transfer of a major industry from private to state ownership or control.
-LC Business,Business Environment,PAYE (Pay As You Earn),A system of income tax where tax is deducted from an employee's wages by the employer.
-LC Business,Business Environment,Primary Sector,"The sector of the economy involved in the extraction and harvesting of raw materials, e.g., agriculture, mining."
-LC Business,Business Environment,Privatisation,The sale of a state-owned company to the private sector.
-LC Business,Business Environment,Protectionism,"The policy of protecting domestic industries against foreign competition by means of tariffs, quotas, etc."
-LC Business,Business Environment,Quaternary Sector,"The knowledge-based part of the economy, including services such as information technology, R&D, and education."
-LC Business,Business Environment,Quota,A physical limit on the quantity of a good that can be imported.
-LC Business,Business Environment,Recession,A period of temporary economic decline.
-LC Business,Business Environment,Sale of Goods and Supply of Services Act 1980,"Law stating goods must be of merchantable quality, fit for purpose, as described, and correspond to sample."
-LC Business,Business Environment,Secondary Sector,The sector of the economy involved in manufacturing and construction.
-LC Business,Business Environment,Single European Market,"A market with free movement of goods, services, capital, and people between EU member states."
-LC Business,Business Environment,Small Claims Court,"An informal and inexpensive way for consumers to resolve disputes over small claims (up to €2,000)."
-LC Business,Business Environment,Subsidy,A grant of money from the government to a business to help it lower the price of a product or service.
-LC Business,Business Environment,Sustainable Development,Development that meets the needs of the present without compromising the ability of future generations to meet their own needs.
-LC Business,Business Environment,Tariff,A tax imposed on imported goods.
-LC Business,Business Environment,Taxation,The system by which a government takes money from people and businesses to pay for public services.
-LC Business,Business Environment,Tertiary Sector,"The sector of the economy that provides services, e.g., retail, banking, tourism."
-LC Business,Business Environment,Trade Barriers,"Government policies that restrict international trade, such as tariffs and quotas."
-LC Business,Business Environment,Trade Bloc,An agreement between governments to reduce or eliminate trade barriers among the participating countries.
-LC Business,Business Environment,Trade Union,An organisation of workers formed to protect and promote their common interests.
-LC Business,Business Environment,Unemployment,The state of being jobless but actively looking for work.
-LC Business,Business Environment,VAT (Value Added Tax),A tax on consumer spending.
-LC Business,Business Environment,Visible Exports,Physical goods sold to other countries.
-LC Business,Business Environment,World Trade Organization (WTO),An international organisation that promotes free trade and settles trade disputes between countries.
-LC Business,Business Fundamentals,Acceptance,The unconditional agreement to all terms of an offer.
-LC Business,Business Fundamentals,Agenda,A list of topics to be discussed at a meeting.
-LC Business,Business Fundamentals,Arbitration,"A process where an independent third party is appointed to settle a dispute, and their decision is legally binding."
-LC Business,Business Fundamentals,Breach of Contract,When one party fails to perform their obligations under the contract.
-LC Business,Business Fundamentals,Capacity to Contract,"The legal ability of a person to enter into a contract. Excludes minors (with some exceptions), those of unsound mind."
-LC Business,Business Fundamentals,Caveat Emptor,Latin for 'let the buyer beware'. The principle that the buyer is responsible for checking the quality of goods before purchase.
-LC Business,Business Fundamentals,Competition,The rivalry among businesses for customers.
-LC Business,Business Fundamentals,Competitive Relationship,A win-lose relationship where stakeholders have conflicting goals and are in competition with each other.
-LC Business,Business Fundamentals,Conciliation,A process where an independent third party helps the parties in a dispute to reach a mutually acceptable agreement.
-LC Business,Business Fundamentals,Conflict,A situation where the goals of different stakeholders are in opposition.
-LC Business,Business Fundamentals,Consent to Contract,"Agreement must be genuine and not based on misrepresentation, duress, or undue influence."
-LC Business,Business Fundamentals,Consideration,"Something of value that is exchanged between the parties in a contract, e.g., money, goods, services."
-LC Business,Business Fundamentals,Consumer,An individual who buys goods or services for their own personal use.
-LC Business,Business Fundamentals,Contract,A legally binding agreement between two or more parties.
-LC Business,Business Fundamentals,Co-operative Relationship,A win-win relationship where stakeholders work together for their mutual benefit.
-LC Business,Business Fundamentals,Creditors,People or companies to whom a business owes money.
-LC Business,Business Fundamentals,Debtors,People or companies who owe money to a business.
-LC Business,Business Fundamentals,Dynamic Relationship,A relationship between stakeholders that is constantly changing.
-LC Business,Business Fundamentals,Employee,A person who works for an employer in return for a wage or salary.
-LC Business,Business Fundamentals,Employer,A person or business that hires people to work for them in return for a wage or salary.
-LC Business,Business Fundamentals,Entrepreneur,"A person who spots an opportunity, takes the initiative and financial risk to set up a business to make a profit."
-LC Business,Business Fundamentals,Frustration of Contract,When a contract cannot be completed due to unforeseen circumstances beyond the control of either party.
-LC Business,Business Fundamentals,IBEC (Irish Business and Employers Confederation),An interest group that represents employers in Ireland.
-LC Business,Business Fundamentals,ICTU (Irish Congress of Trade Unions),"The umbrella body for trade unions in Ireland, representing the interests of employees."
-LC Business,Business Fundamentals,Intention to Contract,The parties involved must have intended to create a legally binding agreement.
-LC Business,Business Fundamentals,Interest Group,"A group of people who join together to influence business or government policy on a particular issue, e.g., IBEC, Greenpeace."
-LC Business,Business Fundamentals,Investor,A person or organisation that provides capital to a business in return for a share of the profits or ownership (equity).
-LC Business,Business Fundamentals,Invitation to Treat,"An invitation to another person to make an offer, e.g., goods displayed in a shop window."
-LC Business,Business Fundamentals,Legality of Form,"The contract must be in the correct format required by law, e.g., some contracts must be in writing."
-LC Business,Business Fundamentals,Legality of Purpose,The purpose of the contract must be legal and not against public policy.
-LC Business,Business Fundamentals,Limited Liability,The owner is not personally responsible for the business's debts.
-LC Business,Business Fundamentals,Mediation,A process where an independent third party helps the parties in a dispute to negotiate a solution themselves.
-LC Business,Business Fundamentals,Minutes,The official written record of a meeting.
-LC Business,Business Fundamentals,Offer,"A promise by one party to be bound by certain terms, provided the other party accepts those terms."
-LC Business,Business Fundamentals,Producer,A business that creates goods and services.
-LC Business,Business Fundamentals,Quorum,The minimum number of members that must be present at a meeting for it to be valid.
-LC Business,Business Fundamentals,Remedies for Breach,"Actions the injured party can take: damages, specific performance, or rescinding the contract."
-LC Business,Business Fundamentals,Rescind the Contract,A remedy for breach of contract that cancels the contract and returns the parties to their pre-contract positions.
-LC Business,Business Fundamentals,Specific Performance,A remedy for breach of contract where a court orders a party to carry out their obligations under the contract.
-LC Business,Business Fundamentals,Stakeholder,"An individual or group with an interest in a business and who is affected by its decisions, e.g., employees, customers, shareholders."
-LC Business,Business Fundamentals,Supplier,A business that provides raw materials or finished goods to other businesses.
-LC Business,Business Fundamentals,Termination of Contract,"How a contract can be ended: through performance, agreement, frustration, or breach."
-LC Business,Finance & Accounting,Accruals Concept,"States that revenue and expenses should be recognised in the period they occur, not when cash is received or paid."
-LC Business,Finance & Accounting,Accrued Expenses,Expenses that have been incurred but not yet paid for at the end of an accounting period.
-LC Business,Finance & Accounting,Acid Test Ratio (Quick Ratio),(Current Assets - Closing Stock) : Current Liabilities. A stricter measure of liquidity.
-LC Business,Finance & Accounting,Amortisation,The process of gradually writing off the initial cost of an intangible asset.
-LC Business,Finance & Accounting,Assets,Items of value owned by a business.
-LC Business,Finance & Accounting,Auditing,An independent examination of a company's financial statements.
-LC Business,Finance & Accounting,Auditor,An independent person who examines a company's financial records.
-LC Business,Finance & Accounting,Bad Debts,Debts that are owed to a business but are unlikely to be paid.
-LC Business,Finance & Accounting,Balance Sheet,"A financial statement showing the assets, liabilities, and owners' equity of a business at a specific point in time."
-LC Business,Finance & Accounting,Bank Overdraft,"Permission from a bank to spend more money than is in a current account, up to an agreed limit."
-LC Business,Finance & Accounting,Bookkeeping,The process of recording a business's financial transactions.
-LC Business,Finance & Accounting,Break-Even Point,"The level of sales at which total costs equal total revenue, resulting in no profit and no loss."
-LC Business,Finance & Accounting,Capital,The funds invested in a business.
-LC Business,Finance & Accounting,Capital Employed,The total long-term finance invested in the business. (Total Assets - Current Liabilities).
-LC Business,Finance & Accounting,Capital Expenditure,Money spent by a business on fixed assets.
-LC Business,Finance & Accounting,Capital Gains Tax,A tax on the profit made from the sale of an asset.
-LC Business,Finance & Accounting,Cash Flow,The movement of money into and out of a business.
-LC Business,Finance & Accounting,Cash Flow Forecast,A financial document that estimates the flow of cash in and out of a business over a period of time.
-LC Business,Finance & Accounting,Cash Inflow,Money coming into the business.
-LC Business,Finance & Accounting,Cash Outflow,Money going out of the business.
-LC Business,Finance & Accounting,Closing Stock,The value of stock held by a business at the end of an accounting period.
-LC Business,Finance & Accounting,Cost of Sales,The direct costs attributable to the production of the goods sold by a company.
-LC Business,Finance & Accounting,Creditors,People or businesses to whom the business owes money.
-LC Business,Finance & Accounting,Current Assets,Assets that are expected to be converted into cash within one year.
-LC Business,Finance & Accounting,Current Liabilities,Debts that must be paid within one year.
-LC Business,Finance & Accounting,Current Ratio,"A measure of liquidity, calculated as Current Assets divided by Current Liabilities."
-LC Business,Finance & Accounting,Debenture,"A long-term loan issued by a company, with a fixed rate of interest."
-LC Business,Finance & Accounting,Debtors,People or businesses who owe money to the business.
-LC Business,Finance & Accounting,Depreciation,The reduction in the value of a fixed asset over time due to wear and tear or obsolescence.
-LC Business,Finance & Accounting,Dividend,The part of a company's profit that is paid to shareholders.
-LC Business,Finance & Accounting,Drawings,Money or assets taken out of a business by its owner(s) for personal use.
-LC Business,Finance & Accounting,Equity Capital,"Money invested in a business by its owners, e.g., through the sale of shares."
-LC Business,Finance & Accounting,Expenses,The costs incurred by a business in the process of earning revenue.
-LC Business,Finance & Accounting,Factoring,A financial service where a business sells its accounts receivable (invoices) to a third party at a discount.
-LC Business,Finance & Accounting,Financial Ratios,Calculations used to analyse and interpret financial statements.
-LC Business,Finance & Accounting,Fixed Assets,Assets that a business holds for a long period of time.
-LC Business,Finance & Accounting,Fixed Costs,Costs that do not change with the level of output.
-LC Business,Finance & Accounting,Gearing Ratios,Ratios that measure the proportion of a business's capital that comes from long-term loans.
-LC Business,Finance & Accounting,Goodwill,An intangible asset representing the value of a business's reputation and customer base.
-LC Business,Finance & Accounting,Grant,"A sum of money given by a government or other organisation for a specific purpose, which does not need to be repaid."
-LC Business,Finance & Accounting,Gross Profit,The profit a business makes from selling goods or services. (Sales Revenue - Cost of Sales).
-LC Business,Finance & Accounting,Gross Profit Margin,The ratio of gross profit to sales revenue. (Gross Profit / Sales Revenue) x 100.
-LC Business,Finance & Accounting,Hire Purchase,A method of buying an asset by paying an initial deposit and then regular instalments over a period of time.
-LC Business,Finance & Accounting,Income Statement,A financial statement that reports a company's financial performance over a specific period of time (also known as a Profit and Loss Account).
-LC Business,Finance & Accounting,Insolvency,When a business is unable to pay its debts as they fall due.
-LC Business,Finance & Accounting,Intangible Asset,"An asset that is not physical in nature, such as goodwill, patents, or brand recognition."
-LC Business,Finance & Accounting,Leasing,Renting an asset for a fixed period. The leasing company (lessor) retains ownership.
-LC Business,Finance & Accounting,Liabilities,Money owed by a business to others.
-LC Business,Finance & Accounting,Liquidation,"The process of closing a business, selling its assets to pay its debts."
-LC Business,Finance & Accounting,Liquidity,The ability of a business to meet its short-term financial obligations.
-LC Business,Finance & Accounting,Liquidity Ratios,"Ratios that measure a business's ability to pay its short-term debts, e.g., Current Ratio, Acid Test Ratio."
-LC Business,Finance & Accounting,Long-Term Finance,"Finance needed for more than five years, e.g., equity, debentures, mortgage."
-LC Business,Finance & Accounting,Long-Term Liability,"A debt that is not due to be repaid within one year, e.g., debenture, mortgage."
-LC Business,Finance & Accounting,Medium-Term Finance,"Finance needed for one to five years, e.g., hire purchase, leasing, medium-term loan."
-LC Business,Finance & Accounting,Net Cash,The difference between cash inflows and cash outflows in a period. (Inflows - Outflows).
-LC Business,Finance & Accounting,Net Profit,The profit remaining after all expenses have been deducted from sales revenue.
-LC Business,Finance & Accounting,Net Profit Margin,The ratio of net profit to sales revenue. (Net Profit / Sales Revenue) x 100.
-LC Business,Finance & Accounting,Opening Stock,The value of stock held by a business at the start of an accounting period.
-LC Business,Finance & Accounting,Prepaid Expenses,Expenses that have been paid in advance at the end of an accounting period.
-LC Business,Finance & Accounting,Profit and Loss Account,"A financial statement showing a business's revenue, expenses, and profit or loss over a period of time."
-LC Business,Finance & Accounting,Profitability Ratios,"Ratios that measure a business's ability to generate profit, e.g., Gross Profit Margin, Net Profit Margin."
-LC Business,Finance & Accounting,Provision for Doubtful Debts,An estimate of the amount of money owed by debtors that may not be collected.
-LC Business,Finance & Accounting,Ratio Analysis,The use of financial ratios to analyse a company's performance.
-LC Business,Finance & Accounting,Retained Earnings,"Profits kept in the business after tax and dividends have been paid, used for re-investment."
-LC Business,Finance & Accounting,Return on Investment (ROI),A profitability ratio that measures the gain or loss generated on an investment relative to its cost. (Net Profit / Capital Employed) x 100.
-LC Business,Finance & Accounting,Revenue,The total amount of income generated by the sale of goods or services.
-LC Business,Finance & Accounting,Revenue Expenditure,Money spent by a business on day-to-day running costs.
-LC Business,Finance & Accounting,Share Capital,The part of a company's capital that comes from the issue of shares.
-LC Business,Finance & Accounting,Short-Term Finance,"Finance needed for up to one year, e.g., bank overdraft, trade credit."
-LC Business,Finance & Accounting,Source of Finance,"Where a business gets its money from, categorised as short-term, medium-term, or long-term."
-LC Business,Finance & Accounting,Statement of Financial Position,"A financial statement that summarises a company's assets, liabilities, and equity at a specific point in time (also known as a Balance Sheet)."
-LC Business,Finance & Accounting,Trade Credit,Buying goods from a supplier and paying for them at a later date.
-LC Business,Finance & Accounting,Trial Balance,A bookkeeping worksheet in which the balances of all ledgers are compiled into debit and credit columns.
-LC Business,Finance & Accounting,Variable Costs,Costs that change directly with the level of output.
-LC Business,Finance & Accounting,Venture Capital,Finance provided by investors to start-up firms and small businesses with perceived long-term growth potential.
-LC Business,Finance & Accounting,Working Capital,The money available for the day-to-day running of a business. Calculated as Current Assets - Current Liabilities.
-LC Business,Finance & Accounting,Working Capital Cycle,The period of time from the purchase of raw materials to the collection of cash from sales.
-LC Business,Management & HRM,Absenteeism,The practice of regularly staying away from work without good reason.
-LC Business,Management & HRM,Apprenticeship,A system of training a new generation of practitioners of a trade or profession with on-the-job training and often some accompanying study.
-LC Business,Management & HRM,Autocratic Leadership,A leadership style where the manager makes all decisions without consultation.
-LC Business,Management & HRM,Benefit-in-kind,"A non-cash benefit provided to an employee, such as a company car or private health insurance, which is taxable."
-LC Business,Management & HRM,Chain of Command,The line of authority within a business along which instructions are passed.
-LC Business,Management & HRM,Commission,A payment system where employees receive a percentage of the sales they make.
-LC Business,Management & HRM,Communication,The exchange of information between people or groups.
-LC Business,Management & HRM,Conciliation,"A process in which a third party acts as a go-between, helping to resolve a dispute by facilitating communication."
-LC Business,Management & HRM,Constructive Dismissal,When an employee resigns because the employer has made their working life so difficult it is untenable.
-LC Business,Management & HRM,Controlling,"Monitoring performance, comparing it with targets, and taking corrective action if necessary."
-LC Business,Management & HRM,Delegation,The assignment of authority and responsibility to another person to carry out specific activities.
-LC Business,Management & HRM,Democratic Leadership,A leadership style where the manager involves employees in decision-making.
-LC Business,Management & HRM,Development,Long-term training focused on helping an employee realise their full potential.
-LC Business,Management & HRM,Disciplinary Procedure,A formal process for dealing with employee misconduct or poor performance.
-LC Business,Management & HRM,Dismissal,The termination of an employee's contract by an employer.
-LC Business,Management & HRM,Employment Equality Acts 1998-2015,Legislation that prohibits discrimination in the workplace on nine specific grounds.
-LC Business,Management & HRM,Empowerment,Giving employees the authority and responsibility to make their own decisions about their work.
-LC Business,Management & HRM,Flexitime,"A system where employees can choose their own starting and finishing times, within certain limits."
-LC Business,Management & HRM,Glass Ceiling,"An unacknowledged barrier to advancement in a profession, especially affecting women and members of minorities."
-LC Business,Management & HRM,Golden Handshake,"A large payment made to an employee when they leave a company, especially upon retirement or redundancy."
-LC Business,Management & HRM,Grievance,A formal complaint made by an employee to their employer.
-LC Business,Management & HRM,Grievance Procedure,A formal process for employees to raise complaints with their employer.
-LC Business,Management & HRM,Human Resource Management (HRM),"The management of a business's workforce, including recruitment, selection, training, and motivation."
-LC Business,Management & HRM,Induction Training,"Training provided to new employees to introduce them to the job, their colleagues, and the business."
-LC Business,Management & HRM,Industrial Relations,The relationship between employers and employees in a business.
-LC Business,Management & HRM,Job Description,"A document outlining the duties, tasks, and responsibilities of a specific job."
-LC Business,Management & HRM,Job Enlargement,Increasing the number of tasks an employee performs in their job.
-LC Business,Management & HRM,Job Enrichment,Giving employees more challenging and interesting tasks and greater responsibility.
-LC Business,Management & HRM,Job Rotation,Moving employees from one job to another to provide them with a greater variety of tasks.
-LC Business,Management & HRM,Job Sharing,A flexible work arrangement where two part-time employees share the responsibilities of one full-time job.
-LC Business,Management & HRM,Labour Court,"A court of last resort for industrial disputes, which investigates disputes and makes recommendations."
-LC Business,Management & HRM,Labour Turnover,The rate at which employees leave a company and are replaced.
-LC Business,Management & HRM,Laissez-Faire Leadership,A leadership style where the manager gives employees the freedom to make their own decisions.
-LC Business,Management & HRM,Leadership,The ability to influence and direct people in order to achieve the goals of a group.
-LC Business,Management & HRM,Leadership Styles,The different ways a manager can lead a team.
-LC Business,Management & HRM,Leading,Motivating and influencing staff to achieve business objectives.
-LC Business,Management & HRM,Management,"The process of planning, organising, and controlling the resources of a business to achieve its goals."
-LC Business,Management & HRM,Maslow's Hierarchy of Needs,"A theory of motivation with a five-tier model of human needs: Physiological, Safety, Social, Esteem, Self-Actualisation."
-LC Business,Management & HRM,McGregor's Theory X,A management theory assuming employees are inherently lazy and will avoid work if they can.
-LC Business,Management & HRM,McGregor's Theory Y,"A management theory assuming employees are ambitious, self-motivated, and enjoy their work."
-LC Business,Management & HRM,Motivation,The willingness of people to work hard and contribute their best efforts to a task.
-LC Business,Management & HRM,Official Strike,A strike approved by a secret ballot of union members and supported by the union.
-LC Business,Management & HRM,Off-the-job Training,Training that takes place away from the normal work environment.
-LC Business,Management & HRM,On-the-job Training,Training that takes place in the normal work environment.
-LC Business,Management & HRM,Organisational Structure,"The way a business is organised in terms of departments, authority, and communication."
-LC Business,Management & HRM,Organising,"Arranging resources (people, finance, materials) in the most effective way to achieve objectives."
-LC Business,Management & HRM,Performance Appraisal,"A formal review of an employee's performance, identifying strengths and weaknesses."
-LC Business,Management & HRM,Person Specification,"A document detailing the qualifications, skills, experience, and characteristics needed to do a job."
-LC Business,Management & HRM,Piece Rate,A payment system where employees are paid based on the number of items they produce.
-LC Business,Management & HRM,Planning,Setting objectives and goals for the business and deciding how to achieve them.
-LC Business,Management & HRM,Recruitment,The process of attracting suitable candidates to apply for a job vacancy.
-LC Business,Management & HRM,Redundancy,"When an employee's job no longer exists, and they lose their job through no fault of their own."
-LC Business,Management & HRM,Selection,The process of choosing the most suitable candidate for a job from all applicants.
-LC Business,Management & HRM,Shop Steward,An elected representative of a trade union in a workplace.
-LC Business,Management & HRM,Span of Control,The number of subordinates who report directly to a manager.
-LC Business,Management & HRM,Teamwork,A group of people working together to achieve a common goal.
-LC Business,Management & HRM,Time Rate,A payment system where employees are paid based on the number of hours they work.
-LC Business,Management & HRM,Trade Dispute,"A disagreement between an employer and employees over issues such as pay, conditions, or terms of employment."
-LC Business,Management & HRM,Trade Union,An organisation that represents employees and negotiates with employers on their behalf.
-LC Business,Management & HRM,Training,Providing employees with the skills and knowledge needed to perform their jobs effectively.
-LC Business,Management & HRM,Unfair Dismissals Act 1977-2015,Legislation that protects employees from being dismissed unfairly by their employer.
-LC Business,Management & HRM,Unofficial Strike,A strike undertaken by employees without the consent or support of their union.
-LC Business,Management & HRM,Whistleblowing,When an employee reports illegal or unethical practices within their company to an outside authority.
-LC Business,Management & HRM,Workforce Planning,Estimating the future demand for employees and ensuring the business has the right number of staff with the right skills.
-LC Business,Management & HRM,Work-life Balance,The concept of proper prioritisation between work and leisure time.
-LC Business,Management & HRM,Workplace Relations Commission (WRC),A state body that promotes good industrial relations and helps resolve disputes.
-LC Business,Management & HRM,Work-to-Rule,A form of industrial action where employees do the bare minimum required by their contract.
-LC Business,Marketing,Above-the-line Promotion,"Promotional activities that use mass media, such as TV, radio, and newspapers."
-LC Business,Marketing,Advertising,"Paid, non-personal communication of information about a product or service through media."
-LC Business,Marketing,AIDA Model,"A model used in promotion that describes the steps a customer goes through: Awareness, Interest, Desire, Action."
-LC Business,Marketing,Below-the-line Promotion,"Promotional activities that the business has direct control over, such as sales promotions, direct mail, and PR."
-LC Business,Marketing,Brand,"A name, term, sign, symbol, or design that identifies the products of a company."
-LC Business,Marketing,Brand Loyalty,The tendency of consumers to continuously purchase one brand's products over another's.
-LC Business,Marketing,Branding,"Creating a unique name, symbol, or design that identifies and differentiates a product from others."
-LC Business,Marketing,Channels of Distribution,The path a product takes from the producer to the consumer.
-LC Business,Marketing,Consumer Protection,Laws and organisations that protect consumers.
-LC Business,Marketing,Consumerism,A social movement that seeks to protect and enhance the rights of consumers.
-LC Business,Marketing,Corporate Image,"The public's perception of a company, formed by its products, services, and reputation."
-LC Business,Marketing,Cost-Plus Pricing,Setting a price by adding a percentage mark-up to the cost of producing the product.
-LC Business,Marketing,Customer Loyalty,A customer's willingness to buy from a particular brand repeatedly.
-LC Business,Marketing,Digital Marketing,The promotion of products or brands using electronic devices or the internet.
-LC Business,Marketing,Direct Mail,Sending promotional materials directly to target customers through the post.
-LC Business,Marketing,Direct Marketing,"Promotional activities that communicate directly with individual consumers, e.g., direct mail, telemarketing."
-LC Business,Marketing,E-Commerce,The buying and selling of goods and services over the internet.
-LC Business,Marketing,Focus Group,"A small group of people brought together to discuss their opinions on a product, service, or concept."
-LC Business,Marketing,Impulse Buying,"The unplanned decision to buy a product or service, made just before a purchase."
-LC Business,Marketing,Loss Leader,A product sold at a very low price to attract customers into a store.
-LC Business,Marketing,Market Research,"The process of gathering, recording, and analysing data about the market."
-LC Business,Marketing,Market Segmentation,"Dividing the market into distinct groups of buyers with different needs, characteristics, or behaviours."
-LC Business,Marketing,Market Share,The portion of a market controlled by a particular company or product.
-LC Business,Marketing,Marketing,"The process of identifying, anticipating, and satisfying customer needs profitably."
-LC Business,Marketing,Marketing Mix,"The combination of product, price, place, and promotion."
-LC Business,Marketing,Marketing Research,"The systematic gathering, recording, and analysing of data about problems relating to the marketing of goods and services."
-LC Business,Marketing,Marketing Strategy,A business's plan for reaching its target customers and converting them into customers of its products or services.
-LC Business,Marketing,Merchandising,The way in which goods are presented and promoted in a retail store to maximise sales.
-LC Business,Marketing,Niche Market,"A small, specialised segment of a larger market."
-LC Business,Marketing,Own-Brand Products,"Products that are sold by a retailer under its own name, rather than the name of the manufacturer."
-LC Business,Marketing,Penetration Pricing,Setting a low initial price to attract a large number of buyers quickly and win market share.
-LC Business,Marketing,Personal Selling,Direct communication between a salesperson and a potential customer.
-LC Business,Marketing,Place,Where the product is sold and the channel of distribution used to get it to the customer.
-LC Business,Marketing,Price,The amount of money a customer pays for a product or service.
-LC Business,Marketing,Price Skimming,Setting a high price for a new product to maximise revenue before competitors enter the market.
-LC Business,Marketing,Primary Research (Field Research),"Gathering new, first-hand information directly from the source."
-LC Business,Marketing,Product,The good or service being sold to the customer.
-LC Business,Marketing,Product Life Cycle,"The stages a product goes through from introduction to withdrawal: Introduction, Growth, Maturity, Saturation, Decline."
-LC Business,Marketing,Product Portfolio,The range of products a company offers for sale.
-LC Business,Marketing,Promotion,All the activities used to communicate with customers and persuade them to buy the product.
-LC Business,Marketing,Promotional Mix,"The combination of promotional tools used to promote a product: Advertising, Sales Promotion, Public Relations, Personal Selling."
-LC Business,Marketing,Psychological Pricing,"Setting prices that have a special appeal to target consumers, e.g., €9.99 instead of €10."
-LC Business,Marketing,Public Relations (PR),Building a positive image and relationship between the business and its public.
-LC Business,Marketing,Publicity,Gaining media coverage for a business or its products without directly paying for it.
-LC Business,Marketing,Qualitative Research,"Research that gathers non-numerical data, such as opinions and attitudes."
-LC Business,Marketing,Quantitative Research,Research that gathers numerical data and can be statistically analysed.
-LC Business,Marketing,Relationship Marketing,A marketing strategy focused on customer loyalty and long-term engagement rather than short-term sales.
-LC Business,Marketing,Retailer,A business that sells goods directly to consumers.
-LC Business,Marketing,Sales Promotion,"Short-term incentives to encourage the purchase of a product, e.g., free samples, competitions, loyalty cards."
-LC Business,Marketing,Secondary Research (Desk Research),Using existing information that has already been collected by others.
-LC Business,Marketing,Sponsorship,"When a business pays to be associated with an event, team, or individual to increase its brand awareness."
-LC Business,Marketing,SWOT Analysis,"A planning tool used to evaluate a business's strengths, weaknesses, opportunities, and threats."
-LC Business,Marketing,Target Market,A specific group of consumers at which a product or service is aimed.
-LC Business,Marketing,Telemarketing,The promotion of goods or services by telephone.
-LC Business,Marketing,Unique Selling Proposition (USP),A feature of a product that makes it different from and better than its competitors.
-LC Business,Marketing,Wholesaler,A business that buys goods in large quantities from producers and sells them in smaller quantities to retailers.
-LC Business,Operations Management,Automation,"The use of technology and control systems to operate machinery and processes, reducing the need for human labour."
-LC Business,Operations Management,Batch Production,Producing a limited number of identical items in a group or batch.
-LC Business,Operations Management,Break-even Analysis,A tool used to determine the sales volume that must be achieved to cover all costs.
-LC Business,Operations Management,Break-even Point,The point where a company's total revenue equals its total costs.
-LC Business,Operations Management,Buffer Stock,A minimum level of stock held to protect against unforeseen shortages or increases in demand.
-LC Business,Operations Management,Economies of Scale,Cost advantages that a business can enjoy as it increases its scale of production.
-LC Business,Operations Management,Ergonomics,"The study of how people work in their environment, aiming to improve efficiency and safety."
-LC Business,Operations Management,Fixed Costs,Costs that do not change with the level of output.
-LC Business,Operations Management,Inventory,"The stock of goods that a business holds for sale, production, or use."
-LC Business,Operations Management,Inventory Control,The process of managing the amount of stock on hand.
-LC Business,Operations Management,ISO 9000,A series of international standards for quality management systems.
-LC Business,Operations Management,Job Production,"Producing a single, unique item to a customer's specific order."
-LC Business,Operations Management,Just-In-Time (JIT),A stock control system where materials are delivered just as they are needed for production.
-LC Business,Operations Management,Lean Production,"An approach to management that focuses on cutting out waste, whilst ensuring quality."
-LC Business,Operations Management,Logistics,"The overall process of managing how resources are acquired, stored, and transported to their final destination."
-LC Business,Operations Management,Mass Customisation,A marketing and manufacturing technique that combines the flexibility and personalisation of 'custom-made' with the low unit costs of mass production.
-LC Business,Operations Management,Mass Production,The continuous production of large quantities of standardised products.
-LC Business,Operations Management,Operations Management,The management of the processes that transform resources into finished goods or services.
-LC Business,Operations Management,Outsourcing,Hiring another company to perform a specific task or function for the business.
-LC Business,Operations Management,Production,The process of making or manufacturing goods.
-LC Business,Operations Management,Productivity,"A measure of efficiency, calculated as output divided by input."
-LC Business,Operations Management,Quality Assurance,A system that aims to prevent defects by building quality into the production process itself.
-LC Business,Operations Management,Quality Circles,"Small groups of employees who meet regularly to identify, analyse, and solve work-related problems and improve quality."
-LC Business,Operations Management,Quality Control,A system of inspecting products to ensure they meet the required standards.
-LC Business,Operations Management,Quality Management,The processes and systems used to ensure products or services meet customer expectations.
-LC Business,Operations Management,Stock Control,"Managing the levels of raw materials, work-in-progress, and finished goods held by a business."
-LC Business,Operations Management,Supply Chain,"The entire process of making and selling commercial goods, from the initial sourcing of materials to the final delivery of products to end users."
-LC Business,Operations Management,Supply Chain Management,"The management of the flow of goods and services, from the origin of raw materials to the final consumption."
-LC Business,Operations Management,Total Quality Management (TQM),A business-wide approach where everyone is committed to achieving high quality.
-LC Business,Starting a Business,AGM (Annual General Meeting),A mandatory yearly meeting of a company's shareholders.
-LC Business,Starting a Business,Articles of Association,A legal document that outlines the internal rules for running a company.
-LC Business,Starting a Business,Business Angels,"Wealthy individuals who provide capital for a business start-up, usually in exchange for convertible debt or ownership equity."
-LC Business,Starting a Business,Business Plan,A detailed document outlining the objectives of a new business and how it will achieve them.
-LC Business,Starting a Business,Certificate of Incorporation,The legal document that officially creates a company and makes it a separate legal entity.
-LC Business,Starting a Business,Contribution,"If an item is insured with two companies, they will divide the cost of any claim between them."
-LC Business,Starting a Business,Co-operative,"A business owned and run jointly by its members, who share the profits or benefits."
-LC Business,Starting a Business,Copyright,"A legal right that protects the original work of an author, artist, or composer."
-LC Business,Starting a Business,Crowdfunding,"The practice of funding a project or venture by raising small amounts of money from a large number of people, typically via the internet."
-LC Business,Starting a Business,Deed of Partnership,"A legal document that sets out the rules for a partnership, such as how profits will be shared and how the business will be run."
-LC Business,Starting a Business,Franchise,"An arrangement where a business (franchisor) allows another business (franchisee) to use its name, logo, and business model in return for a fee."
-LC Business,Starting a Business,Franchisee,The business that pays for the right to use another company's brand and business model.
-LC Business,Starting a Business,Franchising,A business model where one company sells the right to use its name and products to another business.
-LC Business,Starting a Business,Franchisor,The business that licenses its brand and business model to another business.
-LC Business,Starting a Business,Grant Aid,"Financial assistance provided by the government or other bodies, which does not have to be repaid."
-LC Business,Starting a Business,Incorporation,The legal process of forming a company.
-LC Business,Starting a Business,Indemnity,You cannot make a profit from an insurance claim.
-LC Business,Starting a Business,Insurable Interest,"To insure something, you must benefit from its existence and suffer from its loss."
-LC Business,Starting a Business,Insurance,A contract that provides financial protection against a possible loss.
-LC Business,Starting a Business,Intellectual Property,"Creations of the mind, such as inventions, literary and artistic works, designs, symbols, names, and images used in commerce."
-LC Business,Starting a Business,Limited Company,A business with a separate legal identity from its owners.
-LC Business,Starting a Business,Limited Liability,"A legal status where a person's financial liability is limited to a fixed sum, most commonly the value of their investment in a company."
-LC Business,Starting a Business,Limited Liability Partnership (LLP),A partnership where some or all of the partners have limited liability.
-LC Business,Starting a Business,Limited Partnership,A partnership with at least one general partner (unlimited liability) and one limited partner (limited liability).
-LC Business,Starting a Business,Memorandum of Association,"A legal document that sets out the company's name, registered office, and objectives."
-LC Business,Starting a Business,Partnership,"A business owned by two to twenty partners, who typically have unlimited liability."
-LC Business,Starting a Business,Partnership Agreement,A legal document that outlines the terms of a partnership.
-LC Business,Starting a Business,Patent,"A legal right granted to an inventor that prevents others from making, using, or selling their invention for a fixed period."
-LC Business,Starting a Business,Premium,The fee paid to an insurance company for cover.
-LC Business,Starting a Business,Private Limited Company (Ltd),"A business owned by one or more shareholders (up to 149), with limited liability. Shares are not available to the public."
-LC Business,Starting a Business,Public Limited Company (PLC),"A business owned by shareholders (minimum of one), with limited liability. Shares can be bought and sold by the public on the stock exchange."
-LC Business,Starting a Business,Sole Trader,"A business owned and controlled by one person, with unlimited liability."
-LC Business,Starting a Business,State-owned Enterprise,A business that is owned and operated by the government.
-LC Business,Starting a Business,Subrogation,"Once an insurance company pays compensation, it takes over the right to sue any third party responsible for the loss."
-LC Business,Starting a Business,Trademark,"A symbol, word, or words legally registered to represent a company or product."
-LC Business,Starting a Business,Unlimited Company,A company where the liability of its shareholders is not limited.
-LC Business,Starting a Business,Unlimited Liability,The owner of a business is personally responsible for all the debts of the business.
-LC Business,Starting a Business,Utmost Good Faith,You must disclose all relevant information when applying for insurance.
-LC Business,Starting a Business,Venture Capital,A form of private equity and a type of financing that investors provide to start-up companies and small businesses that are believed to have long-term growth potential.
-
+LC Business,Business Environment,Balance of Payments,A record of all economic transactions between a country and the rest of the world over a period of time.,,,
+LC Business,Business Environment,Balance of Trade,The difference between the value of a country's visible exports and visible imports.,,,
+LC Business,Business Environment,Business Environment,The external and internal factors that influence a business.,,,
+LC Business,Business Environment,Business Ethics,A set of moral principles that guide how a business behaves.,,,
+LC Business,Business Environment,Common Agricultural Policy (CAP),An EU policy to support farmers and ensure food security in Europe.,,,
+LC Business,Business Environment,Common Market,A group of countries imposing few or no duties on trade with one another and a common tariff on trade with other countries.,,,
+LC Business,Business Environment,Competition and Consumer Protection Commission (CCPC),A state agency responsible for enforcing competition and consumer protection law in Ireland.,,,
+LC Business,Business Environment,Consumer Protection Act 2007,"Law that protects consumers from unfair, misleading, or aggressive commercial practices.",,,
+LC Business,Business Environment,Corporate Social Responsibility (CSR),"The commitment by a business to behave ethically and contribute to economic development while improving the quality of life of the workforce, their families, and the local community.",,,
+LC Business,Business Environment,Corporation Tax,A tax on the profits of a company.,,,
+LC Business,Business Environment,Council of the European Union,"Represents the governments of the member states and, with Parliament, is the main decision-making body.",,,
+LC Business,Business Environment,Demography,"The study of population characteristics, such as size, growth, density, and age structure.",,,
+LC Business,Business Environment,Deregulation,The removal of government rules and controls from an industry.,,,
+LC Business,Business Environment,Economic Boom,A period of significant economic growth and high employment.,,,
+LC Business,Business Environment,Economic Growth,An increase in the amount of goods and services produced per head of the population over a period of time.,,,
+LC Business,Business Environment,Economic Indicators,"Statistics about economic activity, e.g., inflation rate, unemployment rate, GDP.",,,
+LC Business,Business Environment,Economic Recession,A period of temporary economic decline during which trade and industrial activity are reduced.,,,
+LC Business,Business Environment,Embargo,A complete ban on trade with a particular country or on a particular product.,,,
+LC Business,Business Environment,Enterprise Ireland,A government agency responsible for the development and growth of Irish enterprises in world markets.,,,
+LC Business,Business Environment,Environmentalism,Concern for protecting the natural environment.,,,
+LC Business,Business Environment,European Union (EU),A political and economic union of member states primarily in Europe.,,,
+LC Business,Business Environment,EU Single Market,"A market with the free movement of goods, services, capital, and people between EU member states.",,,
+LC Business,Business Environment,Euro,The EU's currency.,,,
+LC Business,Business Environment,European Commission,"The executive body of the EU, responsible for proposing legislation and implementing decisions.",,,
+LC Business,Business Environment,European Parliament,The directly elected legislative body of the EU.,,,
+LC Business,Business Environment,Fiscal Policy,The use of government spending and taxation to influence the economy.,,,
+LC Business,Business Environment,Foreign Direct Investment (FDI),An investment made by a company or individual in one country into business interests located in another country.,,,
+LC Business,Business Environment,Free Trade,"International trade left to its natural course without tariffs, quotas, or other restrictions.",,,
+LC Business,Business Environment,GDP (Gross Domestic Product),The total monetary or market value of all the finished goods and services produced within a country's borders in a specific time period.,,,
+LC Business,Business Environment,Global Trade,The exchange of goods and services between countries.,,,
+LC Business,Business Environment,Globalisation,The process by which the world is becoming increasingly interconnected as a result of massively increased trade and cultural exchange.,,,
+LC Business,Business Environment,Government's Role in Business,"The government acts as an employer, service provider, tax collector, and regulator.",,,
+LC Business,Business Environment,Green Economy,An economy that aims for sustainable development without degrading the environment.,,,
+LC Business,Business Environment,Import Quota,A limit on the quantity of a product that can be imported.,,,
+LC Business,Business Environment,Indigenous Firms,Businesses owned and managed by people from the home country.,,,
+LC Business,Business Environment,Infant Industries,New industries that are in their early stages and need protection from international competition.,,,
+LC Business,Business Environment,Inflation,A general increase in prices and a fall in the purchasing value of money.,,,
+LC Business,Business Environment,International Trade,The exchange of goods and services between countries.,,,
+LC Business,Business Environment,Invisible Exports,"Services sold to other countries, e.g., tourism.",,,
+LC Business,Business Environment,LEO (Local Enterprise Office),"Agencies that provide advice, training, and financial support to start-ups and small businesses.",,,
+LC Business,Business Environment,Monetary Policy,The actions of a central bank to manage the money supply and credit conditions to stimulate or restrain economic activity.,,,
+LC Business,Business Environment,Multinational Corporation (MNC),"A company that operates in its home country, as well as in other countries around the world.",,,
+LC Business,Business Environment,Nationalisation,The transfer of a major industry from private to state ownership or control.,,,
+LC Business,Business Environment,PAYE (Pay As You Earn),A system of income tax where tax is deducted from an employee's wages by the employer.,,,
+LC Business,Business Environment,Primary Sector,"The sector of the economy involved in the extraction and harvesting of raw materials, e.g., agriculture, mining.",,,
+LC Business,Business Environment,Privatisation,The sale of a state-owned company to the private sector.,,,
+LC Business,Business Environment,Protectionism,"The policy of protecting domestic industries against foreign competition by means of tariffs, quotas, etc.",,,
+LC Business,Business Environment,Quaternary Sector,"The knowledge-based part of the economy, including services such as information technology, R&D, and education.",,,
+LC Business,Business Environment,Quota,A physical limit on the quantity of a good that can be imported.,,,
+LC Business,Business Environment,Recession,A period of temporary economic decline.,,,
+LC Business,Business Environment,Sale of Goods and Supply of Services Act 1980,"Law stating goods must be of merchantable quality, fit for purpose, as described, and correspond to sample.",,,
+LC Business,Business Environment,Secondary Sector,The sector of the economy involved in manufacturing and construction.,,,
+LC Business,Business Environment,Single European Market,"A market with free movement of goods, services, capital, and people between EU member states.",,,
+LC Business,Business Environment,Small Claims Court,"An informal and inexpensive way for consumers to resolve disputes over small claims (up to €2,000).",,,
+LC Business,Business Environment,Subsidy,A grant of money from the government to a business to help it lower the price of a product or service.,,,
+LC Business,Business Environment,Sustainable Development,Development that meets the needs of the present without compromising the ability of future generations to meet their own needs.,,,
+LC Business,Business Environment,Tariff,A tax imposed on imported goods.,,,
+LC Business,Business Environment,Taxation,The system by which a government takes money from people and businesses to pay for public services.,,,
+LC Business,Business Environment,Tertiary Sector,"The sector of the economy that provides services, e.g., retail, banking, tourism.",,,
+LC Business,Business Environment,Trade Barriers,"Government policies that restrict international trade, such as tariffs and quotas.",,,
+LC Business,Business Environment,Trade Bloc,An agreement between governments to reduce or eliminate trade barriers among the participating countries.,,,
+LC Business,Business Environment,Trade Union,An organisation of workers formed to protect and promote their common interests.,,,
+LC Business,Business Environment,Unemployment,The state of being jobless but actively looking for work.,,,
+LC Business,Business Environment,VAT (Value Added Tax),A tax on consumer spending.,,,
+LC Business,Business Environment,Visible Exports,Physical goods sold to other countries.,,,
+LC Business,Business Environment,World Trade Organization (WTO),An international organisation that promotes free trade and settles trade disputes between countries.,,,
+LC Business,Business Fundamentals,Acceptance,The unconditional agreement to all terms of an offer.,,,
+LC Business,Business Fundamentals,Agenda,A list of topics to be discussed at a meeting.,,,
+LC Business,Business Fundamentals,Arbitration,"A process where an independent third party is appointed to settle a dispute, and their decision is legally binding.",,,
+LC Business,Business Fundamentals,Breach of Contract,When one party fails to perform their obligations under the contract.,,,
+LC Business,Business Fundamentals,Capacity to Contract,"The legal ability of a person to enter into a contract. Excludes minors (with some exceptions), those of unsound mind.",,,
+LC Business,Business Fundamentals,Caveat Emptor,Latin for 'let the buyer beware'. The principle that the buyer is responsible for checking the quality of goods before purchase.,,,
+LC Business,Business Fundamentals,Competition,The rivalry among businesses for customers.,,,
+LC Business,Business Fundamentals,Competitive Relationship,A win-lose relationship where stakeholders have conflicting goals and are in competition with each other.,,,
+LC Business,Business Fundamentals,Conciliation,A process where an independent third party helps the parties in a dispute to reach a mutually acceptable agreement.,,,
+LC Business,Business Fundamentals,Conflict,A situation where the goals of different stakeholders are in opposition.,,,
+LC Business,Business Fundamentals,Consent to Contract,"Agreement must be genuine and not based on misrepresentation, duress, or undue influence.",,,
+LC Business,Business Fundamentals,Consideration,"Something of value that is exchanged between the parties in a contract, e.g., money, goods, services.",,,
+LC Business,Business Fundamentals,Consumer,An individual who buys goods or services for their own personal use.,,,
+LC Business,Business Fundamentals,Contract,A legally binding agreement between two or more parties.,,,
+LC Business,Business Fundamentals,Co-operative Relationship,A win-win relationship where stakeholders work together for their mutual benefit.,,,
+LC Business,Business Fundamentals,Creditors,People or companies to whom a business owes money.,,,
+LC Business,Business Fundamentals,Debtors,People or companies who owe money to a business.,,,
+LC Business,Business Fundamentals,Dynamic Relationship,A relationship between stakeholders that is constantly changing.,,,
+LC Business,Business Fundamentals,Employee,A person who works for an employer in return for a wage or salary.,,,
+LC Business,Business Fundamentals,Employer,A person or business that hires people to work for them in return for a wage or salary.,,,
+LC Business,Business Fundamentals,Entrepreneur,"A person who spots an opportunity, takes the initiative and financial risk to set up a business to make a profit.",,,
+LC Business,Business Fundamentals,Frustration of Contract,When a contract cannot be completed due to unforeseen circumstances beyond the control of either party.,,,
+LC Business,Business Fundamentals,IBEC (Irish Business and Employers Confederation),An interest group that represents employers in Ireland.,,,
+LC Business,Business Fundamentals,ICTU (Irish Congress of Trade Unions),"The umbrella body for trade unions in Ireland, representing the interests of employees.",,,
+LC Business,Business Fundamentals,Intention to Contract,The parties involved must have intended to create a legally binding agreement.,,,
+LC Business,Business Fundamentals,Interest Group,"A group of people who join together to influence business or government policy on a particular issue, e.g., IBEC, Greenpeace.",,,
+LC Business,Business Fundamentals,Investor,A person or organisation that provides capital to a business in return for a share of the profits or ownership (equity).,,,
+LC Business,Business Fundamentals,Invitation to Treat,"An invitation to another person to make an offer, e.g., goods displayed in a shop window.",,,
+LC Business,Business Fundamentals,Legality of Form,"The contract must be in the correct format required by law, e.g., some contracts must be in writing.",,,
+LC Business,Business Fundamentals,Legality of Purpose,The purpose of the contract must be legal and not against public policy.,,,
+LC Business,Business Fundamentals,Limited Liability,The owner is not personally responsible for the business's debts.,,,
+LC Business,Business Fundamentals,Mediation,A process where an independent third party helps the parties in a dispute to negotiate a solution themselves.,,,
+LC Business,Business Fundamentals,Minutes,The official written record of a meeting.,,,
+LC Business,Business Fundamentals,Offer,"A promise by one party to be bound by certain terms, provided the other party accepts those terms.",,,
+LC Business,Business Fundamentals,Producer,A business that creates goods and services.,,,
+LC Business,Business Fundamentals,Quorum,The minimum number of members that must be present at a meeting for it to be valid.,,,
+LC Business,Business Fundamentals,Remedies for Breach,"Actions the injured party can take: damages, specific performance, or rescinding the contract.",,,
+LC Business,Business Fundamentals,Rescind the Contract,A remedy for breach of contract that cancels the contract and returns the parties to their pre-contract positions.,,,
+LC Business,Business Fundamentals,Specific Performance,A remedy for breach of contract where a court orders a party to carry out their obligations under the contract.,,,
+LC Business,Business Fundamentals,Stakeholder,"An individual or group with an interest in a business and who is affected by its decisions, e.g., employees, customers, shareholders.",,,
+LC Business,Business Fundamentals,Supplier,A business that provides raw materials or finished goods to other businesses.,,,
+LC Business,Business Fundamentals,Termination of Contract,"How a contract can be ended: through performance, agreement, frustration, or breach.",,,
+LC Business,Finance & Accounting,Accruals Concept,"States that revenue and expenses should be recognised in the period they occur, not when cash is received or paid.",,,
+LC Business,Finance & Accounting,Accrued Expenses,Expenses that have been incurred but not yet paid for at the end of an accounting period.,,,
+LC Business,Finance & Accounting,Acid Test Ratio (Quick Ratio),(Current Assets - Closing Stock) : Current Liabilities. A stricter measure of liquidity.,,,
+LC Business,Finance & Accounting,Amortisation,The process of gradually writing off the initial cost of an intangible asset.,,,
+LC Business,Finance & Accounting,Assets,Items of value owned by a business.,,,
+LC Business,Finance & Accounting,Auditing,An independent examination of a company's financial statements.,,,
+LC Business,Finance & Accounting,Auditor,An independent person who examines a company's financial records.,,,
+LC Business,Finance & Accounting,Bad Debts,Debts that are owed to a business but are unlikely to be paid.,,,
+LC Business,Finance & Accounting,Balance Sheet,"A financial statement showing the assets, liabilities, and owners' equity of a business at a specific point in time.",,,
+LC Business,Finance & Accounting,Bank Overdraft,"Permission from a bank to spend more money than is in a current account, up to an agreed limit.",,,
+LC Business,Finance & Accounting,Bookkeeping,The process of recording a business's financial transactions.,,,
+LC Business,Finance & Accounting,Break-Even Point,"The level of sales at which total costs equal total revenue, resulting in no profit and no loss.",,,
+LC Business,Finance & Accounting,Capital,The funds invested in a business.,,,
+LC Business,Finance & Accounting,Capital Employed,The total long-term finance invested in the business. (Total Assets - Current Liabilities).,,,
+LC Business,Finance & Accounting,Capital Expenditure,Money spent by a business on fixed assets.,,,
+LC Business,Finance & Accounting,Capital Gains Tax,A tax on the profit made from the sale of an asset.,,,
+LC Business,Finance & Accounting,Cash Flow,The movement of money into and out of a business.,,,
+LC Business,Finance & Accounting,Cash Flow Forecast,A financial document that estimates the flow of cash in and out of a business over a period of time.,,,
+LC Business,Finance & Accounting,Cash Inflow,Money coming into the business.,,,
+LC Business,Finance & Accounting,Cash Outflow,Money going out of the business.,,,
+LC Business,Finance & Accounting,Closing Stock,The value of stock held by a business at the end of an accounting period.,,,
+LC Business,Finance & Accounting,Cost of Sales,The direct costs attributable to the production of the goods sold by a company.,,,
+LC Business,Finance & Accounting,Creditors,People or businesses to whom the business owes money.,,,
+LC Business,Finance & Accounting,Current Assets,Assets that are expected to be converted into cash within one year.,,,
+LC Business,Finance & Accounting,Current Liabilities,Debts that must be paid within one year.,,,
+LC Business,Finance & Accounting,Current Ratio,"A measure of liquidity, calculated as Current Assets divided by Current Liabilities.",,,
+LC Business,Finance & Accounting,Debenture,"A long-term loan issued by a company, with a fixed rate of interest.",,,
+LC Business,Finance & Accounting,Debtors,People or businesses who owe money to the business.,,,
+LC Business,Finance & Accounting,Depreciation,The reduction in the value of a fixed asset over time due to wear and tear or obsolescence.,,,
+LC Business,Finance & Accounting,Dividend,The part of a company's profit that is paid to shareholders.,,,
+LC Business,Finance & Accounting,Drawings,Money or assets taken out of a business by its owner(s) for personal use.,,,
+LC Business,Finance & Accounting,Equity Capital,"Money invested in a business by its owners, e.g., through the sale of shares.",,,
+LC Business,Finance & Accounting,Expenses,The costs incurred by a business in the process of earning revenue.,,,
+LC Business,Finance & Accounting,Factoring,A financial service where a business sells its accounts receivable (invoices) to a third party at a discount.,,,
+LC Business,Finance & Accounting,Financial Ratios,Calculations used to analyse and interpret financial statements.,,,
+LC Business,Finance & Accounting,Fixed Assets,Assets that a business holds for a long period of time.,,,
+LC Business,Finance & Accounting,Fixed Costs,Costs that do not change with the level of output.,,,
+LC Business,Finance & Accounting,Gearing Ratios,Ratios that measure the proportion of a business's capital that comes from long-term loans.,,,
+LC Business,Finance & Accounting,Goodwill,An intangible asset representing the value of a business's reputation and customer base.,,,
+LC Business,Finance & Accounting,Grant,"A sum of money given by a government or other organisation for a specific purpose, which does not need to be repaid.",,,
+LC Business,Finance & Accounting,Gross Profit,The profit a business makes from selling goods or services. (Sales Revenue - Cost of Sales).,,,
+LC Business,Finance & Accounting,Gross Profit Margin,The ratio of gross profit to sales revenue. (Gross Profit / Sales Revenue) x 100.,,,
+LC Business,Finance & Accounting,Hire Purchase,A method of buying an asset by paying an initial deposit and then regular instalments over a period of time.,,,
+LC Business,Finance & Accounting,Income Statement,A financial statement that reports a company's financial performance over a specific period of time (also known as a Profit and Loss Account).,,,
+LC Business,Finance & Accounting,Insolvency,When a business is unable to pay its debts as they fall due.,,,
+LC Business,Finance & Accounting,Intangible Asset,"An asset that is not physical in nature, such as goodwill, patents, or brand recognition.",,,
+LC Business,Finance & Accounting,Leasing,Renting an asset for a fixed period. The leasing company (lessor) retains ownership.,,,
+LC Business,Finance & Accounting,Liabilities,Money owed by a business to others.,,,
+LC Business,Finance & Accounting,Liquidation,"The process of closing a business, selling its assets to pay its debts.",,,
+LC Business,Finance & Accounting,Liquidity,The ability of a business to meet its short-term financial obligations.,,,
+LC Business,Finance & Accounting,Liquidity Ratios,"Ratios that measure a business's ability to pay its short-term debts, e.g., Current Ratio, Acid Test Ratio.",,,
+LC Business,Finance & Accounting,Long-Term Finance,"Finance needed for more than five years, e.g., equity, debentures, mortgage.",,,
+LC Business,Finance & Accounting,Long-Term Liability,"A debt that is not due to be repaid within one year, e.g., debenture, mortgage.",,,
+LC Business,Finance & Accounting,Medium-Term Finance,"Finance needed for one to five years, e.g., hire purchase, leasing, medium-term loan.",,,
+LC Business,Finance & Accounting,Net Cash,The difference between cash inflows and cash outflows in a period. (Inflows - Outflows).,,,
+LC Business,Finance & Accounting,Net Profit,The profit remaining after all expenses have been deducted from sales revenue.,,,
+LC Business,Finance & Accounting,Net Profit Margin,The ratio of net profit to sales revenue. (Net Profit / Sales Revenue) x 100.,,,
+LC Business,Finance & Accounting,Opening Stock,The value of stock held by a business at the start of an accounting period.,,,
+LC Business,Finance & Accounting,Prepaid Expenses,Expenses that have been paid in advance at the end of an accounting period.,,,
+LC Business,Finance & Accounting,Profit and Loss Account,"A financial statement showing a business's revenue, expenses, and profit or loss over a period of time.",,,
+LC Business,Finance & Accounting,Profitability Ratios,"Ratios that measure a business's ability to generate profit, e.g., Gross Profit Margin, Net Profit Margin.",,,
+LC Business,Finance & Accounting,Provision for Doubtful Debts,An estimate of the amount of money owed by debtors that may not be collected.,,,
+LC Business,Finance & Accounting,Ratio Analysis,The use of financial ratios to analyse a company's performance.,,,
+LC Business,Finance & Accounting,Retained Earnings,"Profits kept in the business after tax and dividends have been paid, used for re-investment.",,,
+LC Business,Finance & Accounting,Return on Investment (ROI),A profitability ratio that measures the gain or loss generated on an investment relative to its cost. (Net Profit / Capital Employed) x 100.,,,
+LC Business,Finance & Accounting,Revenue,The total amount of income generated by the sale of goods or services.,,,
+LC Business,Finance & Accounting,Revenue Expenditure,Money spent by a business on day-to-day running costs.,,,
+LC Business,Finance & Accounting,Share Capital,The part of a company's capital that comes from the issue of shares.,,,
+LC Business,Finance & Accounting,Short-Term Finance,"Finance needed for up to one year, e.g., bank overdraft, trade credit.",,,
+LC Business,Finance & Accounting,Source of Finance,"Where a business gets its money from, categorised as short-term, medium-term, or long-term.",,,
+LC Business,Finance & Accounting,Statement of Financial Position,"A financial statement that summarises a company's assets, liabilities, and equity at a specific point in time (also known as a Balance Sheet).",,,
+LC Business,Finance & Accounting,Trade Credit,Buying goods from a supplier and paying for them at a later date.,,,
+LC Business,Finance & Accounting,Trial Balance,A bookkeeping worksheet in which the balances of all ledgers are compiled into debit and credit columns.,,,
+LC Business,Finance & Accounting,Variable Costs,Costs that change directly with the level of output.,,,
+LC Business,Finance & Accounting,Venture Capital,Finance provided by investors to start-up firms and small businesses with perceived long-term growth potential.,,,
+LC Business,Finance & Accounting,Working Capital,The money available for the day-to-day running of a business. Calculated as Current Assets - Current Liabilities.,,,
+LC Business,Finance & Accounting,Working Capital Cycle,The period of time from the purchase of raw materials to the collection of cash from sales.,,,
+LC Business,Management & HRM,Absenteeism,The practice of regularly staying away from work without good reason.,,,
+LC Business,Management & HRM,Apprenticeship,A system of training a new generation of practitioners of a trade or profession with on-the-job training and often some accompanying study.,,,
+LC Business,Management & HRM,Autocratic Leadership,A leadership style where the manager makes all decisions without consultation.,,,
+LC Business,Management & HRM,Benefit-in-kind,"A non-cash benefit provided to an employee, such as a company car or private health insurance, which is taxable.",,,
+LC Business,Management & HRM,Chain of Command,The line of authority within a business along which instructions are passed.,,,
+LC Business,Management & HRM,Commission,A payment system where employees receive a percentage of the sales they make.,,,
+LC Business,Management & HRM,Communication,The exchange of information between people or groups.,,,
+LC Business,Management & HRM,Conciliation,"A process in which a third party acts as a go-between, helping to resolve a dispute by facilitating communication.",,,
+LC Business,Management & HRM,Constructive Dismissal,When an employee resigns because the employer has made their working life so difficult it is untenable.,,,
+LC Business,Management & HRM,Controlling,"Monitoring performance, comparing it with targets, and taking corrective action if necessary.",,,
+LC Business,Management & HRM,Delegation,The assignment of authority and responsibility to another person to carry out specific activities.,,,
+LC Business,Management & HRM,Democratic Leadership,A leadership style where the manager involves employees in decision-making.,,,
+LC Business,Management & HRM,Development,Long-term training focused on helping an employee realise their full potential.,,,
+LC Business,Management & HRM,Disciplinary Procedure,A formal process for dealing with employee misconduct or poor performance.,,,
+LC Business,Management & HRM,Dismissal,The termination of an employee's contract by an employer.,,,
+LC Business,Management & HRM,Employment Equality Acts 1998-2015,Legislation that prohibits discrimination in the workplace on nine specific grounds.,,,
+LC Business,Management & HRM,Empowerment,Giving employees the authority and responsibility to make their own decisions about their work.,,,
+LC Business,Management & HRM,Flexitime,"A system where employees can choose their own starting and finishing times, within certain limits.",,,
+LC Business,Management & HRM,Glass Ceiling,"An unacknowledged barrier to advancement in a profession, especially affecting women and members of minorities.",,,
+LC Business,Management & HRM,Golden Handshake,"A large payment made to an employee when they leave a company, especially upon retirement or redundancy.",,,
+LC Business,Management & HRM,Grievance,A formal complaint made by an employee to their employer.,,,
+LC Business,Management & HRM,Grievance Procedure,A formal process for employees to raise complaints with their employer.,,,
+LC Business,Management & HRM,Human Resource Management (HRM),"The management of a business's workforce, including recruitment, selection, training, and motivation.",,,
+LC Business,Management & HRM,Induction Training,"Training provided to new employees to introduce them to the job, their colleagues, and the business.",,,
+LC Business,Management & HRM,Industrial Relations,The relationship between employers and employees in a business.,,,
+LC Business,Management & HRM,Job Description,"A document outlining the duties, tasks, and responsibilities of a specific job.",,,
+LC Business,Management & HRM,Job Enlargement,Increasing the number of tasks an employee performs in their job.,,,
+LC Business,Management & HRM,Job Enrichment,Giving employees more challenging and interesting tasks and greater responsibility.,,,
+LC Business,Management & HRM,Job Rotation,Moving employees from one job to another to provide them with a greater variety of tasks.,,,
+LC Business,Management & HRM,Job Sharing,A flexible work arrangement where two part-time employees share the responsibilities of one full-time job.,,,
+LC Business,Management & HRM,Labour Court,"A court of last resort for industrial disputes, which investigates disputes and makes recommendations.",,,
+LC Business,Management & HRM,Labour Turnover,The rate at which employees leave a company and are replaced.,,,
+LC Business,Management & HRM,Laissez-Faire Leadership,A leadership style where the manager gives employees the freedom to make their own decisions.,,,
+LC Business,Management & HRM,Leadership,The ability to influence and direct people in order to achieve the goals of a group.,,,
+LC Business,Management & HRM,Leadership Styles,The different ways a manager can lead a team.,,,
+LC Business,Management & HRM,Leading,Motivating and influencing staff to achieve business objectives.,,,
+LC Business,Management & HRM,Management,"The process of planning, organising, and controlling the resources of a business to achieve its goals.",,,
+LC Business,Management & HRM,Maslow's Hierarchy of Needs,"A theory of motivation with a five-tier model of human needs: Physiological, Safety, Social, Esteem, Self-Actualisation.",,,
+LC Business,Management & HRM,McGregor's Theory X,A management theory assuming employees are inherently lazy and will avoid work if they can.,,,
+LC Business,Management & HRM,McGregor's Theory Y,"A management theory assuming employees are ambitious, self-motivated, and enjoy their work.",,,
+LC Business,Management & HRM,Motivation,The willingness of people to work hard and contribute their best efforts to a task.,,,
+LC Business,Management & HRM,Official Strike,A strike approved by a secret ballot of union members and supported by the union.,,,
+LC Business,Management & HRM,Off-the-job Training,Training that takes place away from the normal work environment.,,,
+LC Business,Management & HRM,On-the-job Training,Training that takes place in the normal work environment.,,,
+LC Business,Management & HRM,Organisational Structure,"The way a business is organised in terms of departments, authority, and communication.",,,
+LC Business,Management & HRM,Organising,"Arranging resources (people, finance, materials) in the most effective way to achieve objectives.",,,
+LC Business,Management & HRM,Performance Appraisal,"A formal review of an employee's performance, identifying strengths and weaknesses.",,,
+LC Business,Management & HRM,Person Specification,"A document detailing the qualifications, skills, experience, and characteristics needed to do a job.",,,
+LC Business,Management & HRM,Piece Rate,A payment system where employees are paid based on the number of items they produce.,,,
+LC Business,Management & HRM,Planning,Setting objectives and goals for the business and deciding how to achieve them.,,,
+LC Business,Management & HRM,Recruitment,The process of attracting suitable candidates to apply for a job vacancy.,,,
+LC Business,Management & HRM,Redundancy,"When an employee's job no longer exists, and they lose their job through no fault of their own.",,,
+LC Business,Management & HRM,Selection,The process of choosing the most suitable candidate for a job from all applicants.,,,
+LC Business,Management & HRM,Shop Steward,An elected representative of a trade union in a workplace.,,,
+LC Business,Management & HRM,Span of Control,The number of subordinates who report directly to a manager.,,,
+LC Business,Management & HRM,Teamwork,A group of people working together to achieve a common goal.,,,
+LC Business,Management & HRM,Time Rate,A payment system where employees are paid based on the number of hours they work.,,,
+LC Business,Management & HRM,Trade Dispute,"A disagreement between an employer and employees over issues such as pay, conditions, or terms of employment.",,,
+LC Business,Management & HRM,Trade Union,An organisation that represents employees and negotiates with employers on their behalf.,,,
+LC Business,Management & HRM,Training,Providing employees with the skills and knowledge needed to perform their jobs effectively.,,,
+LC Business,Management & HRM,Unfair Dismissals Act 1977-2015,Legislation that protects employees from being dismissed unfairly by their employer.,,,
+LC Business,Management & HRM,Unofficial Strike,A strike undertaken by employees without the consent or support of their union.,,,
+LC Business,Management & HRM,Whistleblowing,When an employee reports illegal or unethical practices within their company to an outside authority.,,,
+LC Business,Management & HRM,Workforce Planning,Estimating the future demand for employees and ensuring the business has the right number of staff with the right skills.,,,
+LC Business,Management & HRM,Work-life Balance,The concept of proper prioritisation between work and leisure time.,,,
+LC Business,Management & HRM,Workplace Relations Commission (WRC),A state body that promotes good industrial relations and helps resolve disputes.,,,
+LC Business,Management & HRM,Work-to-Rule,A form of industrial action where employees do the bare minimum required by their contract.,,,
+LC Business,Marketing,Above-the-line Promotion,"Promotional activities that use mass media, such as TV, radio, and newspapers.",,,
+LC Business,Marketing,Advertising,"Paid, non-personal communication of information about a product or service through media.",,,
+LC Business,Marketing,AIDA Model,"A model used in promotion that describes the steps a customer goes through: Awareness, Interest, Desire, Action.",,,
+LC Business,Marketing,Below-the-line Promotion,"Promotional activities that the business has direct control over, such as sales promotions, direct mail, and PR.",,,
+LC Business,Marketing,Brand,"A name, term, sign, symbol, or design that identifies the products of a company.",,,
+LC Business,Marketing,Brand Loyalty,The tendency of consumers to continuously purchase one brand's products over another's.,,,
+LC Business,Marketing,Branding,"Creating a unique name, symbol, or design that identifies and differentiates a product from others.",,,
+LC Business,Marketing,Channels of Distribution,The path a product takes from the producer to the consumer.,,,
+LC Business,Marketing,Consumer Protection,Laws and organisations that protect consumers.,,,
+LC Business,Marketing,Consumerism,A social movement that seeks to protect and enhance the rights of consumers.,,,
+LC Business,Marketing,Corporate Image,"The public's perception of a company, formed by its products, services, and reputation.",,,
+LC Business,Marketing,Cost-Plus Pricing,Setting a price by adding a percentage mark-up to the cost of producing the product.,,,
+LC Business,Marketing,Customer Loyalty,A customer's willingness to buy from a particular brand repeatedly.,,,
+LC Business,Marketing,Digital Marketing,The promotion of products or brands using electronic devices or the internet.,,,
+LC Business,Marketing,Direct Mail,Sending promotional materials directly to target customers through the post.,,,
+LC Business,Marketing,Direct Marketing,"Promotional activities that communicate directly with individual consumers, e.g., direct mail, telemarketing.",,,
+LC Business,Marketing,E-Commerce,The buying and selling of goods and services over the internet.,,,
+LC Business,Marketing,Focus Group,"A small group of people brought together to discuss their opinions on a product, service, or concept.",,,
+LC Business,Marketing,Impulse Buying,"The unplanned decision to buy a product or service, made just before a purchase.",,,
+LC Business,Marketing,Loss Leader,A product sold at a very low price to attract customers into a store.,,,
+LC Business,Marketing,Market Research,"The process of gathering, recording, and analysing data about the market.",,,
+LC Business,Marketing,Market Segmentation,"Dividing the market into distinct groups of buyers with different needs, characteristics, or behaviours.",,,
+LC Business,Marketing,Market Share,The portion of a market controlled by a particular company or product.,,,
+LC Business,Marketing,Marketing,"The process of identifying, anticipating, and satisfying customer needs profitably.",,,
+LC Business,Marketing,Marketing Mix,"The combination of product, price, place, and promotion.",,,
+LC Business,Marketing,Marketing Research,"The systematic gathering, recording, and analysing of data about problems relating to the marketing of goods and services.",,,
+LC Business,Marketing,Marketing Strategy,A business's plan for reaching its target customers and converting them into customers of its products or services.,,,
+LC Business,Marketing,Merchandising,The way in which goods are presented and promoted in a retail store to maximise sales.,,,
+LC Business,Marketing,Niche Market,"A small, specialised segment of a larger market.",,,
+LC Business,Marketing,Own-Brand Products,"Products that are sold by a retailer under its own name, rather than the name of the manufacturer.",,,
+LC Business,Marketing,Penetration Pricing,Setting a low initial price to attract a large number of buyers quickly and win market share.,,,
+LC Business,Marketing,Personal Selling,Direct communication between a salesperson and a potential customer.,,,
+LC Business,Marketing,Place,Where the product is sold and the channel of distribution used to get it to the customer.,,,
+LC Business,Marketing,Price,The amount of money a customer pays for a product or service.,,,
+LC Business,Marketing,Price Skimming,Setting a high price for a new product to maximise revenue before competitors enter the market.,,,
+LC Business,Marketing,Primary Research (Field Research),"Gathering new, first-hand information directly from the source.",,,
+LC Business,Marketing,Product,The good or service being sold to the customer.,,,
+LC Business,Marketing,Product Life Cycle,"The stages a product goes through from introduction to withdrawal: Introduction, Growth, Maturity, Saturation, Decline.",,,
+LC Business,Marketing,Product Portfolio,The range of products a company offers for sale.,,,
+LC Business,Marketing,Promotion,All the activities used to communicate with customers and persuade them to buy the product.,,,
+LC Business,Marketing,Promotional Mix,"The combination of promotional tools used to promote a product: Advertising, Sales Promotion, Public Relations, Personal Selling.",,,
+LC Business,Marketing,Psychological Pricing,"Setting prices that have a special appeal to target consumers, e.g., €9.99 instead of €10.",,,
+LC Business,Marketing,Public Relations (PR),Building a positive image and relationship between the business and its public.,,,
+LC Business,Marketing,Publicity,Gaining media coverage for a business or its products without directly paying for it.,,,
+LC Business,Marketing,Qualitative Research,"Research that gathers non-numerical data, such as opinions and attitudes.",,,
+LC Business,Marketing,Quantitative Research,Research that gathers numerical data and can be statistically analysed.,,,
+LC Business,Marketing,Relationship Marketing,A marketing strategy focused on customer loyalty and long-term engagement rather than short-term sales.,,,
+LC Business,Marketing,Retailer,A business that sells goods directly to consumers.,,,
+LC Business,Marketing,Sales Promotion,"Short-term incentives to encourage the purchase of a product, e.g., free samples, competitions, loyalty cards.",,,
+LC Business,Marketing,Secondary Research (Desk Research),Using existing information that has already been collected by others.,,,
+LC Business,Marketing,Sponsorship,"When a business pays to be associated with an event, team, or individual to increase its brand awareness.",,,
+LC Business,Marketing,SWOT Analysis,"A planning tool used to evaluate a business's strengths, weaknesses, opportunities, and threats.",,,
+LC Business,Marketing,Target Market,A specific group of consumers at which a product or service is aimed.,,,
+LC Business,Marketing,Telemarketing,The promotion of goods or services by telephone.,,,
+LC Business,Marketing,Unique Selling Proposition (USP),A feature of a product that makes it different from and better than its competitors.,,,
+LC Business,Marketing,Wholesaler,A business that buys goods in large quantities from producers and sells them in smaller quantities to retailers.,,,
+LC Business,Operations Management,Automation,"The use of technology and control systems to operate machinery and processes, reducing the need for human labour.",,,
+LC Business,Operations Management,Batch Production,Producing a limited number of identical items in a group or batch.,,,
+LC Business,Operations Management,Break-even Analysis,A tool used to determine the sales volume that must be achieved to cover all costs.,,,
+LC Business,Operations Management,Break-even Point,The point where a company's total revenue equals its total costs.,,,
+LC Business,Operations Management,Buffer Stock,A minimum level of stock held to protect against unforeseen shortages or increases in demand.,,,
+LC Business,Operations Management,Economies of Scale,Cost advantages that a business can enjoy as it increases its scale of production.,,,
+LC Business,Operations Management,Ergonomics,"The study of how people work in their environment, aiming to improve efficiency and safety.",,,
+LC Business,Operations Management,Fixed Costs,Costs that do not change with the level of output.,,,
+LC Business,Operations Management,Inventory,"The stock of goods that a business holds for sale, production, or use.",,,
+LC Business,Operations Management,Inventory Control,The process of managing the amount of stock on hand.,,,
+LC Business,Operations Management,ISO 9000,A series of international standards for quality management systems.,,,
+LC Business,Operations Management,Job Production,"Producing a single, unique item to a customer's specific order.",,,
+LC Business,Operations Management,Just-In-Time (JIT),A stock control system where materials are delivered just as they are needed for production.,,,
+LC Business,Operations Management,Lean Production,"An approach to management that focuses on cutting out waste, whilst ensuring quality.",,,
+LC Business,Operations Management,Logistics,"The overall process of managing how resources are acquired, stored, and transported to their final destination.",,,
+LC Business,Operations Management,Mass Customisation,A marketing and manufacturing technique that combines the flexibility and personalisation of 'custom-made' with the low unit costs of mass production.,,,
+LC Business,Operations Management,Mass Production,The continuous production of large quantities of standardised products.,,,
+LC Business,Operations Management,Operations Management,The management of the processes that transform resources into finished goods or services.,,,
+LC Business,Operations Management,Outsourcing,Hiring another company to perform a specific task or function for the business.,,,
+LC Business,Operations Management,Production,The process of making or manufacturing goods.,,,
+LC Business,Operations Management,Productivity,"A measure of efficiency, calculated as output divided by input.",,,
+LC Business,Operations Management,Quality Assurance,A system that aims to prevent defects by building quality into the production process itself.,,,
+LC Business,Operations Management,Quality Circles,"Small groups of employees who meet regularly to identify, analyse, and solve work-related problems and improve quality.",,,
+LC Business,Operations Management,Quality Control,A system of inspecting products to ensure they meet the required standards.,,,
+LC Business,Operations Management,Quality Management,The processes and systems used to ensure products or services meet customer expectations.,,,
+LC Business,Operations Management,Stock Control,"Managing the levels of raw materials, work-in-progress, and finished goods held by a business.",,,
+LC Business,Operations Management,Supply Chain,"The entire process of making and selling commercial goods, from the initial sourcing of materials to the final delivery of products to end users.",,,
+LC Business,Operations Management,Supply Chain Management,"The management of the flow of goods and services, from the origin of raw materials to the final consumption.",,,
+LC Business,Operations Management,Total Quality Management (TQM),A business-wide approach where everyone is committed to achieving high quality.,,,
+LC Business,Starting a Business,AGM (Annual General Meeting),A mandatory yearly meeting of a company's shareholders.,,,
+LC Business,Starting a Business,Articles of Association,A legal document that outlines the internal rules for running a company.,,,
+LC Business,Starting a Business,Business Angels,"Wealthy individuals who provide capital for a business start-up, usually in exchange for convertible debt or ownership equity.",,,
+LC Business,Starting a Business,Business Plan,A detailed document outlining the objectives of a new business and how it will achieve them.,,,
+LC Business,Starting a Business,Certificate of Incorporation,The legal document that officially creates a company and makes it a separate legal entity.,,,
+LC Business,Starting a Business,Contribution,"If an item is insured with two companies, they will divide the cost of any claim between them.",,,
+LC Business,Starting a Business,Co-operative,"A business owned and run jointly by its members, who share the profits or benefits.",,,
+LC Business,Starting a Business,Copyright,"A legal right that protects the original work of an author, artist, or composer.",,,
+LC Business,Starting a Business,Crowdfunding,"The practice of funding a project or venture by raising small amounts of money from a large number of people, typically via the internet.",,,
+LC Business,Starting a Business,Deed of Partnership,"A legal document that sets out the rules for a partnership, such as how profits will be shared and how the business will be run.",,,
+LC Business,Starting a Business,Franchise,"An arrangement where a business (franchisor) allows another business (franchisee) to use its name, logo, and business model in return for a fee.",,,
+LC Business,Starting a Business,Franchisee,The business that pays for the right to use another company's brand and business model.,,,
+LC Business,Starting a Business,Franchising,A business model where one company sells the right to use its name and products to another business.,,,
+LC Business,Starting a Business,Franchisor,The business that licenses its brand and business model to another business.,,,
+LC Business,Starting a Business,Grant Aid,"Financial assistance provided by the government or other bodies, which does not have to be repaid.",,,
+LC Business,Starting a Business,Incorporation,The legal process of forming a company.,,,
+LC Business,Starting a Business,Indemnity,You cannot make a profit from an insurance claim.,,,
+LC Business,Starting a Business,Insurable Interest,"To insure something, you must benefit from its existence and suffer from its loss.",,,
+LC Business,Starting a Business,Insurance,A contract that provides financial protection against a possible loss.,,,
+LC Business,Starting a Business,Intellectual Property,"Creations of the mind, such as inventions, literary and artistic works, designs, symbols, names, and images used in commerce.",,,
+LC Business,Starting a Business,Limited Company,A business with a separate legal identity from its owners.,,,
+LC Business,Starting a Business,Limited Liability,"A legal status where a person's financial liability is limited to a fixed sum, most commonly the value of their investment in a company.",,,
+LC Business,Starting a Business,Limited Liability Partnership (LLP),A partnership where some or all of the partners have limited liability.,,,
+LC Business,Starting a Business,Limited Partnership,A partnership with at least one general partner (unlimited liability) and one limited partner (limited liability).,,,
+LC Business,Starting a Business,Memorandum of Association,"A legal document that sets out the company's name, registered office, and objectives.",,,
+LC Business,Starting a Business,Partnership,"A business owned by two to twenty partners, who typically have unlimited liability.",,,
+LC Business,Starting a Business,Partnership Agreement,A legal document that outlines the terms of a partnership.,,,
+LC Business,Starting a Business,Patent,"A legal right granted to an inventor that prevents others from making, using, or selling their invention for a fixed period.",,,
+LC Business,Starting a Business,Premium,The fee paid to an insurance company for cover.,,,
+LC Business,Starting a Business,Private Limited Company (Ltd),"A business owned by one or more shareholders (up to 149), with limited liability. Shares are not available to the public.",,,
+LC Business,Starting a Business,Public Limited Company (PLC),"A business owned by shareholders (minimum of one), with limited liability. Shares can be bought and sold by the public on the stock exchange.",,,
+LC Business,Starting a Business,Sole Trader,"A business owned and controlled by one person, with unlimited liability.",,,
+LC Business,Starting a Business,State-owned Enterprise,A business that is owned and operated by the government.,,,
+LC Business,Starting a Business,Subrogation,"Once an insurance company pays compensation, it takes over the right to sue any third party responsible for the loss.",,,
+LC Business,Starting a Business,Trademark,"A symbol, word, or words legally registered to represent a company or product.",,,
+LC Business,Starting a Business,Unlimited Company,A company where the liability of its shareholders is not limited.,,,
+LC Business,Starting a Business,Unlimited Liability,The owner of a business is personally responsible for all the debts of the business.,,,
+LC Business,Starting a Business,Utmost Good Faith,You must disclose all relevant information when applying for insurance.,,,
+LC Business,Starting a Business,Venture Capital,A form of private equity and a type of financing that investors provide to start-up companies and small businesses that are believed to have long-term growth potential.,,,
+subject,category,term,definition,,,
+LC Constr Studies,Health & Safety,PPE,"Personal Protective Equipment, such as a hard hat, steel-toed boots, high-vis vest, gloves, and safety glasses.",,,
+LC Constr Studies,Health & Safety,Safety Statement,"A written document outlining how a company manages health and safety in the workplace, identifying hazards and assessing risks.",,,
+LC Constr Studies,Health & Safety,Risk Assessment,The process of identifying potential hazards and analyzing what could happen if a hazard occurs.,,,
+LC Constr Studies,Health & Safety,Manual Handling,The transporting or supporting of a load by hand or bodily force. It is a common cause of workplace injuries.,,,
+LC Constr Studies,Health & Safety,Safe Pass,"A one-day safety awareness programme for construction workers, required for anyone working on a construction site.",,,
+LC Constr Studies,Health & Safety,Scaffolding Tag System,"A system (e.g., green, yellow, red tags) used to indicate the safety status of scaffolding. Green means it is safe to use.",,,
+LC Constr Studies,Health & Safety,HSA,Health and Safety Authority. The state agency in Ireland responsible for workplace health and safety.,,,
+LC Constr Studies,Health & Safety,Hazard,"Anything with the potential to cause harm, such as trailing cables, working at height, or asbestos.",,,
+LC Constr Studies,Health & Safety,Toolbox Talk,"An informal safety meeting, usually held on-site, that focuses on a specific job-related safety topic.",,,
+LC Constr Studies,Health & Safety,First Aid,Immediate assistance given to any person suffering a sudden illness or injury.,,,
+LC Constr Studies,Site Preliminaries,Site Investigation,The process of collecting information about a site's ground conditions to determine its suitability for a proposed construction project.,,,
+LC Constr Studies,Site Preliminaries,Trial Hole,A pit dug on-site to examine the soil profile and determine the depth of the water table.,,,
+LC Constr Studies,Site Preliminaries,Percolation Test,A test to determine the absorption rate of soil for a septic tank drain field or soakaway.,,,
+LC Constr Studies,Site Preliminaries,Planning Permission,Formal permission from a local authority for the erection or alteration of buildings or other structures.,,,
+LC Constr Studies,Site Preliminaries,Building Regulations,"A set of legal requirements for the design and construction of new buildings, extensions, and material alterations to ensure health, safety, and welfare.",,,
+LC Constr Studies,Site Preliminaries,Site Plan,"A drawing showing the layout of a property or group of properties, including boundaries, buildings, and access routes.",,,
+LC Constr Studies,Site Preliminaries,Ordnance Datum (OD),The height of a point on land in relation to mean sea level. Used as a reference point for levelling.,,,
+LC Constr Studies,Site Preliminaries,Environmental Impact Assessment (EIA),A formal process to predict the environmental consequences of a proposed development before it is carried out.,,,
+LC Constr Studies,Site Preliminaries,Setting Out,"The process of transferring the building design from drawings onto the ground, marking out the position of foundations and walls.",,,
+LC Constr Studies,Site Preliminaries,Profiles,"Timber frames erected clear of the foundation trenches, onto which the building lines are transferred and held.",,,
+LC Constr Studies,Substructure,Foundations,The part of the structure that transmits the building's load to the supporting ground.,,,
+LC Constr Studies,Substructure,Strip Foundation,A continuous strip of concrete that supports load-bearing walls.,,,
+LC Constr Studies,Substructure,Raft Foundation,"A large slab of concrete covering the entire footprint of a building, used on soft or unstable ground.",,,
+LC Constr Studies,Substructure,Pile Foundation,"Long columns of concrete, steel, or timber driven into the ground to transfer loads to a deeper, more stable soil layer.",,,
+LC Constr Studies,Substructure,Pad Foundation,"An isolated concrete pad used to support a single point load, such as a column.",,,
+LC Constr Studies,Substructure,Rising Wall / Substructure Wall,The wall built from the top of the foundation up to the ground floor level (DPC level).,,,
+LC Constr Studies,Substructure,Hardcore,A layer of broken stones or rubble compacted to provide a solid base for a ground floor slab.,,,
+LC Constr Studies,Substructure,Blinding,"A thin layer of fine material, like sand or weak concrete, laid over hardcore to create a smooth, level surface.",,,
+LC Constr Studies,Substructure,Radon,"A radioactive gas that comes from the ground and can accumulate in buildings, posing a health risk.",,,
+LC Constr Studies,'Substructure','Radon Barrier','A membrane installed in the floor construction to prevent radon gas from entering the building.',,,
+LC Constr Studies,Substructure,DPC,Damp Proof Course. An impermeable layer built into a wall to prevent rising damp.,,,
+LC Constr Studies,Substructure,DPM,"Damp Proof Membrane. A sheet of impermeable material, like polythene, laid under a concrete floor to prevent moisture from the ground rising into the building.",,,
+LC Constr Studies,Substructure,Solid Ground Floor,A floor consisting of a concrete slab cast directly onto a hardcore base.,,,
+LC Constr Studies,Substructure,Suspended Timber Floor,"A floor consisting of timber joists supported by sleeper walls, creating a void underneath.",,,
+LC Constr Studies,Substructure,Sleeper Walls,Small walls built on top of the foundations to provide intermediate support for the joists in a suspended timber floor.,,,
+LC Constr Studies,Substructure,Air Bricks / Vents,Bricks with small openings built into the rising walls of a suspended floor to ensure adequate sub-floor ventilation.,,,
+LC Constr Studies,Superstructure,Cavity Wall,A wall constructed of two separate leaves (inner and outer) with a continuous air gap (cavity) in between.,,,
+LC Constr Studies,Superstructure,Inner Leaf,"The internal skin of a cavity wall, usually built from concrete blocks and is load-bearing.",,,
+LC Constr Studies,Superstructure,Outer Leaf,"The external skin of a cavity wall, which protects the structure from weather. Usually made of brick or rendered block.",,,
+LC Constr Studies,Superstructure,Wall Ties,"Metal strips (often stainless steel) used to tie the inner and outer leaves of a cavity wall together, providing stability.",,,
+LC Constr Studies,Superstructure,Weep Holes,"Small openings left in the mortar joints of the outer leaf, just above the DPC and lintels, to allow trapped moisture to escape.",,,
+LC Constr Studies,Superstructure,Lintel,A horizontal beam of concrete or steel placed above an opening (like a door or window) to support the load above it.,,,
+LC Constr Studies,Superstructure,Reveals,The internal sides of a window or door opening.,,,
+LC Constr Studies,Superstructure,Jambs,The vertical sides of a door or window frame.,,,
+LC Constr Studies,Superstructure,Sill / Cill,"The horizontal component at the bottom of a window opening, designed to shed water away from the wall.",,,
+LC Constr Studies,Superstructure,Timber Frame Construction,"A method of construction where the structural frame is made of timber panels, which are then clad with brick, block, or render.",,,
+LC Constr Studies,Superstructure,Sheathing,"A board or panel material, like plywood or OSB, fastened to the outside of a timber frame to provide structural rigidity.",,,
+LC Constr Studies,Superstructure,Breather Membrane,A membrane fixed to the outside of the timber frame sheathing. It is waterproof but allows water vapour to escape.,,,
+LC Constr Studies,Superstructure,Vapour Control Layer (VCL),A membrane placed on the warm side of the insulation in a timber frame wall to prevent moisture vapour from entering the structure and causing condensation.,,,
+LC Constr Studies,Roofs,Pitched Roof,"A roof that slopes downwards, typically in two parts from a central ridge.",,,
+LC Constr Studies,Roofs,Flat Roof,"A roof that is nearly level, with a very slight slope (fall) to allow rainwater to drain.",,,
+LC Constr Studies,Roofs,Roof Truss,A prefabricated structural framework of timbers designed to bridge the space above a room and provide support for a roof.,,,
+LC Constr Studies,Roofs,Fink Truss,"The most common type of roof truss, shaped like a 'W'.",,,
+LC Constr Studies,Roofs,King Post Truss,"A truss with a central vertical post, used for shorter spans.",,,
+LC Constr Studies,Roofs,Rafter,An inclined timber member that forms the main structure of a pitched roof.,,,
+LC Constr Studies,Roofs,Ridge Board,The horizontal timber at the apex of a pitched roof to which the tops of the rafters are fixed.,,,
+LC Constr Studies,Roofs,Purlin,A horizontal beam that provides intermediate support for the rafters.,,,
+LC Constr Studies,Roofs,Ceiling Joist,A horizontal timber that forms the 'floor' of the attic and the 'ceiling' of the room below. It also ties the feet of the rafters together.,,,
+LC Constr Studies,Roofs,Fascia,"The vertical board fixed to the ends of the rafters, to which the guttering is attached.",,,
+LC Constr Studies,Roofs,Soffit,The board that encloses the underside of the roof overhang.,,,
+LC Constr Studies,Roofs,Bargeboard / Vergeboard,A board fixed to the gable end of a roof to protect the projecting timbers.,,,
+LC Constr Studies,Roofs,Roofing Underlay / Felt,"A waterproof, breathable membrane laid over the rafters before the battens, acting as a secondary barrier against wind and rain.",,,
+LC Constr Studies,Roofs,Battens,"Horizontal timber strips fixed to the rafters, on top of the underlay, to which the roof tiles or slates are attached.",,,
+LC Constr Studies,Roofs,Counter-Battens,"Vertical timber strips fixed directly to the rafters, underneath the main battens, to create a ventilation channel in a warm roof design.",,,
+LC Constr Studies,Roofs,Hipped Roof,"A roof with four sloping sides, eliminating the need for gables.",,,
+LC Constr Studies,Roofs,Gable Roof,"A roof with two sloping sides that meet at a ridge, with a triangular wall (gable) at each end.",,,
+LC Constr Studies,Roofs,Flashing,"Sheet metal (usually lead, copper, or zinc) used to weatherproof junctions, such as where a roof meets a chimney or wall.",,,
+LC Constr Studies,Roofs,Valley,The internal angle formed by the intersection of two sloping roof surfaces.,,,
+LC Constr Studies,Materials - Timber,Softwood,"Timber from coniferous trees (cone-bearing), which are generally fast-growing and have needles. e.g., Scots Pine, Spruce.",,,
+LC Constr Studies,Materials - Timber,Hardwood,"Timber from broad-leaved, deciduous trees, which are generally slow-growing. e.g., Oak, Ash, Teak.",,,
+LC Constr Studies,Materials - Timber,Seasoning,"The controlled process of drying timber to reduce its moisture content, making it more stable and resistant to decay.",,,
+LC Constr Studies,Materials - Timber,Air Seasoning,"A natural method of drying timber by stacking it outdoors, protected from rain, allowing air to circulate freely.",,,
+LC Constr Studies,Materials - Timber,Kiln Seasoning,"A rapid method of drying timber in a controlled chamber (kiln) where temperature, humidity, and air circulation are regulated.",,,
+LC Constr Studies,Materials - Timber,Moisture Content,"The weight of water in a piece of wood, expressed as a percentage of the oven-dry weight of the wood.",,,
+LC Constr Studies,Materials - Timber,Conversion,The process of sawing a felled log into usable timber sections.,,,
+LC Constr Studies,Materials - Timber,Plain Sawn (Through and Through),"The simplest method of conversion, where the log is cut into parallel planks. It is quick but can lead to cupping.",,,
+LC Constr Studies,Materials - Timber,Quarter Sawn,A method of conversion where the log is first cut into quarters and then sawn radially. It produces stable boards with an attractive grain but is more wasteful.,,,
+LC Constr Studies,Materials - Timber,Knot,A defect in timber caused by the base of a branch that was embedded in the tree trunk.,,,
+LC Constr Studies,Materials - Timber,Shake,"A defect in timber where the wood fibres separate along the grain, often caused by stress in the tree during growth.",,,
+LC Constr Studies,Materials - Timber,Twisting / Warping,A distortion in timber where the board turns or bends from its original shape as it dries.,,,
+LC Constr Studies,Materials - Timber,Wood Preservation,The treatment of timber with chemicals to protect it from fungal decay and insect attack.,,,
+LC Constr Studies,Materials - Timber,Pressure Treatment (Tanalising),"A preservation method where timber is placed in a vacuum cylinder, and preservative is forced into the wood under pressure.",,,
+LC Constr Studies,Materials - Timber,Plywood,"A manufactured board made by gluing together thin layers (veneers) of wood, with the grain of each layer at right angles to the next.",,,
+LC Constr Studies,Materials - Timber,MDF (Medium-Density Fibreboard),"A manufactured board made from fine wood fibres mixed with wax and resin, formed into panels by applying high temperature and pressure.",,,
+LC Constr Studies,Materials - Timber,Chipboard / Particleboard,"A manufactured board made from wood chips, sawmill shavings, or even sawdust, mixed with a synthetic resin and pressed.",,,
+LC Constr Studies,Materials - Timber,OSB (Oriented Strand Board),A manufactured board made from compressed layers of wood strands (flakes) in specific orientations.,,,
+LC Constr Studies,Materials - Concrete,Concrete,A composite material composed of fine and coarse aggregate bonded together with a fluid cement that hardens over time.,,,
+LC Constr Studies,Materials - Concrete,Aggregate,"Granular material such as sand, gravel, or crushed stone used with a cement to form concrete.",,,
+LC Constr Studies,Materials - Concrete,Cement,"A binder, a substance used for construction that sets, hardens, and adheres to other materials to bind them together. Most common type is Portland Cement.",,,
+LC Constr Studies,Materials - Concrete,Hydration,The chemical reaction between cement and water that causes concrete to set and harden.,,,
+LC Constr Studies,Materials - Concrete,Curing,"The process of maintaining adequate moisture and temperature in concrete for a period of time after it has been placed, to ensure proper hydration.",,,
+LC Constr Studies,Materials - Concrete,Workability,"The ease with which fresh concrete can be mixed, placed, compacted, and finished without segregation.",,,
+LC Constr Studies,Materials - Concrete,Slump Test,An on-site test to measure the consistency and workability of fresh concrete.,,,
+LC Constr Studies,Materials - Concrete,Cube Test,"A lab test to determine the compressive strength of hardened concrete, performed on cubes of concrete after 7 and 28 days of curing.",,,
+LC Constr Studies,Materials - Concrete,Reinforced Concrete,Concrete in which steel reinforcement (rebar) is embedded to resist tensile forces.,,,
+LC Constr Studies,Materials - Concrete,Pre-stressed Concrete,"Concrete in which internal stresses are introduced before external loads are applied, to counteract the tensile stresses the concrete will be subjected to in service.",,,
+LC Constr Studies,Materials - Concrete,Screed,"A thin layer of material, usually sand and cement, laid on top of a concrete slab to provide a smooth, level finish.",,,
+LC Constr Studies,Materials - Metals,Ferrous Metals,"Metals that contain iron. They are known for their strength and durability but are prone to rust. e.g., Mild Steel, Cast Iron.",,,
+LC Constr Studies,Materials - Metals,Non-Ferrous Metals,"Metals that do not contain iron. They are more resistant to corrosion than ferrous metals. e.g., Aluminium, Copper, Lead, Zinc.",,,
+LC Constr Studies,Materials - Metals,Alloy,"A metal made by combining two or more metallic elements, especially to give greater strength or resistance to corrosion. e.g., Brass (Copper & Zinc), Stainless Steel (Steel & Chromium).",,,
+LC Constr Studies,Materials - Metals,Mild Steel,"A common ferrous metal used for structural sections (RSJs), reinforcement bars, and lintels due to its strength and low cost.",,,
+LC Constr Studies,Materials - Metals,Galvanising,The process of applying a protective zinc coating to steel or iron to prevent rusting.,,,
+LC Constr Studies,Materials - Metals,Aluminium,"A lightweight, corrosion-resistant, non-ferrous metal commonly used for window frames and cladding.",,,
+LC Constr Studies,Materials - Metals,Copper,"A ductile, corrosion-resistant, non-ferrous metal with excellent thermal and electrical conductivity, used for plumbing pipes and electrical wiring.",,,
+LC Constr Studies,Materials - Metals,Lead,"A soft, dense, malleable, non-ferrous metal used for roof flashings due to its durability and ease of forming.",,,
+LC Constr Studies,Materials - Plastics,Plastics,A wide range of synthetic or semi-synthetic materials that use polymers as a main ingredient.,,,
+LC Constr Studies,Materials - Plastics,Thermoplastics,"Plastics that can be repeatedly softened by heating and hardened by cooling. They are recyclable. e.g., PVC, Polythene.",,,
+LC Constr Studies,Materials - Plastics,Thermosetting Plastics,"Plastics that, once 'set' after initial heating, cannot be softened or remoulded. They are not recyclable. e.g., Bakelite (electrical fittings), Urea-Formaldehyde (adhesives).",,,
+LC Constr Studies,Materials - Plastics,PVC (Polyvinyl Chloride),"A common thermoplastic used for window frames, soil and waste pipes, and electrical cable insulation.",,,
+LC Constr Studies,Materials - Plastics,Polythene,"A thermoplastic used for damp-proof membranes (DPM), temporary weather protection, and water pipes.",,,
+LC Constr Studies,Windows & Doors,Casement Window,"A window that is attached to its frame by one or more hinges at the side, opening inwards or outwards.",,,
+LC Constr Studies,Windows & Doors,Sash Window,"A window made of one or more movable panels, or 'sashes', that slide vertically.",,,
+LC Constr Studies,Windows & Doors,Window Frame,"The fixed, non-moving part of a window that holds the sash or casement.",,,
+LC Constr Studies,Windows & Doors,Glazing,The glass panes in a window or door.,,,
+LC Constr Studies,Windows & Doors,Double Glazing,A window unit consisting of two panes of glass separated by a sealed air or gas-filled gap to provide thermal and acoustic insulation.,,,
+LC Constr Studies,Windows & Doors,Low-E Glass (Low-Emissivity),"Glass with a microscopic metallic coating that reflects thermal radiation, keeping heat in during winter and out during summer.",,,
+LC Constr Studies,Windows & Doors,Argon Gas,An inert gas often used to fill the gap in double or triple glazed units to improve thermal insulation.,,,
+LC Constr Studies,Windows &Doors,U-value,"A measure of the rate of heat loss through a material. The lower the U-value, the better the insulation.",,,
+LC Constr Studies,Windows & Doors,Ledged and Braced Door,A simple door made of vertical boards (ledges) held together by horizontal battens (ledges) and a diagonal brace.,,,
+LC Constr Studies,Windows & Doors,Framed, Ledged and Braced Door,Similar to a ledged and braced door but with a surrounding frame for added strength and stability.,,
+LC Constr Studies,Windows & Doors,Panelled Door,"A door constructed with a frame of stiles (vertical members) and rails (horizontal members), with the spaces filled by thinner panels.",,,
+LC Constr Studies,Windows & Doors,Hollow Core Door,"An internal door with a lightweight core (often a honeycomb of cardboard), used where sound insulation is not a priority.",,,
+LC Constr Studies,Windows & Doors,Solid Core Door,"A door with a core of solid wood, chipboard or other composite material, providing better insulation and fire resistance.",,,
+LC Constr Studies,Stairs,Staircase,A set of steps leading from one floor of a building to another.,,,
+LC Constr Studies,Stairs,Straight Flight,A staircase that does not change direction.,,,
+LC Constr Studies,Stairs,Quarter Turn / Dog-Leg Staircase,"A staircase that makes a 90-degree or 180-degree turn, usually at a landing.",,,
+LC Constr Studies,Stairs,Tread,The horizontal part of a step that you walk on.,,,
+LC Constr Studies,Stairs,Riser,The vertical part of a step.,,,
+LC Constr Studies,Stairs,String / Stringer,The inclined board at the side of a staircase that supports the treads and risers.,,,
+LC Constr Studies,Stairs,Newel Post,"The main post at the top, bottom, or at a turn in a staircase that supports the handrail.",,,
+LC Constr Studies,Stairs,Handrail,The rail that is followed by the hand for support when using a staircase.,,,
+LC Constr Studies,Stairs,Baluster / Spindle,The vertical posts that support the handrail.,,,
+LC Constr Studies,Stairs,Balustrade,"The complete assembly of handrail, balusters, and newel posts.",,,
+LC Constr Studies,Stairs,Going,The horizontal distance from the front to the back of a tread.,,,
+LC Constr Studies,Stairs,Rise,The vertical distance from the top of one tread to the top of the next.,,,
+LC Constr Studies,Stairs,Pitch,The angle of inclination of the staircase.,,,
+LC Constr Studies,Stairs,Headroom,The minimum clear vertical height from the pitch line of the stairs to the ceiling or structure above.,,,
+LC Constr Studies,Finishes,Plastering,"The process of applying a plaster mix to walls and ceilings to create a smooth, hard surface.",,,
+LC Constr Studies,Finishes,Scudding / Spatterdash,"The first coat in external plastering (rendering), a wet mix of cement, sand and water thrown onto the wall to provide a key for the next coat.",,,
+LC Constr Studies,Finishes,Scratch Coat,"The first coat of plaster in a three-coat system, which is scratched to provide a key for the next coat.",,,
+LC Constr Studies,Finishes,Floating Coat / Browning Coat,"The second coat of plaster, applied to level the surface.",,,
+LC Constr Studies,Finishes,Setting Coat / Skim Coat,"The final, thin coat of plaster that provides a smooth surface for decorating.",,,
+LC Constr Studies,Finishes,Plasterboard / Drywall,"A panel made of gypsum plaster pressed between two thick sheets of paper, used to make interior walls and ceilings.",,,
+LC Constr Studies,Finishes,Dry Lining,"The process of fixing plasterboard to walls, either by dabs of adhesive or onto a timber framework, as an alternative to wet plastering.",,,
+LC Constr Studies,Finishes,Skirting Board,"A board running along the bottom of an interior wall, covering the joint between the wall surface and the floor.",,,
+LC Constr Studies,Finishes,Architrave,A moulded frame around a doorway or window.,,,
+LC Constr Studies,Building Services - Plumbing,Mains Water Supply,Water supplied directly to a property by a local water authority.,,,
+LC Constr Studies,Building Services - Plumbing,Rising Main,The pipe that carries mains water from the stopcock outside the building up to the cold water storage tank.,,,
+LC Constr Studies,Building Services - Plumbing,Direct System,A plumbing system where all cold water taps are supplied directly from the rising main at mains pressure.,,,
+LC Constr Studies,Building Services - Plumbing,Indirect System,A plumbing system where only the kitchen sink cold tap is supplied directly from the rising main. All other taps are fed from a cold water storage tank in the attic.,,,
+LC Constr Studies,Building Services - Plumbing,Cold Water Storage Tank / Cistern,"A tank, usually in the attic, that stores cold water to supply the hot water cylinder and cold taps (in an indirect system).",,,
+LC Constr Studies,Building Services - Plumbing,Hot Water Cylinder,"An insulated tank used to store hot water, heated either by an electric immersion heater or by the central heating boiler.",,,
+LC Constr Studies,Building Services - Plumbing,Immersion Heater,An electric heating element that is inserted into the hot water cylinder to heat the water.,,,
+LC Constr Studies,Building Services - Plumbing,Airing Cupboard,"A warm cupboard, typically containing the hot water cylinder, used for storing linen.",,,
+LC Constr Studies,Building Services -Plumbing,Soil Pipe,A large diameter pipe that carries waste from toilets to the underground drainage system.,,,
+LC Constr Studies,Building Services - Plumbing,Waste Pipe,"A smaller diameter pipe that carries 'grey water' from sinks, baths, and showers.",,,
+LC Constr Studies,Building Services - Plumbing,U-Bend / Trap,"A U-shaped section of pipe located under sinks and toilets, which holds water to prevent foul-smelling gases from the drainage system entering the house.",,,
+LC Constr Studies,Building Services - Plumbing,Vent Pipe / Soil Vent Pipe (SVP),"A pipe that extends from the soil pipe up to above roof level, allowing gases to escape and preventing a vacuum from forming in the drainage system.",,,
+LC Constr Studies,Building Services - Heating,Central Heating,"A system that heats a whole building from one source, such as a boiler.",,,
+LC Constr Studies,Building Services - Heating,Boiler,"The appliance that burns fuel (e.g., gas, oil) to heat water for the central heating system and domestic hot water.",,,
+LC Constr Studies,Building Services - Heating,Condensing Boiler,A high-efficiency boiler that captures and reuses heat from the flue gases that would otherwise escape into the atmosphere.,,,
+LC Constr Studies,Building Services - Heating,Radiator,A heat exchanger that transfers thermal energy from the hot water circulating through it to the air in a room.,,,
+LC Constr Studies,Building Services - Heating,Thermostatic Radiator Valve (TRV),A self-regulating valve fitted to a radiator that controls the temperature of a room by changing the flow of hot water to the radiator.,,,
+LC Constr Studies,Building Services - Heating,Room Thermostat,A device that senses the air temperature in a room and switches the heating on or off to maintain a pre-set temperature.,,,
+LC Constr Studies,Building Services - Heating,Programmer / Timer,A device that allows the user to set times for when the central heating and hot water should turn on and off.,,,
+LC Constr Studies,Building Services - Electrical,Consumer Unit / Fuse Board,"The main control centre for a building's electrical supply, containing the main switch, circuit breakers, and RCDs.",,,
+LC Constr Studies,Building Services - Electrical,Circuit Breaker,An automatic safety switch that 'trips' (cuts the power) if it detects an overload or short circuit.,,,
+LC Constr Studies,Building Services - Electrical,RCD (Residual Current Device),A life-saving device that quickly breaks an electric circuit to prevent serious harm from an ongoing electric shock.,,,
+LC Constr Studies,Building Services - Electrical,Ring Circuit,"A wiring method where sockets are connected in a loop, starting and finishing at the consumer unit. Used for general purpose sockets.",,,
+LC Constr Studies,Building Services - Electrical,Radial Circuit,A wiring method where a single cable runs from the consumer unit to the last socket or appliance on the circuit. Used for high-power appliances like cookers.,,,
+LC Constr Studies,Building Services - Electrical,Earthing,"Connecting the metal casing of an electrical appliance to the ground via an earth wire, providing a safe path for current to flow away in the event of a fault.",,,
+LC Constr Studies,Sustainability & Energy,BER (Building Energy Rating),A certificate that rates the energy efficiency of a building on a scale from A (most efficient) to G (least efficient).,,,
+LC Constr Studies,Sustainability & Energy,Passive House (Passivhaus),"A rigorous, voluntary standard for energy efficiency in a building, which reduces the building's ecological footprint. It results in ultra-low energy buildings.",,,
+LC Constr Studies,Sustainability & Energy,Airtightness,The resistance of a building's envelope to inward or outward air leakage.,,,
+LC Constr Studies,Sustainability & Energy,Airtightness Test / Blower Door Test,A test to measure the airtightness of a building by mounting a powerful fan in an external doorway to pressurise or depressurise the building.,,,
+LC Constr Studies,Sustainability & Energy,Thermal Bridging,"A point in the building envelope (e.g., at a window reveal or floor/wall junction) where heat is transferred more easily, creating a 'cold bridge' and reducing insulation effectiveness.",,,
+LC Constr Studies,Sustainability & Energy,U-value,"A measure of the rate of heat loss through a building element (wall, roof, floor). The lower the U-value, the better the insulator.",,,
+LC Constr Studies,Sustainability & Energy,Solar Gain,"The increase in temperature in a space, object, or structure that results from solar radiation.",,,
+LC Constr Studies,Sustainability & Energy,MVHR (Mechanical Ventilation with Heat Recovery),"A system that provides fresh, filtered air into a building while retaining most of the energy that has already been used in heating the building.",,,
+LC Constr Studies,Sustainability & Energy,Greywater Recycling,"The reuse of wastewater from showers, baths, and washing machines for non-potable uses like toilet flushing and irrigation.",,,
+LC Constr Studies,Sustainability & Energy,Rainwater Harvesting,"The collection and storage of rain for reuse on-site, rather than allowing it to run off.",,,
+LC Constr Studies,Sustainability & Energy,Green Roof,"A roof of a building that is partially or completely covered with vegetation and a growing medium, planted over a waterproofing membrane.",,,
+LC Constr Studies,Drawing & Design,Plan Drawing,"A 2D drawing showing a view of a building from above, as if a horizontal slice has been taken through it.",,,
+LC Constr Studies,Drawing & Design,Elevation Drawing,A 2D drawing showing one face (or side) of a building.,,,
+LC Constr Studies,Drawing & Design,Section Drawing,"A 2D drawing showing a view of a building as if it has been cut through vertically, revealing the internal structure and construction details.",,,
+LC Constr Studies,Drawing & Design,Scale,"The ratio of the size of an object on a drawing to its size in reality (e.g., 1:100 means 1 unit on the drawing represents 100 units in reality).",,,
+LC Constr Studies,Drawing & Design,CAD (Computer-Aided Design),"The use of computers to create, modify, analyze, or optimize a design.",,,
+LC Constr Studies,Drawing & Design,Isometric Projection,"A method of 3D representation on a 2D surface where all vertical lines are drawn vertically, and all horizontal lines are drawn at 30 degrees to the horizontal.",,,
+LC Constr Studies,Drawing & Design,Perspective Drawing,A 3D drawing that creates a realistic impression of depth. Lines appear to converge at vanishing points.,,,
+LC Constr Studies,Drawing & Design,Hatching / Cross-hatching,"A graphic convention used in section drawings to represent different materials (e.g., diagonal lines for concrete, wavy lines for insulation).",,,
+LC Constr Studies,Substructure,Screed,"A layer of sand/cement mix laid on top of a concrete floor slab to provide a smooth, level finish.",,,
+LC Constr Studies,Substructure,Floating Floor,"A floor finish, like laminate or engineered wood, that is not fixed to the subfloor but rests on an underlay.",,,
+LC Constr Studies,Roofs,Eaves,The lower edge of a roof that overhangs the face of a wall.,,,
+LC Constr Studies,Roofs,Verge,The edge of a roof over a gable wall.,,,
+LC Constr Studies,Roofs,Parapet Wall,"A low protective wall along the edge of a roof, balcony, or bridge.",,,
+LC Constr Studies,Roofs,Coping,A cap or covering on top of a wall (like a parapet wall) to shed water.,,,
+LC Constr Studies,Roofs,Dormer Window,A window that projects vertically from a sloping roof.,,,
+LC Constr Studies,Materials - Timber,Annual Rings,"Concentric rings visible in a cross-section of a tree trunk, each ring representing one year's growth.",,,
+LC Constr Studies,Materials - Timber,Medullary Rays,"Ribbon-like tissues that extend radially from the pith to the bark, for storing and transporting food.",,,
+LC Constr Studies,Materials - Timber,Fungal Attack,"The decay of timber caused by fungi, which requires moisture, oxygen, and food (the wood itself). e.g., Dry Rot, Wet Rot.",,,
+LC Constr Studies,Materials - Timber,Insect Attack,"Damage to timber caused by wood-boring insects, such as woodworm or termites.",,,
+LC Constr Studies,Finishes,Pointing,The process of filling the joints between bricks or blocks with mortar.,,,
+LC Constr Studies,Finishes,Render,"A type of external plaster, usually a mix of cement, sand, and water, applied to external walls.",,,
+LC Constr Studies,Finishes,Pebbledash,An external wall finish where small pebbles are thrown onto a fresh coat of render.,,,
+LC Constr Studies,Building Services - Plumbing,Stopcock / Stopvalve,A valve for stopping the flow of water in a pipe. The main one is usually located where the water supply enters the property.,,,
+LC Constr Studies,Building Services - Plumbing,Ballcock / Float Valve,"A valve that controls the refilling of a water tank (like a toilet cistern or attic tank), operated by a float.",,,
+LC Constr Studies,Building Services - Electrical,Lighting Circuit,A circuit that supplies power to the light fittings in a building.,,,
+LC Constr Studies,Building Services - Electrical,Fuse,A safety device consisting of a strip of wire that melts and breaks an electric circuit if the current exceeds a safe level.,,,
+LC Constr Studies,Foundations,Bearing Capacity,The capacity of soil to support the loads applied to the ground.,,,
+LC Constr Studies,Foundations,Subsidence,The sudden sinking or gradual downward settling of the ground's surface with little or no horizontal motion.,,,
+LC Constr Studies,Foundations,Heave,"The upward movement of the ground, often caused by the expansion of clay soils when they get wet.",,,
+LC Constr Studies,Walls,Mortar,"A workable paste made of cement, sand, and water (and sometimes lime) used to bind building blocks together and fill the gaps between them.",,,
+LC Constr Studies,Walls,English Bond,A brick bonding pattern where courses of headers (end of brick) and stretchers (side of brick) alternate.,,,
+LC Constr Studies,Walls,Flemish Bond,A brick bonding pattern where headers and stretchers alternate within each course.,,,
+LC Constr Studies,Walls,Stretcher Bond,"The most common brick bonding pattern for cavity walls, consisting entirely of stretchers.",,,
+LC Constr Studies,Walls,Perpends,The vertical mortar joints between bricks in a wall.,,,
+LC Constr Studies,Walls,Efflorescence,"A white, crystalline deposit of salts that can form on the surface of brick, concrete, or stone when water evaporates from it.",,,
+LC Constr Studies,Roofs,Sarking Felt,"An older term for roofing underlay, often a bitumen-based felt.",,,
+LC Constr Studies,Roofs,Collar Tie,"A horizontal timber that connects two opposing rafters at a point above the wall plate, stiffening the roof structure.",,,
+LC Constr Studies,Roofs,Wall Plate,A timber beam laid horizontally on top of a wall to provide a seating and fixing for the rafters or joists.,,,
+LC Constr Studies,Windows,Trickle Vent,"A small, controllable vent integrated into a window frame to provide background ventilation without opening the window.",,,
+LC Constr Studies,Doors,Door Frame / Lining,"The frame that is fixed into a wall opening, to which the door is hinged.",,,
+LC Constr Studies,Doors,Door Stop,"A strip of wood against which the door closes, fixed to the door frame.",,,
+LC Constr Studies,Stairs,Nosing,The front edge of a tread that projects over the riser below.,,,
+LC Constr Studies,Materials,Insulation,Material used to reduce the rate of heat transfer.,,,
+LC Constr Studies,Materials,Rigid Foam Insulation,"Insulation boards made from materials like Polystyrene (EPS, XPS) or Polyisocyanurate (PIR), offering good thermal resistance for a given thickness.",,,
+LC Constr Studies,Materials,Fibrous Insulation,"Insulation made from mineral wool (rock or glass) or natural fibres (sheep's wool), often supplied in rolls or batts.",,,
+LC Constr Studies,Sustainability,Embodied Energy,"The total energy consumed by all of the processes associated with the production of a building, from the mining and processing of natural resources to manufacturing, transport and product delivery.",,,
+LC Constr Studies,Sustainability,Life Cycle Assessment (LCA),"A technique to assess the environmental impacts associated with all the stages of a product's life from raw material extraction through materials processing, manufacture, distribution, use, repair and maintenance, and disposal or recycling.",,,
+LC Constr Studies,Regulations,TGD,Technical Guidance Document. Documents issued by the government that provide guidance on how to comply with the Building Regulations.,,,
+LC Constr Studies,Regulations,Part A - Structure,Building Regulation concerning the structural strength and stability of a building.,,,
+LC Constr Studies,Regulations,Part B - Fire Safety,Building Regulation concerning safety measures to prevent and control the spread of fire.,,,
+LC Constr Studies,Regulations,Part C - Site Preparation and Resistance to Moisture,"Building Regulation concerning protection against damp, condensation, and contaminants like radon.",,,
+LC Constr Studies,Regulations,Part D - Materials and Workmanship,Building Regulation requiring that all materials and workmanship are of a proper standard.,,,
+LC Constr Studies,Regulations,Part E - Sound,Building Regulation concerning insulation against sound from other parts of the building and adjoining buildings.,,,
+LC Constr Studies,Regulations,Part F - Ventilation,Building Regulation requiring adequate ventilation for health and energy efficiency.,,,
+LC Constr Studies,Regulations,Part J - Heat Producing Appliances,"Building Regulation concerning the safe installation of boilers, stoves, and fireplaces.",,,
+LC Constr Studies,Regulations,Part K - Stairways, Ladders, Ramps and Guards,Building Regulation concerning safety on stairs and protection from falling.,
+LC Constr Studies,Regulations,Part L - Conservation of Fuel and Energy,Building Regulation concerning the energy efficiency of buildings.,,,
+LC Constr Studies,Regulations,Part M - Access and Use,Building Regulation concerning access and facilities for people with disabilities.,,,
+LC Constr Studies,Drawing,Dimensioning,The process of adding measurements to a drawing.,,,
+LC Constr Studies,Drawing,Orthographic Projection,"A way of representing a 3D object in 2D by drawing it from different views (e.g., front, top, side). Plan and elevation drawings are examples.",,,
+LC Constr Studies,Site Preliminaries,Services,"Utilities supplied to a site, such as water, electricity, gas, and telecommunications.",,,
+LC Constr Studies,Site Preliminaries,Wayleave,A legal agreement that gives a utility company the right to install and maintain pipes or cables across private land.,,,
+LC Constr Studies,Substructure,Weephole,A small opening at the base of a cavity wall's outer leaf to allow moisture to drain out.,,,
+LC Constr Studies,Superstructure,Cavity Insulation,"Insulation material placed or installed within the cavity of a cavity wall, such as rigid boards or pumped beads/foam.",,,
+LC Constr Studies,Roofs,Firring Piece,A tapered piece of wood fixed on top of a flat roof joist to create a slope or 'fall' for drainage.,,,
+LC Constr Studies,Roofs,Warm Roof,A roof construction method where the insulation is placed on top of the roof deck or structure.,,,
+LC Constr Studies,Roofs,Cold Roof,"A roof construction method where the insulation is placed between the joists or rafters, below the roof deck.",,,
+LC Constr Studies,Materials,Aggregate,"Inert granular materials such as sand, gravel, or crushed stone that, along with cement and water, are an essential ingredient in concrete.",,,
+LC Constr Studies,Materials,Admixture,"A substance added to concrete, mortar, or grout to alter its properties, such as a plasticiser to improve workability or an accelerator to speed up setting time.",,,
+LC Constr Studies,Materials - Timber,Grain,"The direction, size, arrangement, and appearance of the fibres in a piece of wood.",,,
+LC Constr Studies,Materials - Metals,Corrosion,"The gradual destruction of a metal by chemical reaction with its environment, e.g., rusting of iron.",,,
+LC Constr Studies,Finishes,Grout,A dense fluid which is used to fill gaps or used as reinforcement in existing structures.,,,
+LC Constr Studies,Finishes,Mastic,"A flexible, waterproof sealant used to fill gaps and joints, for example around window frames or sanitary ware.",,,
+LC Constr Studies,Services,Stack Effect,"The movement of air into and out of buildings, chimneys, flue-gas stacks, or other containers, resulting from air buoyancy.",,,
+LC Constr Studies,Sustainability,Passive Solar Design,"Using the sun's energy for the heating and cooling of living spaces by exposure to the sun. Windows, walls, and floors are made to collect, store, and distribute solar energy.",,,
+LC Constr Studies,Health & Safety,Asbestos,A hazardous mineral fibre that was used in various building materials. It is dangerous when disturbed and the fibres are inhaled.,,,
+LC Constr Studies,Substructure,Movement Joint / Expansion Joint,A gap in a structure or material designed to allow for movement due to thermal expansion and contraction.,,,
+LC Constr Studies,Superstructure,Bed Joint,The horizontal layer of mortar on which bricks or blocks are laid.,,,
+LC Constr Studies,Superstructure,Quoin,The external corner of a wall.,,,
+LC Constr Studies,Roofs,Gutter,A trough fixed to the fascia to collect and carry away rainwater.,,,
+LC Constr Studies,Roofs,Downpipe,A pipe to carry rainwater from a roof gutter down to a drain.,,,
+LC Constr Studies,Windows & Doors,Threshold,"The strip of wood or stone at the bottom of a doorway, which you step over to enter a room.",,,
+LC Constr Studies,Stairs,Landing,A level area at the top of a staircase or between one flight of stairs and another.,,,
+LC Constr Studies,Finishes,Screeding,The process of applying a screed to a floor.,,,
+LC Constr Studies,Finishes,Dado Rail,A type of moulding fixed horizontally to the wall around the perimeter of a room.,,,
+LC Constr Studies,Services,Manhole / Inspection Chamber,"A covered opening that allows access to an underground utility, such as a sewer or drainage system.",,,
+LC Constr Studies,Services,French Drain,"A trench filled with gravel or rock, containing a perforated pipe, that redirects surface water and groundwater away from an area.",,,
+LC Constr Studies,Drawing,Site Location Map,A map showing the location of the construction site in relation to the surrounding area.,,,
+LC Constr Studies,Health & Safety,COSHH,Control of Substances Hazardous to Health. Regulations that require employers to control substances that are hazardous to health.,,,
+LC Constr Studies,Substructure,Topsoil,"The upper, outermost layer of soil, usually the top 2 to 8 inches. It is stripped from the site before construction begins and stored for later use in landscaping.",,,
+LC Constr Studies,Superstructure,Gauge,The uniform thickness of a mortar joint in brickwork.,,,
+LC Constr Studies,Superstructure,Fire Stop,A passive fire protection system of sealing openings and joints in fire-resistance-rated wall or floor assemblies.,,,
+LC Constr Studies,Roofs,Pitch,The angle of a roof slope.,,,
+LC Constr Studies,Roofs,Hip Iron,A decorative iron piece fixed at the bottom of a roof hip.,,,
+LC Constr Studies,Materials - Concrete,Segregation,"The separation of the constituent materials of concrete, where the coarse aggregate separates from the sand-cement mortar.",,,
+LC Constr Studies,Materials - Concrete,Bleeding,A form of segregation in which some of the water in the concrete tends to rise to the surface of freshly placed concrete.,,,
+LC Constr Studies,Materials - Plastics,uPVC,Unplasticized Polyvinyl Chloride. A rigid form of PVC often used for window frames and pipes.,,,
+LC Constr Studies,Windows & Doors,Weatherstripping,Strips of material used to seal the gaps around doors and windows to prevent draughts.,,,
+LC Constr Studies,Stairs,Curtail Step,"The first step at the bottom of a staircase, which is wider and has a curved or 'curtailed' end.",,,
+LC Constr Studies,Finishes,Cornice / Coving,A decorative moulding that runs around the junction between a wall and a ceiling.,,,
+LC Constr Studies,Sustainability,Renewable Energy,"Energy from a source that is not depleted when used, such as wind or solar power.",,,
+LC Constr Studies,Sustainability,Photovoltaic (PV) Panels,Solar panels that convert sunlight directly into electricity.,,,
+LC Constr Studies,Sustainability,Solar Thermal Panels,"Panels that use sunlight to heat water, which can then be used for domestic hot water.",,,
+LC Constr Studies,Regulations,Commencement Notice,A notice submitted to the local authority indicating the intention to start construction work.,,,
+LC Constr Studies,Regulations,Certificate of Compliance,A certificate signed by a qualified professional confirming that a building has been constructed in accordance with the Building Regulations.,,,
+LC Constr Studies,Health & Safety,Method Statement,"A document that details the way a work task or process is to be carried out, outlining the potential hazards and the precautions to be taken.",,,
+LC Constr Studies,Substructure,Tanking,A method of waterproofing applied to basements and other structures below ground level.,,,
+LC Constr Studies,Superstructure,Grout,"A dense fluid which is used to fill gaps, such as in the cavity of a wall when building with hollow blocks.",,,
+LC Constr Studies,Roofs,Chimney Stack,The part of a chimney that projects above a roof.,,,
+LC Constr Studies,Roofs,Chimney Cowl,"A covering for the top of a chimney pot, designed to improve draught and prevent rain from entering.",,,
+LC Constr Studies,Materials - Timber,Lamination,The process of bonding together layers of material. Glulam (glued laminated timber) is an example used for structural beams.,,,
+LC Constr Studies,Windows & Doors,Fenestration,The arrangement of windows and doors on the elevations of a building.,,,
+LC Constr Studies,Finishes,Intumescent Seal,"A seal that swells up when heated, used around fire doors to block the passage of smoke and fire.",,,
+LC Constr Studies,Services,Septic Tank,An underground chamber through which domestic wastewater flows for basic treatment. Used in rural areas without access to the main sewer system.,,,
+LC Constr Studies,Services,Percolation Area,"A system of trenches containing perforated pipes and gravel, used to disperse the liquid effluent from a septic tank into the ground.",,,
+LC Constr Studies,Sustainability,Universal Design,"The design of buildings, products or environments to make them accessible to all people, regardless of age, disability or other factors.",,,
+LC Constr Studies,Substructure,Underpinning,The process of strengthening the foundation of an existing building or other structure.,,,
+LC Constr Studies,Superstructure,Buttress,A structure built against or projecting from a wall which serves to support or reinforce the wall.,,,
+LC Constr Studies,Roofs,Mansard Roof,"A four-sided gambrel-style hip roof characterized by two slopes on each of its sides with the lower slope, punctured by dormer windows, at a steeper angle than the upper.",,,
+LC Constr Studies,Materials,Rust,"A reddish- or yellowish-brown flaky coating of iron oxide that is formed on iron or steel by oxidation, especially in the presence of moisture.",,,
+LC Constr Studies,Finishes,Terrazzo,"A composite material, poured in place or precast, which is used for floor and wall treatments. It consists of chips of marble, quartz, granite, glass, or other suitable material, poured with a cementitious binder.",,,
+LC Constr Studies,Services,Air Source Heat Pump,"A device that transfers heat from outside a building to inside, or vice versa. It can be used for space heating and hot water.",,,
+LC Constr Studies,Services,Ground Source Heat Pump,A central heating system that transfers heat from the ground into a building to provide space heating and hot water.,,,
+LC Constr Studies,Drawing,Working Drawing,A detailed drawing used during the construction phase of a project.,,,
+LC Constr Studies,Health &Safety,Hoarding,A temporary fence erected around a construction site.,,,
+LC Constr Studies,Substructure,Frost Heave,The upward swelling of soil during freezing conditions caused by an increasing presence of ice as it grows towards the surface.,,,
+LC Constr Studies,Superstructure,Party Wall,A wall shared by two adjoining properties.,,,
+LC Constr Studies,Roofs,Gable Vent,A vent installed in the gable of a house to help with attic ventilation.,,,
+LC Constr Studies,Materials,Biomass,"Organic matter used as a fuel, especially in a power station for the generation of electricity.",,,
+LC Constr Studies,Finishes,Artex,"A surface coating used for interior decorating, most often applied to ceilings. Its textured surface is created by the addition of asbestos in older versions.",,,
+LC Constr Studies,Services,Greywater,"Wastewater generated from domestic activities such as laundry, dishwashing, and bathing, which can be recycled on-site for uses such as toilet flushing.",,,
+LC Constr Studies,Sustainability,Carbon Footprint,The total amount of greenhouse gases (including carbon dioxide and methane) that are generated by our actions.,,,
+LC Constr Studies,Substructure,Backfill,The material used to refill an excavated trench.,,,
+LC Constr Studies,Superstructure,Closure,A cut brick or block used to close the gap at the end of a course.,,,
+LC Constr Studies,Roofs,Torching,Mortar applied underneath the overlapping edge of roof tiles or slates to prevent wind-driven rain from entering.,,,
+LC Constr Studies,Materials,Tempered Glass,A type of safety glass processed by controlled thermal or chemical treatments to increase its strength compared with normal glass.,,,
+LC Constr Studies,Finishes,Lath and Plaster,A building process used to finish interior walls and ceilings. It consists of narrow strips of wood (laths) which are nailed to the wall studs and covered in plaster.,,,
+LC Constr Studies,Services,Balanced Flue,"A common feature of modern gas boilers, it is a pipe that both takes air from outside for combustion and expels the waste gases.",,,
+LC Constr Studies,Sustainability,LEED,Leadership in Energy and Environmental Design. A widely used green building rating system.,,,
+LC Constr Studies,Health & Safety,Excavation,"Any man-made cut, cavity, trench, or depression in the Earth's surface formed by earth removal.",,,
+LC Constr Studies,Substructure,Formwork / Shuttering,Temporary moulds into which concrete is poured.,,,
+LC Constr Studies,Superstructure,Ashlar,"Finely dressed (cut, worked) masonry, either an individual stone that has been worked until squared or the masonry built of such stone.",,,
+LC Constr Studies,Roofs,Snow Guard,A device installed on a roof to prevent large amounts of snow or ice from sliding off in one large sheet.,,,
+LC Constr Studies,Materials - Timber,Waney Edge,Timber that is left with the original bark edge on one or more sides.,,,
+LC Constr Studies,Finishes,Parquet Flooring,A geometric mosaic of wood pieces used for decorative effect in flooring.,,,
+LC Constr Studies,Services,Radiant Floor Heating,A system that circulates warm water in tubes under the floor. The heat radiates up from the floor to warm the room.,,,
+LC Constr Studies,Sustainability,BREEAM,"Building Research Establishment Environmental Assessment Method. A sustainability assessment method for masterplanning projects, infrastructure and buildings.",,,
+LC Constr Studies,Drawing,Blueprint,"A type of paper-based reproduction usually of a technical drawing, documenting an architecture or engineering design.",,,
+LC Constr Studies,Health & Safety,Gantry,"An overhead bridge-like structure supporting equipment such as a crane, signals, or cameras.",,,
+LC Constr Studies,Substructure,Pile Cap,A thick concrete mat that rests on concrete or timber piles that have been driven into soft or unstable ground to provide a suitable stable foundation.,,,
+LC Constr Studies,Superstructure,Cladding,"The application of one material over another to provide a skin or layer. In construction, cladding is used to provide a degree of thermal insulation and weather resistance, and to improve the appearance of buildings.",,,
+LC Constr Studies,Roofs,Skylight / Rooflight,A window installed in a roof or ceiling.,,,
+LC Constr Studies,Materials,Anodising,"An electrolytic passivation process used to increase the thickness of the natural oxide layer on the surface of metal parts, e.g., aluminium window frames.",,,
+LC Constr Studies,Finishes,Tiling,"The process of applying tiles to a surface like a floor, wall, or roof.",,,
+LC Constr Studies,Services,Sump Pump,"A pump used to remove water that has accumulated in a water-collecting sump basin, commonly found in the basement of homes.",,,
+LC Constr Studies,Sustainability,Zero-Carbon Home,"A home that generates as much energy as it uses over the course of a year, resulting in net-zero carbon emissions.",,,
+LC Constr Studies,Regulations,Snag List,A list of defects in a new building that need to be rectified by the builder.,,,
+LC Constr Studies,Health & Safety,Load-bearing capacity,The maximum load that a material or structure can sustain.,,,
+LC Constr Studies,Substructure,Consolidation,The process by which soils decrease in volume under load.,,,
+LC Constr Studies,Superstructure,Flying Buttress,"A specific form of buttress composed of an arch that extends from the upper part of a wall to a pier of great mass, in order to convey to the ground the lateral forces that push a wall outwards.",,,
+LC Constr Studies,Roofs,Cricket / Saddle,A small pitched roof structure built behind a chimney to divert water.,,,
+LC Constr Studies,Materials,Laminated Glass,A type of safety glass that holds together when shattered. It is made by bonding two or more layers of glass with a layer of plastic (PVB).,,,
+LC Constr Studies,Finishes,Screed,"A layer of material, typically a sand and cement mix, laid over a concrete subfloor to provide a smooth and level surface.",,,
+LC Constr Studies,Services,Biogas,"A mixture of gases, primarily consisting of methane and carbon dioxide, produced from raw materials such as agricultural waste, manure, municipal waste, plant material, sewage, green waste or food waste.",,,
+LC Constr Studies,Sustainability,Cradle-to-Grave,The full Life Cycle Assessment from resource extraction ('cradle') to use phase and disposal phase ('grave').,,,
+LC Constr Studies,Health & Safety,Working at Height,"Work in any place where, if there were no precautions in place, a person could fall a distance liable to cause personal injury.",,,
+LC Constr Studies,Substructure,Retaining Wall,A wall designed to resist the lateral pressure of soil when there is a desired change in ground elevation.,,,
+LC Constr Studies,Superstructure,Voussoir,"A wedge-shaped element, typically a stone, used in building an arch or vault.",,,
+LC Constr Studies,Roofs,Decking,"The flat surface of a roof, to which the waterproofing layer is attached.",,,
+LC Constr Studies,Materials,Aggregate,"A broad category of coarse- to medium-grained particulate material used in construction, including sand, gravel, crushed stone, slag, recycled concrete and geosynthetic aggregates.",,,
+LC Constr Studies,Finishes,Scagliola,"A type of fine plaster used in architecture and sculpture. It is a composite substance made from selenite, glue and natural pigments, imitating marble and other hard stones.",,,
+LC Constr Studies,Services,Geothermal Energy,Heat energy generated and stored in the Earth. It can be used for heating buildings.,,,
+LC Constr Studies,Sustainability,Urban Heat Island,An urban area or metropolitan area that is significantly warmer than its surrounding rural areas due to human activities.,,,
+LC Constr Studies,Drawing,As-Built Drawings,"Drawings that show the existing conditions of a building, as it was actually constructed.",,,
+LC Constr Studies,Health & Safety,Confined Space,"A space that is large enough for an employee to enter and perform assigned work, but has limited or restricted means for entry or exit and is not designed for continuous occupancy.",,,
+LC Constr Studies,Substructure,Geotextile,"Permeable fabrics which, when used in association with soil, have the ability to separate, filter, reinforce, protect, or drain.",,,
+LC Constr Studies,Superstructure,Keystone,"The wedge-shaped stone piece at the apex of a masonry arch, or the generally round one at the apex of a vault.",,,
+LC Constr Studies,Roofs,Green Roof,"A roof of a building that is partially or completely covered with vegetation and a growing medium, planted over a waterproofing membrane.",,,
+LC Constr Studies,Materials,Mortar Plasticiser,An admixture that increases the workability of mortar and reduces the amount of water needed.,,,
+LC Constr Studies,Finishes,Tuckpointing,"A way of using two contrasting colours of mortar in the mortar joints of brickwork, one colour matching the bricks themselves to give an artificial impression that very fine joints have been made.",,,
+LC Constr Studies,Services,Passive Stack Ventilation,"A ventilation system that uses the principles of convection - warm, moist air rises and is exhausted through vents in the roof, drawing in fresh, cooler air from outside.",,,
+LC Constr Studies,Sustainability,Sustainable Urban Drainage Systems (SUDS),A collection of water management practices that aim to align modern drainage systems with natural water processes.,,,
