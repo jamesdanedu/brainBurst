@@ -865,40 +865,49 @@ const App = () => {
 
       {/* NEW: Show data source selection if no data loaded */}
       {!flashcardData || Object.keys(flashcardData).length === 0 ? (
-        <div style={styles.dataSourceContainer}>
-          <h2 style={styles.dataSourceTitle}>Choose Your Flashcard Source</h2>
-          
-          <button
-            style={styles.optionButton}
-            onClick={loadDefaultCSV}
-            disabled={loading}
-          >
-            <div style={styles.optionButtonIcon}>🎓</div>
-            <div style={styles.optionButtonText}>Use Default Study Sets</div>
-            <div style={styles.optionButtonSubtext}>Multiple subjects available</div>
-          </button>
+      <div style={styles.dataSourceContainer}>
+  <h2 style={styles.dataSourceTitle}>Choose Your Flashcard Source</h2>
+  
+  <button
+    style={styles.optionButton}
+    onClick={loadDefaultCSV}
+    disabled={loading}
+  >
+    <div style={styles.optionButtonIcon}>🎓</div>
+    <div style={styles.optionButtonText}>Use Default Study Sets</div>
+    <div style={styles.optionButtonSubtext}>Multiple subjects available</div>
+  </button>
 
-          <div style={styles.orDivider}>— OR —</div>
+  <div style={styles.orDivider}>— OR —</div>
 
-          <label 
-            htmlFor="file-upload" 
-            style={{...styles.fileInputLabel, ...(loading ? {opacity: 0.6, cursor: 'not-allowed'} : {})}}
-          >
-            <div style={styles.optionButtonIcon}>📁</div>
-            <div style={styles.optionButtonText}>Upload Your CSV File</div>
-            <div style={styles.optionButtonSubtext}>Format: subject,category,term,definition</div>
-          </label>
-          <input
-            id="file-upload"
-            type="file"
-            accept=".csv"
-            onChange={handleFileUpload}
-            style={styles.fileInput}
-            disabled={loading}
-          />
+  <button
+    style={{
+      ...styles.optionButton,
+      background: 'linear-gradient(135deg, #007bff, #0056b3)',
+      boxShadow: '0 4px 15px rgba(0, 123, 255, 0.3)'
+    }}
+    onClick={() => {
+      const fileInput = document.getElementById('file-upload');
+      if (fileInput) fileInput.click();
+    }}
+    disabled={loading}
+  >
+    <div style={styles.optionButtonIcon}>📁</div>
+    <div style={styles.optionButtonText}>Upload Your CSV File</div>
+    <div style={styles.optionButtonSubtext}>Format: subject,category,term,definition</div>
+  </button>
 
-          {error && <p style={styles.errorText}>{error}</p>}
-        </div>
+  <input
+    id="file-upload"
+    type="file"
+    accept=".csv"
+    onChange={handleFileUpload}
+    style={styles.fileInput}
+    disabled={loading}
+  />
+
+  {error && <p style={styles.errorText}>{error}</p>}
+</div>
       ) : (
         <>
           {!selectedSubject ? (
