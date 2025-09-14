@@ -282,20 +282,102 @@ const styles = {
     maxWidth: '600px',
     margin: '15px auto 0',
   },
-  fileInput: {
-    marginTop: '20px',
-    textAlign: 'center',
+  // NEW: Data source selection styles
+  dataSourceContainer: {
     backgroundColor: 'rgba(255, 255, 255, 0.95)',
     borderRadius: '15px',
-    padding: '30px',
     boxShadow: '0 8px 30px rgba(0, 0, 0, 0.15)',
+    padding: '40px',
+    width: '90%',
+    maxWidth: '600px',
+    textAlign: 'center',
+    marginBottom: '20px',
     backdropFilter: 'blur(15px)',
   },
-  fileInputDescription: {
+  dataSourceTitle: {
+    fontSize: '24px',
+    fontWeight: 'bold',
+    color: '#1a365d',
+    marginBottom: '30px',
+    textShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+  },
+  optionButton: {
+    width: '100%',
+    padding: '20px',
+    margin: '15px 0',
+    fontSize: '18px',
+    fontWeight: 'bold',
+    color: '#fff',
+    background: 'linear-gradient(135deg, #28a745, #1e7e34)',
+    border: 'none',
+    borderRadius: '12px',
+    cursor: 'pointer',
+    transition: 'all 0.3s',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: '8px',
+    boxShadow: '0 4px 15px rgba(40, 167, 69, 0.3)',
+  },
+  optionButtonSecondary: {
+    background: 'linear-gradient(135deg, #007bff, #0056b3)',
+    boxShadow: '0 4px 15px rgba(0, 123, 255, 0.3)',
+  },
+  optionButtonIcon: {
+    fontSize: '24px',
+  },
+  optionButtonText: {
+    fontSize: '18px',
+    fontWeight: 'bold',
+  },
+  optionButtonSubtext: {
     fontSize: '14px',
-    color: '#4a5568',
+    opacity: '0.9',
+    fontWeight: 'normal',
+  },
+  orDivider: {
+    margin: '25px 0',
+    color: '#666',
+    fontSize: '16px',
+    fontWeight: 'bold',
+  },
+  fileInput: {
+    display: 'none',
+  },
+  fileInputLabel: {
+    width: '100%',
+    padding: '20px',
+    margin: '15px 0',
+    fontSize: '18px',
+    fontWeight: 'bold',
+    color: '#fff',
+    background: 'linear-gradient(135deg, #007bff, #0056b3)',
+    border: 'none',
+    borderRadius: '12px',
+    cursor: 'pointer',
+    transition: 'all 0.3s',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: '8px',
+    boxShadow: '0 4px 15px rgba(0, 123, 255, 0.3)',
+  },
+  errorText: {
+    color: '#dc3545',
+    fontSize: '16px',
+    marginTop: '20px',
+    padding: '15px',
+    backgroundColor: 'rgba(220, 53, 69, 0.1)',
+    borderRadius: '8px',
+    border: '1px solid rgba(220, 53, 69, 0.2)',
+  },
+  dataSourceInfo: {
+    fontSize: '12px',
+    color: '#666',
     marginTop: '15px',
-    fontWeight: '500',
+    fontStyle: 'italic',
   },
   loadingOverlay: {
     position: 'fixed',
@@ -349,6 +431,10 @@ const App = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [flip, setFlip] = useState(false);
   const [loading, setLoading] = useState(false);
+  
+  // NEW: Track data source and error state
+  const [dataSource, setDataSource] = useState(null); // 'default' or 'uploaded'
+  const [error, setError] = useState(null);
   
   // Study options
   const [shuffleCards, setShuffleCards] = useState(false);
@@ -481,62 +567,110 @@ const App = () => {
     }
   };
 
+  // NEW: Process CSV data (shared function for both default and uploaded)
+  const processCSVData = (csvData, source) => {
+    try {
+      const { data } = Papa.parse(csvData, { 
+        header: true, 
+        skipEmptyLines: true,
+        transformHeader: (header) => header.toLowerCase().trim()
+      });
+
+      const groupedData = data.reduce((acc, row) => {
+        const { subject, category = 'General', term, definition, example, hint } = row;
+        
+        if (!subject || !term || !definition) return acc;
+        
+        if (!acc[subject]) {
+          acc[subject] = [];
+        }
+        acc[subject].push({ 
+          term: term.trim(), 
+          definition: definition.trim(), 
+          category: category.trim(),
+          example: example?.trim(),
+          hint: hint?.trim()
+        });
+        return acc;
+      }, {});
+
+      setFlashcardData(groupedData);
+      setDataSource(source);
+      setError(null);
+      
+      // Reset to subject selection screen
+      setSelectedSubject(null);
+      setSelectedCategory('All');
+      setCurrentIndex(0);
+      setFlip(false);
+      
+    } catch (error) {
+      console.error('Error parsing CSV:', error);
+      setError('Error parsing CSV file. Please check the format.');
+      throw error;
+    }
+  };
+
+  // NEW: Load default CSV from public folder
+  const loadDefaultCSV = async () => {
+    setLoading(true);
+    setError(null);
+    
+    try {
+      const response = await fetch('/default-flashcards.csv');
+      
+      if (!response.ok) {
+        throw new Error(`Failed to load default flashcards: ${response.statusText}`);
+      }
+      
+      const csvData = await response.text();
+      processCSVData(csvData, 'default');
+      
+    } catch (err) {
+      console.error('Error loading default CSV:', err);
+      setError('Failed to load default flashcards. Please try uploading your own file.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   const handleFileUpload = (event) => {
     const file = event.target.files[0];
     if (!file) return;
 
     setLoading(true);
+    setError(null);
+    
     const reader = new FileReader();
 
     reader.onload = () => {
       try {
-        const csvData = reader.result;
-        const { data } = Papa.parse(csvData, { 
-          header: true, 
-          skipEmptyLines: true,
-          transformHeader: (header) => header.toLowerCase().trim()
-        });
-
-        const groupedData = data.reduce((acc, row) => {
-          const { subject, category = 'General', term, definition, example, hint } = row;
-          
-          if (!subject || !term || !definition) return acc;
-          
-          if (!acc[subject]) {
-            acc[subject] = [];
-          }
-          acc[subject].push({ 
-            term: term.trim(), 
-            definition: definition.trim(), 
-            category: category.trim(),
-            example: example?.trim(),
-            hint: hint?.trim()
-          });
-          return acc;
-        }, {});
-
-        setFlashcardData(groupedData);
-        setLoading(false);
-        
-        // Don't auto-select subject - let user choose
-        // Reset to subject selection screen
-        setSelectedSubject(null);
-        setSelectedCategory('All');
-        setCurrentIndex(0);
-        setFlip(false);
+        processCSVData(reader.result, 'uploaded');
       } catch (error) {
-        console.error('Error parsing CSV:', error);
+        setError('Failed to process the uploaded file. Please check the CSV format.');
+      } finally {
         setLoading(false);
-        alert('Error parsing CSV file. Please check the format.');
       }
     };
 
     reader.onerror = () => {
+      setError('Failed to read the uploaded file.');
       setLoading(false);
-      alert('Error reading file.');
     };
 
     reader.readAsText(file);
+  };
+
+  // NEW: Reset app to data source selection
+  const resetApp = () => {
+    setFlashcardData({});
+    setSelectedSubject(null);
+    setSelectedCategory('All');
+    setCurrentIndex(0);
+    setFlip(false);
+    setDataSource(null);
+    setError(null);
+    resetStudySession();
   };
 
   const categories = selectedSubject ? [...new Set(flashcardData[selectedSubject].map(card => card.category))] : [];
@@ -728,32 +862,76 @@ const App = () => {
         )}
       </div>
 
+      {/* NEW: Show data source selection if no data loaded */}
       {!flashcardData || Object.keys(flashcardData).length === 0 ? (
-        <div style={styles.fileInput}>
-          <input type="file" accept=".csv" onChange={handleFileUpload} />
-          <p style={styles.fileInputDescription}>
-            Upload a CSV file with columns: subject, category, term, definition
-          </p>
+        <div style={styles.dataSourceContainer}>
+          <h2 style={styles.dataSourceTitle}>Choose Your Flashcard Source</h2>
+          
+          <button
+            style={styles.optionButton}
+            onClick={loadDefaultCSV}
+            disabled={loading}
+          >
+            <div style={styles.optionButtonIcon}>🎓</div>
+            <div style={styles.optionButtonText}>Use Default Study Sets</div>
+            <div style={styles.optionButtonSubtext}>Multiple subjects available</div>
+          </button>
+
+          <div style={styles.orDivider}>— OR —</div>
+
+          <label 
+            htmlFor="file-upload" 
+            style={{...styles.fileInputLabel, ...(loading ? {opacity: 0.6, cursor: 'not-allowed'} : {})}}
+          >
+            <div style={styles.optionButtonIcon}>📁</div>
+            <div style={styles.optionButtonText}>Upload Your Own CSV</div>
+            <div style={styles.optionButtonSubtext}>Format: subject,category,term,definition</div>
+          </label>
+          <input
+            id="file-upload"
+            type="file"
+            accept=".csv"
+            onChange={handleFileUpload}
+            style={styles.fileInput}
+            disabled={loading}
+          />
+
+          {error && <p style={styles.errorText}>{error}</p>}
         </div>
       ) : (
         <>
           {!selectedSubject ? (
-            <select
-              style={styles.select}
-              value={selectedSubject || ''}
-              onChange={e => {
-                setSelectedSubject(e.target.value);
-                setSelectedCategory('All');
-                resetStudySession();
-              }}
-            >
-              <option value="">Select Subject</option>
-              {Object.keys(flashcardData).map(subject => (
-                <option key={subject} value={subject}>
-                  {subject}
-                </option>
-              ))}
-            </select>
+            <div style={{textAlign: 'center', backgroundColor: 'rgba(255, 255, 255, 0.95)', padding: '30px', borderRadius: '15px', backdropFilter: 'blur(10px)', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)'}}>
+              <select
+                style={{...styles.select, minWidth: '300px', fontSize: '16px', padding: '15px'}}
+                value={selectedSubject || ''}
+                onChange={e => {
+                  setSelectedSubject(e.target.value);
+                  setSelectedCategory('All');
+                  resetStudySession();
+                }}
+              >
+                <option value="">Select Subject</option>
+                {Object.keys(flashcardData).map(subject => (
+                  <option key={subject} value={subject}>
+                    {subject}
+                  </option>
+                ))}
+              </select>
+              
+              {dataSource && (
+                <p style={styles.dataSourceInfo}>
+                  Using {dataSource === 'default' ? 'default study sets' : 'uploaded CSV file'}
+                </p>
+              )}
+              
+              <button
+                style={{...styles.resetButton, marginTop: '20px', fontSize: '14px'}}
+                onClick={resetApp}
+              >
+                ← Back to data source selection
+              </button>
+            </div>
           ) : (
             <>
               {/* Study Options */}
@@ -798,7 +976,6 @@ const App = () => {
 
               {filteredFlashcards.length > 0 ? (
                 <>
-                  {/* FIXED: Removed conflicting touch handlers from container */}
                   <div style={styles.flashcardContainer}>
                     <Flashcard
                       term={currentCard.term}
@@ -871,12 +1048,18 @@ const App = () => {
                   <div style={styles.keyboardHint}>
                     💡 Use Space to flip • Arrow keys to navigate • D for difficult • E for easy
                   </div>
+
+                  {dataSource && (
+                    <p style={styles.dataSourceInfo}>
+                      Using {dataSource === 'default' ? 'default study sets' : 'uploaded CSV file'}
+                    </p>
+                  )}
                 </>
               ) : (
                 <p style={{ color: '#4a5568', fontSize: '18px', textAlign: 'center' }}>
                   No flashcards found for the selected category.
                 </p>
-                )}
+              )}
             </>
           )}
         </>
