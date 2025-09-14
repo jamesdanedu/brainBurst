@@ -302,7 +302,7 @@ const styles = {
     textShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
   },
   optionButton: {
-    width: '100%',
+    width: '85%',
     padding: '20px',
     margin: '15px 0',
     fontSize: '18px',
