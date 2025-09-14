@@ -363,6 +363,7 @@ const styles = {
     justifyContent: 'center',
     gap: '8px',
     boxShadow: '0 4px 15px rgba(0, 123, 255, 0.3)',
+    minHeight: '120px', // Ensures consistent height with optionButton
   },
   errorText: {
     color: '#dc3545',
